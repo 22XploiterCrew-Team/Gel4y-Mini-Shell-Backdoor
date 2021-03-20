@@ -25,6 +25,6 @@ Features
 Preview
 -------
 
-![SCREENSHOT](https://raw.githubusercontent.com/SondreX-ID/Gel4y-Mini-Shell-Backdoor/main/preview.png)
+![SCREENSHOT](https://raw.githubusercontent.com/22XploiterCrew-Team/Gel4y-Mini-Shell-Backdoor/main/preview.png)
 
 ### #IIIIIHHH_GASUKA_GELAAY
