@@ -119,7 +119,7 @@ function deldir($d) {
 		}
 		?>
 	</div>
-	<div class="bg-dark border table-responsive-sm mt-2">
+	<div class="bg-dark border table-responsive mt-2">
 		<div class="ml-2" style="font-size:18px;">
 			<span>Path: </span>
 			<?php
@@ -139,7 +139,7 @@ function deldir($d) {
 			?>
 		</div>
 	</div>
-	<article class="bg-dark border table-responsive-sm mt-2">
+	<article class="bg-dark border table-responsive mt-2">
 		<?php if (!isset($_GET["a"])): ?>
 		<table class="table table-hover table-bordered table-sm">
 			<thead class="text-light">
