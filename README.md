@@ -27,4 +27,4 @@ Preview
 
 ![SCREENSHOT](https://raw.githubusercontent.com/22XploiterCrew-Team/Gel4y-Mini-Shell-Backdoor/main/preview.png)
 
-### #IIIIIHHH_GASUKA_GELAAY
+### Logger? Stupid.
