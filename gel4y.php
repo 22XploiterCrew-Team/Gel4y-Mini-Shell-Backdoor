@@ -143,12 +143,7 @@ function deldir($d) {
 		<?php if (!isset($_GET["a"])): ?>
 		<table class="table table-hover table-bordered table-sm">
 			<thead class="text-light">
-				<tr>
-					<th>Name</th>
-					<th>Size</th>
-					<th>Permission</th>
-					<th>Action</th>
-				</tr>
+				<tr><th>Name</th><th>Size</th><th>Permission</th><th>Action</th></tr>
 			</thead>
 			<tbody class="text-light">
 				<?php
