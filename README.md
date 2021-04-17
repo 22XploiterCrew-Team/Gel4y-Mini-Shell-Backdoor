@@ -9,7 +9,7 @@
 Summary
 ----------
 
-Gel4y Webshell is a backdoor built using the PHP programming language with PHP procedural methods in stealth mode that can bypass server security. Each function has been converted into a hex code to allow this webshell to penetrate the WAF (Firewall) server system.
+Gel4y Webshell is a backdoor built using the PHP programming language with the PHP procedural method in stealth mode where the file size will not exceed 15KB. Each function has been converted into a hex code to allow this webshell to penetrate the WAF (Firewall) server system.
 
 Features
 --------
