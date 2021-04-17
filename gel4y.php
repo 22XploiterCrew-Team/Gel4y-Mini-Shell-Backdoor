@@ -113,7 +113,7 @@ foreach ($ps as $k => $v) {
 ?>
 </div></div><article class="bg-dark border table-responsive mt-2">
 <?php if (!isset($_GET["a"])): ?>
-<table class="table table-hover table-bordered table-sm"><thead class="text-light"><tr><th>Name</th><th>Size</th><th>Permission</th><th>Action</th></tr></thead><tbody class="text-light">
+<table class="table table-hover table-borderless table-sm"><thead class="text-light"><tr><th>Name</th><th>Size</th><th>Permission</th><th>Action</th></tr></thead><tbody class="text-light">
 <?php
 $scD = $func[5]($scD($p), [".", ".."]);
 foreach ($scD as $d) {
