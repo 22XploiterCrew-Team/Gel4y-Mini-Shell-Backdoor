@@ -31,5 +31,11 @@ Preview
 
 Using the well-known css framework, Bootstrap version 4, so that the resulting display will adjust to your platform or more often it is called a responsive display.
 
+## Thank's To
+Thank you for the support given, we got references in making this backdoor from our friends, including:
+- IndoXploit
+- Indosec
+- Marijuana Shell
+
 ### !!!
 If there is an error in this webshell, please contribute with us.
