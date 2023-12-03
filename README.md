@@ -23,6 +23,24 @@ the method above will download and save to your computer, you only need to uploa
 
 ex: ***https://server.com/gel4y.php***.
 
+Malware Scanning Log
+--------
+```
+[2023-12-03 18:55:10] [INFO] Scan date: 2023-12-03 18:55:10
+[2023-12-03 18:55:10] [INFO] Scanning ~/Gel4y-Mini-Shell-Backdoor/gel4y.php
+[2023-12-03 18:55:10] [INFO] Mapping and retrieving checksums, please wait
+[2023-12-03 18:55:10] [INFO] Found 1 files to check
+[2023-12-03 18:55:10] [INFO] Checking files
+[2023-12-03 18:55:11] [SUCCESS] Scan finished!
+[2023-12-03 18:55:11] [INFO] Files scanned: 1
+[2023-12-03 18:55:11] [INFO] Files edited: 0
+[2023-12-03 18:55:11] [INFO] Files quarantined: 0
+[2023-12-03 18:55:11] [INFO] Files whitelisted: 0
+[2023-12-03 18:55:11] [INFO] Files ignored: 0
+[2023-12-03 18:55:11] [INFO] Malware detected: 0
+[2023-12-03 18:55:11] [INFO] Malware removed: 0
+```
+
 Features [UPDATED]
 --------
 
