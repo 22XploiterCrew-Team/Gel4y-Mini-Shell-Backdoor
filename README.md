@@ -1,6 +1,6 @@
 <h2 align="center">Gel4y Mini Shell Backdoor</h2>
 
-> A webshell that can bypass some system security, all code has been obfuscated to bypass malware scans freely.
+> A webshell that can bypass some system security.
 
 <p align="center">
 	<img src="https://img.shields.io/badge/PHP-7.4.3-yellowgreen">
@@ -11,7 +11,7 @@
 Summary
 ----------
 
-Gel4y Webshell is a backdoor that was built using the PHP programming language with the PHP procedural method in stealth mode where the file size is only <10KB, using the [nano shell](https://github.com/22XploiterCrew-Team/Shellmon) method so it easily escapes virus scanning. Every PHP function has been obfuscated to avoid some firewall systems (WAF) blocking some PHP functions that are considered dangerous.
+Gel4y Webshell is a backdoor built using the PHP programming language with the PHP procedural method in stealth mode where the file size is no more than 10KB, using the [nano shell](https://github.com/22XploiterCrew-Team/Shellmon) method so it can easily escape virus scanning. Every PHP function has been obfuscated to avoid some firewall systems (WAF) that block some PHP functions that are considered dangerous.
 ### How To Use
 You only need to download the files in this repo, there are several easy ways that you might try
 * cURL
