@@ -44,6 +44,7 @@ Malware Scanning Log
 Features [UPDATED]
 --------
 
+* ***PHP BackConnect***
 * ***Command Shell***
 * ***Zip Upload (Auto Extract)***
 * Obfuscated Code (not a feature in webshell)
