@@ -54,7 +54,7 @@ Features [UPDATED]
 #### Bypassed
 * 403 Forbidden
 * 406 Not Acceptable (according to luck :>)
-* Imunify360 (not always successful, only 70% chance of success)
+* Imunify360 (not always successful, only 85% chance of success)
 
 Preview
 -------
