@@ -1,4 +1,5 @@
 <?php
+http_response_code(404);
 goto YYviAIE2go;
 DMDVAvNxme:
 $j6fm9JkXX3 = new ZipArchive();
