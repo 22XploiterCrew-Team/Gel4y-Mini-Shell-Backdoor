@@ -937,11 +937,12 @@ aEJlf18Qtu:
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<meta name="robots" content="noindex">
 <meta name="theme-color" content="red">
 <meta name="viewport" content="width=device-width, initial-scale=0.60, shrink-to-fit=no">
 <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
 <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<title></title>
+<title><?= hash('md5', rand(22,2019)) ?></title>
 <style>
 body {
 color: #fff;
