@@ -1,11 +1,9 @@
 <h2 align="center">Gel4y Mini Shell Backdoor</h2>
 
-> A webshell that can bypass some system security.
-
 <p align="center">
-	<img src="https://img.shields.io/badge/PHP-7.4.3-yellowgreen">
-	<img src="https://img.shields.io/badge/LICENSE-MIT-orange">
-	<img src="https://img.shields.io/badge/Version-1.3-green">
+	<img src="https://img.shields.io/badge/PHP-7.4.3-blue">
+	<img src="https://img.shields.io/badge/LICENSE-MIT-lime">
+	<img src="https://img.shields.io/badge/Version-1.3.1-darkred">
 </p>
 
 Summary
@@ -33,9 +31,11 @@ You only need to download the files in this repo, there are several easy ways th
 the method above will download and save to your computer, you only need to upload the webshell to the target site that you have and call it according to the name of the webshell file you downloaded.
 
 ex: ***https://server.com/gel4y.php***.
+> You can also combine it with [Shellmon](https://github.com/22XploiterCrew-Team/Shellmon).
 
 Malware Scanning Log
 --------
+we have carried out a small check to find out whether this webshell can still be detected as malware or not, and the results we got are as follows;
 ```
 [2023-12-03 18:55:10] [INFO] Scan date: 2023-12-03 18:55:10
 [2023-12-03 18:55:10] [INFO] Scanning ~/Gel4y-Mini-Shell-Backdoor/gel4y.php
@@ -51,9 +51,11 @@ Malware Scanning Log
 [2023-12-03 18:55:11] [INFO] Malware detected: 0
 [2023-12-03 18:55:11] [INFO] Malware removed: 0
 ```
+The result obtained is that the webshell is not detected as "Malware Bailout".
 
 Features [UPDATED]
 --------
+There are several features that may be very useful for executing on the server, we have only added important features that are commonly used to manage target files
 
 * ***PHP BackConnect***
 * ***Command Shell***
@@ -62,10 +64,14 @@ Features [UPDATED]
 * Multiple File Upload
 * Create Folder and File
 * File Download
+
+a few features won't make this shell useless.
 #### Bypassed
 * 403 Forbidden
 * 406 Not Acceptable (according to luck :>)
 * Imunify360 (not always successful, only 85% chance of success)
+
+we have done a little research on the code we wrote, in order to penetrate some system security which is always a problem for hackers out there.
 
 Preview
 -------
